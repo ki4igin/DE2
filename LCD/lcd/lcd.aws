@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+lcd_test=.\lcd_test\lcd_test.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+lcd_test=1

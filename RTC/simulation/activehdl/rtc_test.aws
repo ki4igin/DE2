@@ -1,0 +1,6 @@
+[Version]
+Version=11.1
+[Designs]
+rtc_test=rtc_test.adf
+[Settings]
+Active=rtc_test

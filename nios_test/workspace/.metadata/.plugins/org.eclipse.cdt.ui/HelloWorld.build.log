@@ -1,0 +1,20 @@
+
+**** Build of configuration Nios II for project HelloWorld ****
+
+make mem_init_generate 
+Info: Building ../HelloWorld_bsp/
+make --no-print-directory -C ../HelloWorld_bsp/
+[BSP build complete]
+Post-processing to create mem_init/nios_onchip_memory.hex...
+bash -c 'elf2hex HelloWorld.elf 0x00008000 0x0000ffff --width=32 \
+		--little-endian-mem --create-lanes=0  mem_init/nios_onchip_memory.hex'
+Post-processing to create mem_init/hdl_sim/nios_onchip_memory.dat...
+bash -c 'elf2dat --infile=HelloWorld.elf --outfile=mem_init/hdl_sim/nios_onchip_memory.dat \
+		--base=0x00008000 --end=0x0000ffff --width=32 \
+		--little-endian-mem --create-lanes=0 '
+Post-processing to create mem_init/hdl_sim/nios_onchip_memory.sym...
+nios2-elf-nm -n HelloWorld.elf > mem_init/hdl_sim/nios_onchip_memory.sym
+Post-processing to create mem_init/meminit.spd...
+Post-processing to create mem_init/meminit.qip...
+
+**** Build Finished ****

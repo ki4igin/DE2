@@ -1,0 +1,112 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  active-hdl
+Simulation Language   :  vhdl
+Version               :  93
+Simulation Mode       :  GUI
+Sim Output File       :  rtc_test.vho
+Sim SDF file          :  rtc_test__vhdl.sdo
+Sim dir               :  simulation\activehdl
+
+=======================================================
+
+Info: Starting NativeLink simulation with Active-HDL software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/active-hdl.tcl
+Warning: File rtc_test_sim_gate_vhdl.do already exists - backing up current file as rtc_test_sim_gate_vhdl.do.bak5
+Probing asim_log
+Active-HDL Info: createdesign rtc_test D:/DE2/RTC/simulation/activehdl
+Active-HDL Info: # Design rtc_test created
+Active-HDL Info: opendesign -a rtc_test.adf
+Active-HDL Info: # Design: Creating new workspace file: "D:\DE2\RTC\simulation\activehdl\rtc_test\rtc_test.aws"
+Active-HDL Info: # Design: 17:36, 20 окт€бр€ 2020 г.
+Active-HDL Info: # Design: Opening design "D:\DE2\RTC\simulation\activehdl\rtc_test\rtc_test.adf"
+Active-HDL Info: waveformmode ASDB
+Active-HDL Info: alib  vhdl_libs/cycloneii_vhdl
+Active-HDL Info: # Library Manager: Library "cycloneii_vhdl" attached.
+Active-HDL Info: amap cycloneii vhdl_libs/cycloneii_vhdl
+Active-HDL Info: # Library Manager: Library "cycloneii" attached.
+Active-HDL Info: acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+Active-HDL Info: # Compile Package "cycloneii_atom_pack"
+Active-HDL Info: # Compile Package Body "cycloneii_atom_pack"
+Active-HDL Info: # Compile Package "cycloneii_pllpack"
+Active-HDL Info: # Compile Package Body "cycloneii_pllpack"
+Active-HDL Info: # Compile Entity "cycloneii_dffe"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_dffe"
+Active-HDL Info: # Compile Entity "cycloneii_mux21"
+Active-HDL Info: # Compile Architecture "AltVITAL" of Entity "cycloneii_mux21"
+Active-HDL Info: # Compile Entity "cycloneii_mux41"
+Active-HDL Info: # Compile Architecture "AltVITAL" of Entity "cycloneii_mux41"
+Active-HDL Info: # Compile Entity "cycloneii_and1"
+Active-HDL Info: # Compile Architecture "AltVITAL" of Entity "cycloneii_and1"
+Active-HDL Info: # Compile Entity "cycloneii_ram_register"
+Active-HDL Info: # Compile Architecture "reg_arch" of Entity "cycloneii_ram_register"
+Active-HDL Info: # Compile Entity "cycloneii_ram_pulse_generator"
+Active-HDL Info: # Compile Architecture "pgen_arch" of Entity "cycloneii_ram_pulse_generator"
+Active-HDL Info: # Compile Entity "cycloneii_ram_block"
+Active-HDL Info: # Compile Architecture "block_arch" of Entity "cycloneii_ram_block"
+Active-HDL Warning: # Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2544, 0): Non resolved signal "mem_invalidate" may have multiple sources.
+Active-HDL Warning: # Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2546, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+Active-HDL Warning: # Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2552, 0): Non resolved signal "mem_invalidate_loc" may have multiple sources.
+Active-HDL Warning: # Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2553, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+Active-HDL Info: # Compile Entity "cycloneii_jtag"
+Active-HDL Info: # Compile Architecture "architecture_jtag" of Entity "cycloneii_jtag"
+Active-HDL Info: # Compile Entity "cycloneii_crcblock"
+Active-HDL Info: # Compile Architecture "architecture_crcblock" of Entity "cycloneii_crcblock"
+Active-HDL Info: # Compile Entity "cycloneii_asmiblock"
+Active-HDL Info: # Compile Architecture "architecture_asmiblock" of Entity "cycloneii_asmiblock"
+Active-HDL Warning: # Warning: DAGGEN_0002: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2701, 0): Process has no effect - no sequential statements.
+Active-HDL Info: # Compile Entity "cycloneii_m_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_m_cntr"
+Active-HDL Info: # Compile Entity "cycloneii_n_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_n_cntr"
+Active-HDL Info: # Compile Entity "cycloneii_scale_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_scale_cntr"
+Active-HDL Info: # Compile Entity "cycloneii_pll_reg"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_pll_reg"
+Active-HDL Info: # Compile Entity "cycloneii_pll"
+Active-HDL Info: # Compile Architecture "vital_pll" of Entity "cycloneii_pll"
+Active-HDL Info: # Compile Entity "cycloneii_routing_wire"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_routing_wire"
+Active-HDL Info: # Compile Entity "cycloneii_lcell_ff"
+Active-HDL Info: # Compile Architecture "vital_lcell_ff" of Entity "cycloneii_lcell_ff"
+Active-HDL Info: # Compile Entity "cycloneii_lcell_comb"
+Active-HDL Info: # Compile Architecture "vital_lcell_comb" of Entity "cycloneii_lcell_comb"
+Active-HDL Info: # Compile Entity "cycloneii_asynch_io"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_asynch_io"
+Active-HDL Info: # Compile Entity "cycloneii_io"
+Active-HDL Info: # Compile Architecture "structure" of Entity "cycloneii_io"
+Active-HDL Info: # Compile Entity "cycloneii_clk_delay_ctrl"
+Active-HDL Info: # Compile Architecture "vital_clk_delay_ctrl" of Entity "cycloneii_clk_delay_ctrl"
+Active-HDL Info: # Compile Entity "cycloneii_clk_delay_cal_ctrl"
+Active-HDL Info: # Compile Architecture "vital_clk_delay_cal_ctrl" of Entity "cycloneii_clk_delay_cal_ctrl"
+Active-HDL Info: # Compile Entity "cycloneii_mac_data_reg"
+Active-HDL Info: # Compile Architecture "vital_cycloneii_mac_data_reg" of Entity "cycloneii_mac_data_reg"
+Active-HDL Info: # Compile Entity "cycloneii_mac_sign_reg"
+Active-HDL Info: # Compile Architecture "cycloneii_mac_sign_reg" of Entity "cycloneii_mac_sign_reg"
+Active-HDL Info: # Compile Entity "cycloneii_mac_mult_internal"
+Active-HDL Info: # Compile Architecture "vital_cycloneii_mac_mult_internal" of Entity "cycloneii_mac_mult_internal"
+Active-HDL Info: # Compile Entity "cycloneii_mac_mult"
+Active-HDL Info: # Compile Architecture "vital_cycloneii_mac_mult" of Entity "cycloneii_mac_mult"
+Active-HDL Info: # Compile Entity "cycloneii_mac_out"
+Active-HDL Info: # Compile Architecture "vital_cycloneii_mac_out" of Entity "cycloneii_mac_out"
+Active-HDL Info: # Compile Entity "cycloneii_ena_reg"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_ena_reg"
+Active-HDL Info: # Compile Entity "cycloneii_clkctrl"
+Active-HDL Info: # Compile Architecture "vital_clkctrl" of Entity "cycloneii_clkctrl"
+Active-HDL Info: # Compile success 0 Errors 5 Warnings  Analysis time :  1.0 [s]
+Active-HDL Info: acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+Active-HDL Info: # Compile Package "cycloneii_components"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+Active-HDL Info: addfile -c -auto D:/DE2/RTC/simulation/activehdl/rtc_test.vho
+Active-HDL Info: # Adding file D:\DE2\RTC\simulation\activehdl\rtc_test.vho ... Done
+Active-HDL Info: addfile -c -auto D:/DE2/RTC/simulation/activehdl/rtc_test_vhd.sdo
+Active-HDL Info: # Adding file D:\DE2\RTC\simulation\activehdl\rtc_test_vhd.sdo ... Done
+Info: NativeLink simulation flow was successful

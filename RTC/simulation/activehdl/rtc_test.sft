@@ -1,0 +1,5 @@
+set tool_name "Active-HDL (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {rtc_test.vho rtc_test_vhd.sdo}}
+	{{"Fast Model"} {rtc_test_fast.vho rtc_test_vhd_fast.sdo}}
+}

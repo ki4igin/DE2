@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="nios_test">
+		<CBX_INST_ENTRY INSTANCE_NAME="|nios_test|nios:u0|nios_nios2_qsys:nios2_qsys|nios_nios2_qsys_nios2_oci:the_nios_nios2_qsys_nios2_oci|nios_nios2_qsys_nios2_ocimem:the_nios_nios2_qsys_nios2_ocimem|nios_nios2_qsys_ociram_sp_ram_module:nios_nios2_qsys_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_uq71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|nios_test|nios:u0|nios_nios2_qsys:nios2_qsys|nios_nios2_qsys_register_bank_a_module:nios_nios2_qsys_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_qdg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|nios_test|nios:u0|nios_nios2_qsys:nios2_qsys|nios_nios2_qsys_register_bank_b_module:nios_nios2_qsys_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_rdg1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|nios_test|nios:u0|nios_onchip_memory:onchip_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_7rg1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

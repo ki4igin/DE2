@@ -1,0 +1,7 @@
+108
+~E 1 "../src/lcd_driver.vhd" 5 lcd_driver
+~A 1 "../src/lcd_driver.vhd" 27 rtl
+~E 1 "../src/lcd_tb.vhd" 5 lcd_tb
+~A 1 "../src/lcd_tb.vhd" 9 rtl
+~E 1 "../src/lcd_test.vhd" 8 lcd_test
+~A 1 "../src/lcd_test.vhd" 14 rtl

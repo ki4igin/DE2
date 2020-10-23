@@ -1,0 +1,17 @@
+[COMPILESTATUS|.\src\rtc_test.vho]
+FileTimeLow=30844654
+Status=Modified
+
+[COMPILESTATUS|.\src\rtc_test_vhd.sdo]
+FileTimeLow=30844654
+Status=Modified
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\rtc_test.adf|]
+Path=
+
+[Gui config]
+RunFor=100 ns
+

@@ -1,0 +1,1 @@
+-w -erf D:/DE2/RTC/simulation/activehdl/rtc_test/compile/rtc_test.erf -d D:/DE2/RTC/simulation/activehdl/rtc_test/compile -s D:/DE2/RTC/simulation/activehdl/rtc_test/library.cfg -j D:/DE2/RTC/simulation/activehdl/rtc_test/projlib.cfg -work rtc_test -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd 

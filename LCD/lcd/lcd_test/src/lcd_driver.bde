@@ -1,0 +1,601 @@
+SCHM0106
+
+HEADER
+{
+ FREEID 63
+ VARIABLES
+ {
+  #ARCHITECTURE="rtl"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #DEFAULT_RANGE0="<range<index=\"0\"><name=\"lcd_bus\"><left=\"9\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #DEFAULT_RANGE1="<range<index=\"0\"><name=\"lcd_data\"><left=\"7\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #ENTITY="lcd_driver"
+  #LANGUAGE="VHDL"
+  AUTHOR="User"
+  COMPANY="OOO"
+  CREATIONDATE="17.10.2020"
+  SOURCE="..\\src\\lcd_driver.vhd"
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"use ieee.std_logic_1164.all;\n"+
+"use ieee.NUMERIC_STD.all;"
+   RECT (220,260,620,472)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  ARCHITECTUREDECLARATIONS  2, 0, 0
+  {
+   LABEL "Architecture Declaration"
+   TEXT 
+"type control is (power_up, initialize, ready, send);\n"+
+""
+   RECT (220,472,620,651)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  GENERIC  3, 0, 0
+  {
+   LABEL "Generics"
+   TEXT 
+"clk_freq : integer := 50;\n"+
+"display_lines : STD_LOGIC := '1';\n"+
+"character_font : STD_LOGIC := '0';\n"+
+"display_on_off : STD_LOGIC := '1';\n"+
+"cursor : STD_LOGIC := '0';\n"+
+"blink : STD_LOGIC := '0';\n"+
+"inc_dec : STD_LOGIC := '1';\n"+
+"shift : STD_LOGIC := '0';"
+   RECT (220,724,620,1028)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  PROCESS  4, 0, 0
+  {
+   LABEL "proc"
+   TEXT 
+"proc : process (clk)\n"+
+"                         variable clk_count : integer := 0;\n"+
+"                       begin\n"+
+"                         if rising_edge(clk) then\n"+
+"                            case state is \n"+
+"                              when power_up => \n"+
+"                                 busy <= '1';\n"+
+"                                 if (clk_count < (50000 * clk_freq)) then\n"+
+"                                    clk_count := clk_count + 1;\n"+
+"                                    state <= power_up;\n"+
+"                                 else \n"+
+"                                    clk_count := 0;\n"+
+"                                    rs <= '0';\n"+
+"                                    rw <= '0';\n"+
+"                                    lcd_data <= \"00110000\";\n"+
+"                                    state <= initialize;\n"+
+"                                 end if;\n"+
+"                              when initialize => \n"+
+"                                 busy <= '1';\n"+
+"                                 clk_count := clk_count + 1;\n"+
+"                                 if (clk_count < (10 * clk_freq)) then\n"+
+"                                    lcd_data <= (\"0011\", display_lines, character_font, \"00\");\n"+
+"                                    e <= '1';\n"+
+"                                 elsif (clk_count < (60 * clk_freq)) then\n"+
+"                                    lcd_data <= \"00000000\";\n"+
+"                                    e <= '0';\n"+
+"                                 elsif (clk_count < (70 * clk_freq)) then\n"+
+"                                    lcd_data <= (\"00001\", display_on_off, cursor, blink);\n"+
+"                                    e <= '1';\n"+
+"                                 elsif (clk_count < (120 * clk_freq)) then\n"+
+"                                    lcd_data <= \"00000000\";\n"+
+"                                    e <= '0';\n"+
+"                                 elsif (clk_count < (130 * clk_freq)) then\n"+
+"                                    lcd_data <= \"00000001\";\n"+
+"                                    e <= '1';\n"+
+"                                 elsif (clk_count < (2130 * clk_freq)) then\n"+
+"                                    lcd_data <= \"00000000\";\n"+
+"                                    e <= '0';\n"+
+"                                 elsif (clk_count < (2140 * clk_freq)) then\n"+
+"                                    lcd_data <= (\"000001\", inc_dec, shift);\n"+
+"                                    e <= '0';\n"+
+"                                 elsif (clk_count < (2200 * clk_freq)) then\n"+
+"                                    lcd_data <= \"00000000\";\n"+
+"                                    e <= '0';\n"+
+"                                 else \n"+
+"                                    clk_count := 0;\n"+
+"                                    busy <= '0';\n"+
+"                                    state <= ready;\n"+
+"                                 end if;\n"+
+"                              when ready => \n"+
+"                                 if ?? enable then\n"+
+"                                    busy <= '1';\n"+
+"                                    rs <= lcd_bus(9);\n"+
+"                                    rw <= lcd_bus(8);\n"+
+"                                    lcd_data <= lcd_bus(7 downto 0);\n"+
+"                                    clk_count := 0;\n"+
+"                                    state <= send;\n"+
+"                                 else \n"+
+"                                    busy <= '0';\n"+
+"                                    rs <= '0';\n"+
+"                                    rw <= '0';\n"+
+"                                    lcd_data <= (others => '0');\n"+
+"                                    clk_count := 0;\n"+
+"                                    state <= ready;\n"+
+"                                 end if;\n"+
+"                              when send => \n"+
+"                                 busy <= '1';\n"+
+"                                 if (clk_count < (50 * clk_freq)) then\n"+
+"                                    if (clk_count < clk_freq) then\n"+
+"                                       e <= '0';\n"+
+"                                    elsif (clk_count < (14 * clk_freq)) then\n"+
+"                                       e <= '1';\n"+
+"                                    elsif (clk_count < (27 * clk_freq)) then\n"+
+"                                       e <= '0';\n"+
+"                                    end if;\n"+
+"                                    clk_count := clk_count + 1;\n"+
+"                                    state <= send;\n"+
+"                                 else \n"+
+"                                    clk_count := 0;\n"+
+"                                    state <= ready;\n"+
+"                                 end if;\n"+
+"                              when others => \n"+
+"                            end case;\n"+
+"                            if ?? reset then\n"+
+"                               state <= power_up;\n"+
+"                            end if;\n"+
+"                         end if;\n"+
+"                       end process;\n"+
+"                      "
+   RECT (1040,240,1441,640)
+   MARGINS (20,20)
+   SYNTAXCOLORED
+   SHOWTEXT
+   CORNER 10
+   VTX (  33, 37, 39, 42, 45, 48, 52, 54, 58, 61 )
+   VARIABLES
+   {
+    #UPDATE_SENS_LIST="0"
+   }
+   LIST (  52 )
+  }
+  INSTANCE  5, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="clk"
+    #SYMBOL="Input"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (900,260)
+   VERTEXES ( (2,51) )
+  }
+  INSTANCE  6, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #CUSTOM_NAME=""
+    #INITIAL_VALUE="'0'"
+    #LIBRARY="#terminals"
+    #REFERENCE="reset"
+    #SYMBOL="Input"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (900,380)
+   VERTEXES ( (2,60) )
+  }
+  INSTANCE  7, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="enable"
+    #SYMBOL="Input"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (900,300)
+   VERTEXES ( (2,55) )
+  }
+  INSTANCE  8, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusInput"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="lcd_bus(9:0)"
+    #SYMBOL="BusInput"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   COORD (900,340)
+   VERTEXES ( (2,57) )
+  }
+  INSTANCE  9, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #CUSTOM_NAME=""
+    #INITIAL_VALUE="'1'"
+    #LIBRARY="#terminals"
+    #REFERENCE="busy"
+    #SYMBOL="Output"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (1540,380)
+   VERTEXES ( (2,34) )
+  }
+  INSTANCE  10, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="rw"
+    #SYMBOL="Output"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (1540,420)
+   VERTEXES ( (2,46) )
+  }
+  INSTANCE  11, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="rs"
+    #SYMBOL="Output"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (1540,260)
+   VERTEXES ( (2,43) )
+  }
+  INSTANCE  12, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Output"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="e"
+    #SYMBOL="Output"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (1540,340)
+   VERTEXES ( (2,36) )
+  }
+  INSTANCE  13, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="BusOutput"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="lcd_data(7:0)"
+    #SYMBOL="BusOutput"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+   COORD (1540,300)
+   VERTEXES ( (2,40) )
+  }
+  TEXT  14, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (849,260,849,260)
+   ALIGN 6
+   PARENT 5
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (849,380,849,380)
+   ALIGN 6
+   PARENT 6
+  }
+  TEXT  16, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (849,300,849,300)
+   ALIGN 6
+   PARENT 7
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (849,340,849,340)
+   ALIGN 6
+   PARENT 8
+  }
+  TEXT  18, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1591,380,1591,380)
+   ALIGN 4
+   PARENT 9
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1591,420,1591,420)
+   ALIGN 4
+   PARENT 10
+  }
+  TEXT  20, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1591,260,1591,260)
+   ALIGN 4
+   PARENT 11
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1591,340,1591,340)
+   ALIGN 4
+   PARENT 12
+  }
+  TEXT  22, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1591,300,1591,300)
+   ALIGN 4
+   PARENT 13
+  }
+  NET WIRE  23, 0, 0
+  {
+   VARIABLES
+   {
+    #INITIAL_VALUE="power_up"
+    #NAME="state"
+    #VHDL_TYPE="control"
+   }
+  }
+  NET WIRE  24, 0, 0
+  {
+   VARIABLES
+   {
+    #INITIAL_VALUE="'1'"
+    #NAME="busy"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  25, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="clk"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  26, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="e"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  27, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="enable"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET BUS  28, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="lcd_bus(9:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET BUS  29, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="lcd_data(7:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET WIRE  30, 0, 0
+  {
+   VARIABLES
+   {
+    #INITIAL_VALUE="'0'"
+    #NAME="reset"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  31, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="rs"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  32, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="rw"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  VTX  33, 0, 0
+  {
+   COORD (1441,380)
+  }
+  VTX  34, 0, 0
+  {
+   COORD (1540,380)
+  }
+  WIRE  35, 0, 0
+  {
+   NET 24
+   VTX 33, 34
+  }
+  VTX  36, 0, 0
+  {
+   COORD (1540,340)
+  }
+  VTX  37, 0, 0
+  {
+   COORD (1441,340)
+  }
+  WIRE  38, 0, 0
+  {
+   NET 26
+   VTX 36, 37
+  }
+  VTX  39, 0, 0
+  {
+   COORD (1441,300)
+  }
+  VTX  40, 0, 0
+  {
+   COORD (1540,300)
+  }
+  BUS  41, 0, 0
+  {
+   NET 29
+   VTX 39, 40
+  }
+  VTX  42, 0, 0
+  {
+   COORD (1441,260)
+  }
+  VTX  43, 0, 0
+  {
+   COORD (1540,260)
+  }
+  WIRE  44, 0, 0
+  {
+   NET 31
+   VTX 42, 43
+  }
+  VTX  45, 0, 0
+  {
+   COORD (1441,420)
+  }
+  VTX  46, 0, 0
+  {
+   COORD (1540,420)
+  }
+  WIRE  47, 0, 0
+  {
+   NET 32
+   VTX 45, 46
+  }
+  VTX  48, 0, 0
+  {
+   COORD (1441,460)
+  }
+  VTX  49, 0, 0
+  {
+   COORD (1520,460)
+  }
+  WIRE  50, 0, 0
+  {
+   NET 23
+   VTX 48, 49
+  }
+  VTX  51, 0, 0
+  {
+   COORD (900,260)
+  }
+  VTX  52, 0, 0
+  {
+   COORD (1040,260)
+  }
+  WIRE  53, 0, 0
+  {
+   NET 25
+   VTX 51, 52
+  }
+  VTX  54, 0, 0
+  {
+   COORD (1040,300)
+  }
+  VTX  55, 0, 0
+  {
+   COORD (900,300)
+  }
+  WIRE  56, 0, 0
+  {
+   NET 27
+   VTX 54, 55
+  }
+  VTX  57, 0, 0
+  {
+   COORD (900,340)
+  }
+  VTX  58, 0, 0
+  {
+   COORD (1040,340)
+  }
+  BUS  59, 0, 0
+  {
+   NET 28
+   VTX 57, 58
+  }
+  VTX  60, 0, 0
+  {
+   COORD (900,380)
+  }
+  VTX  61, 0, 0
+  {
+   COORD (1040,380)
+  }
+  WIRE  62, 0, 0
+  {
+   NET 30
+   VTX 60, 61
+  }
+ }
+ 
+}
+

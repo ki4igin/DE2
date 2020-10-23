@@ -1,0 +1,45 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.numeric_std.ALL;
+
+ENTITY rtc_tb IS
+
+END ENTITY rtc_tb;
+
+ARCHITECTURE rtl OF rtc_tb IS
+    COMPONENT rtc IS
+        GENERIC (
+            clk_freq : INTEGER --system clock frequency in MHz
+        );
+        PORT (
+            clk : IN STD_LOGIC;
+            rst : IN STD_LOGIC;
+            seconds : OUT INTEGER;
+            minutes : OUT INTEGER;
+            hours : OUT INTEGER
+        );
+    END COMPONENT rtc;
+
+    SIGNAL tb_clk : STD_LOGIC := '0';
+    SIGNAL tb_rst : STD_LOGIC := '0';
+    SIGNAL tb_seconds : INTEGER;
+    SIGNAL tb_minutes : INTEGER;
+    SIGNAL tb_hours : INTEGER;
+
+BEGIN
+    rtc1 : rtc
+    GENERIC MAP(
+        clk_freq => 10
+    )
+    PORT MAP(
+        clk => tb_clk,
+        rst => tb_rst,
+        seconds => tb_seconds,
+        minutes => tb_minutes,
+        hours => tb_hours
+    );
+
+    tb_clk <= NOT tb_clk AFTER 50 ms;
+    tb_rst <= '1' AFTER 200 ms;
+
+END ARCHITECTURE rtl;

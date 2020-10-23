@@ -1,0 +1,36 @@
+Active-HDL 11.1.262.7351 2020-10-18 18:59:58
+
+Elaboration top modules:
+Architecture                  rtl(lcd_test)
+
+
+--------------------------------------------------------------------------------------------
+Entity     | Architecture | Library  | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------
+lcd_test   | rtl          | lcd_test |      | 11.1.262.7351 (Windows) | -O3 -2008
+lcd_driver | rtl          | lcd_test |      | 11.1.262.7351 (Windows) | -O3 -2008
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+VHDL Package              | Library  | Info | Compiler Version        | Compilation Options
+--------------------------------------------------------------------------------------------
+standard                  | std      |      |                         | <unavailable>
+TEXTIO                    | std      |      |                         | <unavailable>
+std_logic_1164            | ieee     |      |                         | <unavailable>
+NUMERIC_STD               | ieee     |      |                         | <unavailable>
+converters                | lcd_test |      |                         | <unavailable>
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+Library                   | Comment
+--------------------------------------------------------------------------------------------
+ieee                      | Standard IEEE packages library
+lcd_test                  | None
+std                       | Standard VHDL library
+--------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+lcd_test lcd_test rtl
+
+
+The performance of simulation is reduced. Version Student Edition

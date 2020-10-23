@@ -1,0 +1,75 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=lcd_test
+
+[Library]
+lcd_test=.\lcd_test\lcd_test.lib
+
+[$LibMap$]
+lcd_test=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=D:\Share\DE2\LCD
+DisableIEEEWarnings=0
+DisableVitalMsg=0
+VitalAccel=1
+UnboundError=0
+VitalGlitches=0
+
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2018Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=0
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+
+[LoadVHPI]
+Count=0
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=lcd_tb|rtl|0 lcd_test|rtl|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[file_out:/lcd_driver.bde]
+/..\compile\lcd_driver.vhd=-1
+
+[Files]
+/lcd_driver.vhd=-1
+/lcd_tb.vhd=-1
+/wave.asdb=-1
+/wave.awc=-1
+/lcd_test.vhd=-1
+/converters.vhd=-1
+
+[Files.Data]
+.\src\lcd_driver.vhd=VHDL Source Code
+.\src\lcd_tb.vhd=VHDL Source Code
+.\src\wave.asdb=Accelerated Waveform File
+.\src\wave.awc=Accelerated Waveform Configuration
+.\src\lcd_test.vhd=VHDL Source Code
+.\src\converters.vhd=VHDL Source Code
+

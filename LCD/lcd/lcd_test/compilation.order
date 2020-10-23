@@ -1,0 +1,4 @@
+.\src\lcd_driver.vhd
+.\src\lcd_tb.vhd
+.\src\lcd_test.vhd
+.\src\converters.vhd

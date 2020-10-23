@@ -1,0 +1,76 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity rtc_test is
+    generic (
+        clk_freq => clk_freq := 50000000;
+    )
+    port (
+        CLOCK_50 : in std_logic;
+        KEY      : in std_logic_vector(3 downto 0);
+        HEX2     : out std_logic_vector(6 downto 0);
+        HEX3     : out std_logic_vector(6 downto 0);
+        HEX4     : out std_logic_vector(6 downto 0);
+        HEX5     : out std_logic_vector(6 downto 0);
+        HEX6     : out std_logic_vector(6 downto 0);
+        HEX7     : out std_logic_vector(6 downto 0)
+    );
+end entity rtc_test;
+
+architecture rtl of rtc_test is
+    signal seconds : unsigned(7 downto 0);
+    signal minutes : unsigned(7 downto 0);
+    signal hours   : unsigned(7 downto 0);
+begin
+
+    rtc1 : entity work.rtc
+        generic
+        map (
+        clk_freq => clk_freq
+        )
+        port map(
+            clk     => CLOCK_50,
+            rst     => KEY(0),
+            seconds => seconds,
+            minutes => minutes,
+            hours   => hours
+        );
+
+    seg7_2 : entity work.seg7
+        port map(
+            dig => seconds(3 downto 0),
+            seg => HEX2
+        );
+
+    seg7_3 : entity work.seg7
+        port map(
+            dig => seconds(7 downto 4),
+            seg => HEX3
+        );
+
+    seg7_4 : entity work.seg7
+        port map(
+            dig => minutes(3 downto 0),
+            seg => HEX4
+        );
+
+    seg7_5 : entity work.seg7
+        port map(
+            dig => minutes(7 downto 4),
+            seg => HEX5
+        );
+
+    seg7_6 : entity work.seg7
+        port map(
+            dig => hours(3 downto 0),
+            seg => HEX6
+        );
+
+    seg7_7 : entity work.seg7
+        port map(
+            dig => hours(7 downto 4),
+            seg => HEX7
+        );
+
+end architecture rtl;

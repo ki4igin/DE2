@@ -1,0 +1,31 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=rtc_test
+[Library]
+rtc_test=.\rtc_test\rtc_test.lib
+cycloneii_vhdl=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+cycloneii=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+[$LibMap$]
+rtc_test=.
+cycloneii_vhdl=.
+cycloneii=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[Files]
+/rtc_test.vho=-1
+/rtc_test_vhd.sdo=-1
+[Files.Data]
+.\src\rtc_test.vho=VHDL Source Code
+.\src\rtc_test_vhd.sdo=SDF File
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

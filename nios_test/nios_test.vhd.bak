@@ -1,0 +1,40 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity nios_test is
+    port (
+        CLOCK_50 : in std_logic;                                        -- clk
+        LEDR     : out std_logic_vector(17 downto 0);                   -- export
+        LCD_RS   : out std_logic;                                       -- RS
+        LCD_RW   : out std_logic;                                       -- RW
+        LCD_DATA : out std_logic_vector(7 downto 0) := (others => '0'); -- data
+        LCD_EN   : out std_logic;                                       -- E
+        KEY      : in std_logic_vector (3 downto 0);
+    );
+end entity nios_test;
+
+architecture rtl of nios_test is
+    component nios is
+        port (
+            clk_clk                            : in std_logic := 'X';                                   -- clk
+            pio_0_external_connection_export   : out std_logic_vector(16 downto 0);                     -- export
+            lcd_16207_0_external_RS            : out std_logic;                                         -- RS
+            lcd_16207_0_external_RW            : out std_logic;                                         -- RW
+            lcd_16207_0_external_data          : inout std_logic_vector(7 downto 0) := (others => 'X'); -- data
+            lcd_16207_0_external_E             : out std_logic;                                         -- E
+            reset_controller_0_reset_in0_reset : in std_logic := 'X'                                    -- reset
+        );
+    end component nios;
+begin
+    u0 : component nios
+        port map(
+            clk_clk                            => CLOCK_50,          --                          clk.clk
+            pio_0_external_connection_export   => LEDR(16 downto 0), --    pio_0_external_connection.export
+            lcd_16207_0_external_RS            => LCD_RS,            --         lcd_16207_0_external.RS
+            lcd_16207_0_external_RW            => LCD_RW,            --                             .RW
+            lcd_16207_0_external_data          => LCD_DATA,          --                             .data
+            lcd_16207_0_external_E             => LCD_EN,            --                             .E
+            reset_controller_0_reset_in0_reset => KEY(0)             -- reset_controller_0_reset_in0.reset
+        );
+    end architecture rtl;

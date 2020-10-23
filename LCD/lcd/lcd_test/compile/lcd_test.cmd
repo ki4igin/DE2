@@ -1,0 +1,1 @@
+-w -s "D:\Share\DE2\LCD\lcd\library.cfg"  -j "D:\Share\DE2\LCD\lcd\lcd_test\projlib.cfg"  -d "D:\Share\DE2\LCD\lcd\lcd_test\compile"   -work lcd_test  -O3 -e 100 -2008 "D:/Share/DE2/LCD/lcd/lcd_test/src/lcd_driver.vhd"
