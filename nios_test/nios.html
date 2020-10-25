@@ -67,7 +67,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
   </table>
   <table class="blueBar">
    <tr>
-    <td class="l">2020.10.23.19:14:05</td>
+    <td class="l">2020.10.24.16:15:05</td>
     <td class="r">Datasheet</td>
    </tr>
   </table>
@@ -144,7 +144,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">control_slave&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00011020</td>
+    <td class="addr"><span style="color:#989898">0x</span>00010820</td>
     <td class="empty"></td>
    </tr>
    <tr>
@@ -157,7 +157,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">s1&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00011000</td>
+    <td class="addr"><span style="color:#989898">0x</span>00010800</td>
     <td class="empty"></td>
    </tr>
    <tr>
@@ -170,8 +170,8 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">jtag_debug_module&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00010800</td>
-    <td class="addr"><span style="color:#989898">0x</span>00010800</td>
+    <td class="empty"></td>
+    <td class="addr"><span style="color:#989898">0x</span>00010000</td>
    </tr>
    <tr>
     <td class="slavemodule">&#160;
@@ -183,7 +183,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    </tr>
    <tr>
     <td class="slaveb">control_slave&#160;</td>
-    <td class="addr"><span style="color:#989898">0x</span>00011030</td>
+    <td class="addr"><span style="color:#989898">0x</span>00010830</td>
     <td class="empty"></td>
    </tr>
   </table>
@@ -192,175 +192,6 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    <hr/>
    <h2>clk</h2>clock_source v13.0
    <br/>
-   <div class="greydiv">
-    <table class="connectionboxes">
-     <tr>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_nios2_qsys">nios2_qsys</a>
-      </td>
-      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
-      <td class="main" rowspan="32">clk</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;clk_in_reset</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_reset_controller_0">reset_controller_0</a>
-      </td>
-      <td class="from">reset_out&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;clk_in_reset</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="neighbor" rowspan="4">
-       <a href="#module_onchip_memory">onchip_memory</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;clk1</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset1</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="neighbor" rowspan="4">
-       <a href="#module_pio">pio</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="neighbor" rowspan="4">
-       <a href="#module_nios2_qsys">nios2_qsys</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset_n</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="neighbor" rowspan="4">
-       <a href="#module_lcd_16207">lcd_16207</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_reset_controller_0">reset_controller_0</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="neighbor" rowspan="4">
-       <a href="#module_sysid_qsys_0">sysid_qsys_0</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">clk_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset</td>
-     </tr>
-    </table>
-   </div>
    <br/>
    <br/>
    <table class="flowbox">
@@ -411,56 +242,44 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
    <div class="greydiv">
     <table class="connectionboxes">
      <tr>
+      <td class="neighbor" rowspan="4">
+       <a href="#module_clk">clk</a>
+      </td>
+      <td class="from">clk_reset&#160;&#160;</td>
+      <td class="main" rowspan="11">onchip_memory</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset1</td>
+     </tr>
+     <tr>
+      <td class="from">clk&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clk1</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
       <td class="neighbor" rowspan="6">
        <a href="#module_nios2_qsys">nios2_qsys</a>
       </td>
-      <td class="from">instruction_master&#160;&#160;</td>
-      <td class="main" rowspan="14">onchip_memory</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;s1</td>
-     </tr>
-     <tr>
       <td class="from">jtag_debug_module_reset&#160;&#160;</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset1</td>
      </tr>
      <tr>
-      <td class="from">data_master&#160;&#160;</td>
+      <td class="from">instruction_master&#160;&#160;</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;s1</td>
      </tr>
-     <tr style="height:6px">
-      <td></td>
+     <tr>
+      <td class="from">data_master&#160;&#160;</td>
      </tr>
      <tr>
-      <td class="neighbor" rowspan="4">
-       <a href="#module_clk">clk</a>
-      </td>
-      <td class="from">clk&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;clk1</td>
-     </tr>
-     <tr>
-      <td class="from">clk_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;reset1</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_reset_controller_0">reset_controller_0</a>
-      </td>
-      <td class="from">reset_out&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;reset1</td>
+      <td class="to">&#160;&#160;s1</td>
      </tr>
     </table>
    </div>
@@ -654,10 +473,28 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     <table class="connectionboxes">
      <tr>
       <td class="neighbor" rowspan="4">
+       <a href="#module_clk">clk</a>
+      </td>
+      <td class="from">clk_reset&#160;&#160;</td>
+      <td class="main" rowspan="9">lcd_16207</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td class="from">clk&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clk</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td class="neighbor" rowspan="4">
        <a href="#module_nios2_qsys">nios2_qsys</a>
       </td>
       <td class="from">jtag_debug_module_reset&#160;&#160;</td>
-      <td class="main" rowspan="12">lcd_16207</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset</td>
@@ -667,36 +504,6 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      </tr>
      <tr>
       <td class="to">&#160;&#160;control_slave</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td class="neighbor" rowspan="4">
-       <a href="#module_clk">clk</a>
-      </td>
-      <td class="from">clk&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr>
-      <td class="from">clk_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;reset</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_reset_controller_0">reset_controller_0</a>
-      </td>
-      <td class="from">reset_out&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;reset</td>
      </tr>
     </table>
    </div>
@@ -735,10 +542,28 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     <table class="connectionboxes">
      <tr>
       <td class="neighbor" rowspan="4">
+       <a href="#module_clk">clk</a>
+      </td>
+      <td class="from">clk_reset&#160;&#160;</td>
+      <td class="main" rowspan="9">pio</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td class="from">clk&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clk</td>
+     </tr>
+     <tr style="height:6px">
+      <td></td>
+     </tr>
+     <tr>
+      <td class="neighbor" rowspan="4">
        <a href="#module_nios2_qsys">nios2_qsys</a>
       </td>
       <td class="from">jtag_debug_module_reset&#160;&#160;</td>
-      <td class="main" rowspan="12">pio</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset</td>
@@ -748,36 +573,6 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      </tr>
      <tr>
       <td class="to">&#160;&#160;s1</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td class="neighbor" rowspan="4">
-       <a href="#module_clk">clk</a>
-      </td>
-      <td class="from">clk&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr>
-      <td class="from">clk_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;reset</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_reset_controller_0">reset_controller_0</a>
-      </td>
-      <td class="from">reset_out&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;reset</td>
      </tr>
     </table>
    </div>
@@ -953,34 +748,22 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td class="neighbor" rowspan="4">
        <a href="#module_clk">clk</a>
       </td>
+      <td class="from">clk_reset&#160;&#160;</td>
+      <td class="main" rowspan="25">nios2_qsys</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;reset_n</td>
+     </tr>
+     <tr>
       <td class="from">clk&#160;&#160;</td>
-      <td class="main" rowspan="31">nios2_qsys</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;clk</td>
      </tr>
      <tr>
-      <td class="from">clk_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;reset_n</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_reset_controller_0">reset_controller_0</a>
-      </td>
-      <td class="from">reset_out&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;reset_n</td>
-     </tr>
-     <tr>
       <td></td>
       <td></td>
-      <td class="from">instruction_master&#160;&#160;</td>
+      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
       <td class="neighbor" rowspan="6">
        <a href="#module_onchip_memory">onchip_memory</a>
       </td>
@@ -988,17 +771,17 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      <tr>
       <td></td>
       <td></td>
-      <td class="to">&#160;&#160;s1</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
       <td class="to">&#160;&#160;reset1</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="from">instruction_master&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td class="to">&#160;&#160;s1</td>
      </tr>
      <tr>
       <td></td>
@@ -1009,22 +792,6 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td></td>
       <td></td>
       <td class="to">&#160;&#160;s1</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">jtag_debug_module_reset&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_clk">clk</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;clk_in_reset</td>
      </tr>
      <tr style="height:6px">
       <td></td>
@@ -1483,7 +1250,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">breakAbsoluteAddr</td>
-        <td class="parametervalue">67616</td>
+        <td class="parametervalue">65568</td>
        </tr>
        <tr>
         <td class="parametername">mmu_TLBMissExcAbsAddr</td>
@@ -1551,11 +1318,11 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">instSlaveMapParam</td>
-        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='onchip_memory.s1' start='0x8000' end='0x10000' /&gt;&lt;slave name='nios2_qsys.jtag_debug_module' start='0x10800' end='0x11000' /&gt;&lt;/address-map&gt;</td>
+        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='onchip_memory.s1' start='0x8000' end='0x10000' /&gt;&lt;slave name='nios2_qsys.jtag_debug_module' start='0x10000' end='0x10800' /&gt;&lt;/address-map&gt;</td>
        </tr>
        <tr>
         <td class="parametername">dataSlaveMapParam</td>
-        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='onchip_memory.s1' start='0x8000' end='0x10000' /&gt;&lt;slave name='nios2_qsys.jtag_debug_module' start='0x10800' end='0x11000' /&gt;&lt;slave name='pio.s1' start='0x11000' end='0x11020' /&gt;&lt;slave name='lcd_16207.control_slave' start='0x11020' end='0x11030' /&gt;&lt;slave name='sysid_qsys_0.control_slave' start='0x11030' end='0x11038' /&gt;&lt;/address-map&gt;</td>
+        <td class="parametervalue">&lt;address-map&gt;&lt;slave name='onchip_memory.s1' start='0x8000' end='0x10000' /&gt;&lt;slave name='pio.s1' start='0x10800' end='0x10820' /&gt;&lt;slave name='lcd_16207.control_slave' start='0x10820' end='0x10830' /&gt;&lt;slave name='sysid_qsys_0.control_slave' start='0x10830' end='0x10838' /&gt;&lt;/address-map&gt;</td>
        </tr>
        <tr>
         <td class="parametername">clockFrequency</td>
@@ -1632,7 +1399,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">BREAK_ADDR</td>
-        <td class="parametervalue">0x00010820</td>
+        <td class="parametervalue">0x00010020</td>
        </tr>
        <tr>
         <td class="parametername">CPU_FREQ</td>
@@ -1723,164 +1490,6 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
     </tr>
    </table>
   </div>
-  <a name="module_reset_controller_0"> </a>
-  <div>
-   <hr/>
-   <h2>reset_controller_0</h2>altera_reset_controller v13.0
-   <br/>
-   <div class="greydiv">
-    <table class="connectionboxes">
-     <tr>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_clk">clk</a>
-      </td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="main" rowspan="19">reset_controller_0</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">reset_out&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_nios2_qsys">nios2_qsys</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset_n</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">reset_out&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_pio">pio</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">reset_out&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_lcd_16207">lcd_16207</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">reset_out&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_onchip_memory">onchip_memory</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset1</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">reset_out&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_clk">clk</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;clk_in_reset</td>
-     </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="from">reset_out&#160;&#160;</td>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_sysid_qsys_0">sysid_qsys_0</a>
-      </td>
-     </tr>
-     <tr>
-      <td></td>
-      <td></td>
-      <td class="to">&#160;&#160;reset</td>
-     </tr>
-    </table>
-   </div>
-   <br/>
-   <br/>
-   <table class="flowbox">
-    <tr>
-     <td class="parametersbox">
-      <h2>Parameters</h2>
-      <table>
-       <tr>
-        <td class="parametername">NUM_RESET_INPUTS</td>
-        <td class="parametervalue">1</td>
-       </tr>
-       <tr>
-        <td class="parametername">OUTPUT_RESET_SYNC_EDGES</td>
-        <td class="parametervalue">deassert</td>
-       </tr>
-       <tr>
-        <td class="parametername">SYNC_DEPTH</td>
-        <td class="parametervalue">2</td>
-       </tr>
-       <tr>
-        <td class="parametername">RESET_REQUEST_PRESENT</td>
-        <td class="parametervalue">0</td>
-       </tr>
-       <tr>
-        <td class="parametername">AUTO_CLK_CLOCK_RATE</td>
-        <td class="parametervalue">50000000</td>
-       </tr>
-       <tr>
-        <td class="parametername">deviceFamily</td>
-        <td class="parametervalue">UNKNOWN</td>
-       </tr>
-       <tr>
-        <td class="parametername">generateLegacySim</td>
-        <td class="parametervalue">false</td>
-       </tr>
-      </table>
-     </td>
-    </tr>
-   </table>&#160;&#160;
-   <table class="flowbox">
-    <tr>
-     <td class="parametersbox">
-      <h2>Software Assignments</h2>(none)</td>
-    </tr>
-   </table>
-  </div>
   <a name="module_sysid_qsys_0"> </a>
   <div>
    <hr/>
@@ -1892,17 +1501,17 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
       <td class="neighbor" rowspan="4">
        <a href="#module_clk">clk</a>
       </td>
-      <td class="from">clk&#160;&#160;</td>
-      <td class="main" rowspan="12">sysid_qsys_0</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;clk</td>
-     </tr>
-     <tr>
       <td class="from">clk_reset&#160;&#160;</td>
+      <td class="main" rowspan="9">sysid_qsys_0</td>
      </tr>
      <tr>
       <td class="to">&#160;&#160;reset</td>
+     </tr>
+     <tr>
+      <td class="from">clk&#160;&#160;</td>
+     </tr>
+     <tr>
+      <td class="to">&#160;&#160;clk</td>
      </tr>
      <tr style="height:6px">
       <td></td>
@@ -1922,18 +1531,6 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
      <tr>
       <td class="to">&#160;&#160;control_slave</td>
      </tr>
-     <tr style="height:6px">
-      <td></td>
-     </tr>
-     <tr>
-      <td class="neighbor" rowspan="2">
-       <a href="#module_reset_controller_0">reset_controller_0</a>
-      </td>
-      <td class="from">reset_out&#160;&#160;</td>
-     </tr>
-     <tr>
-      <td class="to">&#160;&#160;reset</td>
-     </tr>
     </table>
    </div>
    <br/>
@@ -1949,7 +1546,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">timestamp</td>
-        <td class="parametervalue">1603466045</td>
+        <td class="parametervalue">1603541705</td>
        </tr>
        <tr>
         <td class="parametername">AUTO_CLK_CLOCK_RATE</td>
@@ -1982,7 +1579,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
        </tr>
        <tr>
         <td class="parametername">TIMESTAMP</td>
-        <td class="parametervalue">1603466045</td>
+        <td class="parametervalue">1603541705</td>
        </tr>
       </table>
      </td>
@@ -1992,7 +1589,7 @@ div.greydiv { vertical-align:top ; text-align:center ; background:#eeeeee ; bord
   <table class="blueBar">
    <tr>
     <td class="l">generation took 0,00 seconds</td>
-    <td class="r">rendering took 0,06 seconds</td>
+    <td class="r">rendering took 0,05 seconds</td>
    </tr>
   </table>
  </body>

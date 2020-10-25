@@ -29,7 +29,7 @@ architecture rtl of nios_test is
             lcd_16207_0_external_RW            : out std_logic;                                         -- RW
             lcd_16207_0_external_data          : inout std_logic_vector(7 downto 0) := (others => 'X'); -- data
             lcd_16207_0_external_E             : out std_logic;                                         -- E
-            reset_controller_0_reset_in0_reset : in std_logic := 'X'                                    -- reset
+            reset_reset_n : in std_logic := 'X'                                    -- reset
         );
     end component nios;
 
@@ -46,7 +46,7 @@ begin
         lcd_16207_0_external_RW            => LCD_RW,            --                             .RW
         lcd_16207_0_external_data          => LCD_DATA,          --                             .data
         lcd_16207_0_external_E             => LCD_EN,            --                             .E
-        reset_controller_0_reset_in0_reset => not KEY(0)
+        reset_reset_n => KEY(0)
     );
 
     LEDR(17)  <= SW(2);

@@ -9,14 +9,18 @@
  </systemtable>
  <clocktable>
   <columns>
-   <clockname preferredWidth="520" />
-   <clocksource preferredWidth="519" />
-   <frequency preferredWidth="500" />
+   <clockname preferredWidth="272" />
+   <clocksource preferredWidth="271" />
+   <frequency preferredWidth="266" />
   </columns>
  </clocktable>
- <window width="1936" height="1096" x="-1928" y="35" />
+ <window width="1296" height="1440" x="1272" y="0" />
  <library
-   expandedCategories="Library/Peripherals,Library,Library/Embedded Processors,Library/Peripherals/Debug and Performance,Library/Verification,Project,Library/Verification/Debug &amp; Performance" />
+   expandedCategories="Library/Memories and Memory Controllers/On-Chip,Library/Interface Protocols,Library/Interface Protocols/PCI,Library/Memories and Memory Controllers,Library/Memories and Memory Controllers/External Memory Interfaces/Pattern Generators,Library/Bridges/Streaming,Library/Memories and Memory Controllers/External Memory Interfaces,Library/Qsys Interconnect,Library/Bridges,Project,Library/Bridges/Memory-Mapped,Library,Library/Qsys Interconnect/Memory-Mapped" />
  <hdlexample language="VHDL" />
- <generation path="_PROJECT_NAME_" synthesis="VHDL" />
+ <generation
+   path="_PROJECT_NAME_"
+   synthesis="VHDL"
+   testbench_system="STANDARD"
+   simulation="VHDL" />
 </preferences>

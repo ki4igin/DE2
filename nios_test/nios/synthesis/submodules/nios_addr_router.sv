@@ -44,7 +44,7 @@
 
 module nios_addr_router_default_decode
   #(
-     parameter DEFAULT_CHANNEL = 1,
+     parameter DEFAULT_CHANNEL = 0,
                DEFAULT_WR_CHANNEL = -1,
                DEFAULT_RD_CHANNEL = -1,
                DEFAULT_DESTID = 2 
@@ -137,13 +137,13 @@ module nios_addr_router
     // during address decoding
     // -------------------------------------------------------
     localparam PAD0 = log2ceil(64'h10000 - 64'h8000); 
-    localparam PAD1 = log2ceil(64'h11000 - 64'h10800); 
+    localparam PAD1 = log2ceil(64'h10800 - 64'h10000); 
     // -------------------------------------------------------
     // Work out which address bits are significant based on the
     // address range of the slaves. If the required width is too
     // large or too small, we use the address field width instead.
     // -------------------------------------------------------
-    localparam ADDR_RANGE = 64'h11000;
+    localparam ADDR_RANGE = 64'h10800;
     localparam RANGE_ADDR_WIDTH = log2ceil(ADDR_RANGE);
     localparam OPTIMIZED_ADDR_H = (RANGE_ADDR_WIDTH > PKT_ADDR_W) ||
                                   (RANGE_ADDR_WIDTH == 0) ?
@@ -188,13 +188,13 @@ module nios_addr_router
 
     // ( 0x8000 .. 0x10000 )
     if ( {address[RG:PAD0],{PAD0{1'b0}}} == 17'h8000   ) begin
-            src_channel = 5'b10;
+            src_channel = 5'b01;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 2;
     end
 
-    // ( 0x10800 .. 0x11000 )
-    if ( {address[RG:PAD1],{PAD1{1'b0}}} == 17'h10800   ) begin
-            src_channel = 5'b01;
+    // ( 0x10000 .. 0x10800 )
+    if ( {address[RG:PAD1],{PAD1{1'b0}}} == 17'h10000   ) begin
+            src_channel = 5'b10;
             src_data[PKT_DEST_ID_H:PKT_DEST_ID_L] = 1;
     end
 

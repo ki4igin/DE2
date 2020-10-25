@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_qsys' in SOPC Builder design 'nios'
  * SOPC Builder design path: D:/DE2/nios_test/nios.sopcinfo
  *
- * Generated: Fri Oct 23 19:00:32 MSD 2020
+ * Generated: Sat Oct 24 16:54:38 MSD 2020
  */
 
 /*
@@ -62,7 +62,7 @@
 
 #define ALT_CPU_ARCHITECTURE "altera_nios2_qsys"
 #define ALT_CPU_BIG_ENDIAN 0
-#define ALT_CPU_BREAK_ADDR 0x10820
+#define ALT_CPU_BREAK_ADDR 0x10020
 #define ALT_CPU_CPU_FREQ 50000000u
 #define ALT_CPU_CPU_ID_SIZE 1
 #define ALT_CPU_CPU_ID_VALUE 0x00000000
@@ -94,7 +94,7 @@
  */
 
 #define NIOS2_BIG_ENDIAN 0
-#define NIOS2_BREAK_ADDR 0x10820
+#define NIOS2_BREAK_ADDR 0x10020
 #define NIOS2_CPU_FREQ 50000000u
 #define NIOS2_CPU_ID_SIZE 1
 #define NIOS2_CPU_ID_VALUE 0x00000000
@@ -145,17 +145,17 @@
 #define ALT_NUM_INTERNAL_INTERRUPT_CONTROLLERS 1
 #define ALT_NUM_INTERRUPT_CONTROLLERS 1
 #define ALT_STDERR "/dev/lcd_16207"
-#define ALT_STDERR_BASE 0x11020
+#define ALT_STDERR_BASE 0x10820
 #define ALT_STDERR_DEV lcd_16207
 #define ALT_STDERR_PRESENT
 #define ALT_STDERR_TYPE "altera_avalon_lcd_16207"
 #define ALT_STDIN "/dev/lcd_16207"
-#define ALT_STDIN_BASE 0x11020
+#define ALT_STDIN_BASE 0x10820
 #define ALT_STDIN_DEV lcd_16207
 #define ALT_STDIN_PRESENT
 #define ALT_STDIN_TYPE "altera_avalon_lcd_16207"
 #define ALT_STDOUT "/dev/lcd_16207"
-#define ALT_STDOUT_BASE 0x11020
+#define ALT_STDOUT_BASE 0x10820
 #define ALT_STDOUT_DEV lcd_16207
 #define ALT_STDOUT_PRESENT
 #define ALT_STDOUT_TYPE "altera_avalon_lcd_16207"
@@ -178,7 +178,7 @@
  */
 
 #define ALT_MODULE_CLASS_lcd_16207 altera_avalon_lcd_16207
-#define LCD_16207_BASE 0x11020
+#define LCD_16207_BASE 0x10820
 #define LCD_16207_IRQ -1
 #define LCD_16207_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define LCD_16207_NAME "/dev/lcd_16207"
@@ -204,7 +204,7 @@
 #define ONCHIP_MEMORY_IRQ -1
 #define ONCHIP_MEMORY_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define ONCHIP_MEMORY_NAME "/dev/onchip_memory"
-#define ONCHIP_MEMORY_NON_DEFAULT_INIT_FILE_ENABLED 0
+#define ONCHIP_MEMORY_NON_DEFAULT_INIT_FILE_ENABLED 1
 #define ONCHIP_MEMORY_RAM_BLOCK_TYPE "AUTO"
 #define ONCHIP_MEMORY_READ_DURING_WRITE_MODE "DONT_CARE"
 #define ONCHIP_MEMORY_SINGLE_CLOCK_OP 0
@@ -221,7 +221,7 @@
  */
 
 #define ALT_MODULE_CLASS_pio altera_avalon_pio
-#define PIO_BASE 0x11000
+#define PIO_BASE 0x10800
 #define PIO_BIT_CLEARING_EDGE_REGISTER 0
 #define PIO_BIT_MODIFYING_OUTPUT_REGISTER 1
 #define PIO_CAPTURE 0
@@ -248,13 +248,13 @@
  */
 
 #define ALT_MODULE_CLASS_sysid_qsys_0 altera_avalon_sysid_qsys
-#define SYSID_QSYS_0_BASE 0x11030
+#define SYSID_QSYS_0_BASE 0x10830
 #define SYSID_QSYS_0_ID 591751049
 #define SYSID_QSYS_0_IRQ -1
 #define SYSID_QSYS_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_QSYS_0_NAME "/dev/sysid_qsys_0"
 #define SYSID_QSYS_0_SPAN 8
-#define SYSID_QSYS_0_TIMESTAMP 1603464826
+#define SYSID_QSYS_0_TIMESTAMP 1603543816
 #define SYSID_QSYS_0_TYPE "altera_avalon_sysid_qsys"
 
 #endif /* __SYSTEM_H_ */

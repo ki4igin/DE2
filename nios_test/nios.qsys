@@ -6,9 +6,25 @@
    version="1.0"
    description=""
    tags=""
-   categories="" />
+   categories="System" />
  <parameter name="bonusData"><![CDATA[bonusData 
 {
+   element $${FILENAME}
+   {
+   }
+   element bridge_to_sram
+   {
+      datum _sortIndex
+      {
+         value = "6";
+         type = "int";
+      }
+      datum megawizard_uipreferences
+      {
+         value = "{}";
+         type = "String";
+      }
+   }
    element clk
    {
       datum _sortIndex
@@ -17,19 +33,19 @@
          type = "int";
       }
    }
-   element lcd_16207.control_slave
-   {
-      datum baseAddress
-      {
-         value = "69664";
-         type = "String";
-      }
-   }
    element sysid_qsys_0.control_slave
    {
       datum baseAddress
       {
-         value = "69680";
+         value = "67632";
+         type = "String";
+      }
+   }
+   element lcd_16207.control_slave
+   {
+      datum baseAddress
+      {
+         value = "67616";
          type = "String";
       }
    }
@@ -37,7 +53,7 @@
    {
       datum baseAddress
       {
-         value = "67584";
+         value = "65536";
          type = "String";
       }
    }
@@ -73,22 +89,6 @@
          type = "int";
       }
    }
-   element reset_controller_0
-   {
-      datum _sortIndex
-      {
-         value = "5";
-         type = "int";
-      }
-   }
-   element pio.s1
-   {
-      datum baseAddress
-      {
-         value = "69632";
-         type = "String";
-      }
-   }
    element onchip_memory.s1
    {
       datum baseAddress
@@ -97,11 +97,19 @@
          type = "String";
       }
    }
+   element pio.s1
+   {
+      datum baseAddress
+      {
+         value = "67584";
+         type = "String";
+      }
+   }
    element sysid_qsys_0
    {
       datum _sortIndex
       {
-         value = "6";
+         value = "5";
          type = "int";
       }
    }
@@ -117,10 +125,10 @@
  <parameter name="globalResetBus" value="false" />
  <parameter name="hdlLanguage" value="VERILOG" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName" value="" />
+ <parameter name="projectName" value="nios_test.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1603448013965" />
+ <parameter name="timeStamp" value="1603543725099" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk.clk_in" type="clock" dir="end" />
@@ -134,11 +142,7 @@
    internal="lcd_16207.external"
    type="conduit"
    dir="end" />
- <interface
-   name="reset_controller_0_reset_in0"
-   internal="reset_controller_0.reset_in0"
-   type="reset"
-   dir="end" />
+ <interface name="reset" internal="clk.clk_in_reset" type="reset" dir="end" />
  <module kind="clock_source" version="13.0" enabled="1" name="clk">
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="clockFrequencyKnown" value="true" />
@@ -291,8 +295,8 @@
   <parameter name="tightlyCoupledInstructionMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory.s1' start='0x8000' end='0x10000' /><slave name='nios2_qsys.jtag_debug_module' start='0x10800' end='0x11000' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory.s1' start='0x8000' end='0x10000' /><slave name='nios2_qsys.jtag_debug_module' start='0x10800' end='0x11000' /><slave name='pio.s1' start='0x11000' end='0x11020' /><slave name='lcd_16207.control_slave' start='0x11020' end='0x11030' /><slave name='sysid_qsys_0.control_slave' start='0x11030' end='0x11038' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory.s1' start='0x8000' end='0x10000' /><slave name='nios2_qsys.jtag_debug_module' start='0x10000' end='0x10800' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='onchip_memory.s1' start='0x8000' end='0x10000' /><slave name='pio.s1' start='0x10800' end='0x10820' /><slave name='lcd_16207.control_slave' start='0x10820' end='0x10830' /><slave name='sysid_qsys_0.control_slave' start='0x10830' end='0x10838' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="deviceFamilyName" value="Cyclone II" />
   <parameter name="internalIrqMaskSystemInfo" value="0" />
@@ -308,17 +312,6 @@
   <parameter name="tightlyCoupledInstructionMaster3MapParam" value="" />
  </module>
  <module
-   kind="altera_reset_controller"
-   version="13.0"
-   enabled="1"
-   name="reset_controller_0">
-  <parameter name="NUM_RESET_INPUTS" value="1" />
-  <parameter name="OUTPUT_RESET_SYNC_EDGES" value="deassert" />
-  <parameter name="SYNC_DEPTH" value="2" />
-  <parameter name="RESET_REQUEST_PRESENT" value="0" />
-  <parameter name="AUTO_CLK_CLOCK_RATE" value="50000000" />
- </module>
- <module
    kind="altera_avalon_sysid_qsys"
    version="13.0"
    enabled="1"
@@ -328,38 +321,18 @@
   <parameter name="AUTO_CLK_CLOCK_RATE" value="50000000" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone II" />
  </module>
- <connection
-   kind="avalon"
+ <module
+   kind="altera_avalon_tri_state_bridge"
    version="13.0"
-   start="nios2_qsys.instruction_master"
-   end="nios2_qsys.jtag_debug_module">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00010800" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2_qsys.data_master"
-   end="nios2_qsys.jtag_debug_module">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00010800" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2_qsys.instruction_master"
-   end="onchip_memory.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x8000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
+   enabled="1"
+   name="bridge_to_sram">
+  <parameter name="registerIncomingSignals" value="true" />
+ </module>
  <connection
    kind="reset"
    version="13.0"
-   start="nios2_qsys.jtag_debug_module_reset"
-   end="clk.clk_in_reset" />
+   start="clk.clk_reset"
+   end="onchip_memory.reset1" />
  <connection
    kind="reset"
    version="13.0"
@@ -368,29 +341,51 @@
  <connection
    kind="reset"
    version="13.0"
-   start="nios2_qsys.jtag_debug_module_reset"
+   start="clk.clk_reset"
    end="lcd_16207.reset" />
  <connection
    kind="reset"
    version="13.0"
    start="nios2_qsys.jtag_debug_module_reset"
+   end="lcd_16207.reset" />
+ <connection kind="reset" version="13.0" start="clk.clk_reset" end="pio.reset" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios2_qsys.jtag_debug_module_reset"
    end="pio.reset" />
- <connection kind="clock" version="13.0" start="clk.clk" end="onchip_memory.clk1" />
- <connection kind="clock" version="13.0" start="clk.clk" end="pio.clk" />
- <connection kind="clock" version="13.0" start="clk.clk" end="nios2_qsys.clk" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="clk.clk_reset"
+   end="nios2_qsys.reset_n" />
  <connection
    kind="reset"
    version="13.0"
    start="nios2_qsys.jtag_debug_module_reset"
    end="nios2_qsys.reset_n" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="clk.clk_reset"
+   end="sysid_qsys_0.reset" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios2_qsys.jtag_debug_module_reset"
+   end="sysid_qsys_0.reset" />
+ <connection kind="clock" version="13.0" start="clk.clk" end="onchip_memory.clk1" />
  <connection kind="clock" version="13.0" start="clk.clk" end="lcd_16207.clk" />
+ <connection kind="clock" version="13.0" start="clk.clk" end="pio.clk" />
+ <connection kind="clock" version="13.0" start="clk.clk" end="nios2_qsys.clk" />
+ <connection kind="clock" version="13.0" start="clk.clk" end="sysid_qsys_0.clk" />
  <connection
    kind="avalon"
    version="13.0"
-   start="nios2_qsys.data_master"
-   end="lcd_16207.control_slave">
+   start="nios2_qsys.instruction_master"
+   end="onchip_memory.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00011020" />
+  <parameter name="baseAddress" value="0x8000" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -400,6 +395,33 @@
    end="onchip_memory.s1">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x8000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.0"
+   start="nios2_qsys.data_master"
+   end="sysid_qsys_0.control_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010830" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.0"
+   start="nios2_qsys.instruction_master"
+   end="nios2_qsys.jtag_debug_module">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="13.0"
+   start="nios2_qsys.data_master"
+   end="lcd_16207.control_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x00010820" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -408,80 +430,10 @@
    start="nios2_qsys.data_master"
    end="pio.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00011000" />
+  <parameter name="baseAddress" value="0x00010800" />
   <parameter name="defaultConnection" value="false" />
  </connection>
- <connection
-   kind="reset"
-   version="13.0"
-   start="reset_controller_0.reset_out"
-   end="nios2_qsys.reset_n" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="reset_controller_0.reset_out"
-   end="pio.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="reset_controller_0.reset_out"
-   end="lcd_16207.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="reset_controller_0.reset_out"
-   end="onchip_memory.reset1" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="reset_controller_0.reset_out"
-   end="clk.clk_in_reset" />
- <connection
-   kind="clock"
-   version="13.0"
-   start="clk.clk"
-   end="reset_controller_0.clk" />
- <connection kind="clock" version="13.0" start="clk.clk" end="sysid_qsys_0.clk" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="nios2_qsys.jtag_debug_module_reset"
-   end="sysid_qsys_0.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="reset_controller_0.reset_out"
-   end="sysid_qsys_0.reset" />
- <connection
-   kind="avalon"
-   version="13.0"
-   start="nios2_qsys.data_master"
-   end="sysid_qsys_0.control_slave">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00011030" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk.clk_reset"
-   end="onchip_memory.reset1" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk.clk_reset"
-   end="lcd_16207.reset" />
- <connection kind="reset" version="13.0" start="clk.clk_reset" end="pio.reset" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk.clk_reset"
-   end="nios2_qsys.reset_n" />
- <connection
-   kind="reset"
-   version="13.0"
-   start="clk.clk_reset"
-   end="sysid_qsys_0.reset" />
+ <connection kind="clock" version="13.0" start="clk.clk" end="bridge_to_sram.clk" />
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
 </system>

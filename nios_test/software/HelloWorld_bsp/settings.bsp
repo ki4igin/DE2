@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>23.10.2020 19:00:31</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1603465231030</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>24.10.2020 16:54:34</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1603544074006</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>D:\DE2\nios_test\software\HelloWorld_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>D:\DE2\nios_test\nios.sopcinfo</SopcDesignFile>
@@ -846,19 +846,19 @@
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>pio</slaveDescriptor>
-                <addressRange>0x00011000 - 0x0001101F</addressRange>
+                <addressRange>0x00010800 - 0x0001081F</addressRange>
                 <addressSpan>32</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>lcd_16207</slaveDescriptor>
-                <addressRange>0x00011020 - 0x0001102F</addressRange>
+                <addressRange>0x00010820 - 0x0001082F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>sysid_qsys_0</slaveDescriptor>
-                <addressRange>0x00011030 - 0x00011037</addressRange>
+                <addressRange>0x00010830 - 0x00010837</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>

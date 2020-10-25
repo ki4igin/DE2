@@ -30,7 +30,7 @@
 //   output_name:         nios_cmd_xbar_demux_001
 //   ST_DATA_W:           90
 //   ST_CHANNEL_W:        5
-//   NUM_OUTPUTS:         5
+//   NUM_OUTPUTS:         4
 //   VALID_WIDTH:         1
 // ------------------------------------------
 
@@ -83,13 +83,6 @@ module nios_cmd_xbar_demux_001
     output reg                      src3_endofpacket,
     input                           src3_ready,
 
-    output reg                      src4_valid,
-    output reg [90-1    : 0] src4_data, // ST_DATA_W=90
-    output reg [5-1 : 0] src4_channel, // ST_CHANNEL_W=5
-    output reg                      src4_startofpacket,
-    output reg                      src4_endofpacket,
-    input                           src4_ready,
-
 
     // -------------------
     // Clock & Reset
@@ -101,7 +94,7 @@ module nios_cmd_xbar_demux_001
 
 );
 
-    localparam NUM_OUTPUTS = 5;
+    localparam NUM_OUTPUTS = 4;
     wire [NUM_OUTPUTS - 1 : 0] ready_vector;
 
     // -------------------
@@ -136,13 +129,6 @@ module nios_cmd_xbar_demux_001
 
         src3_valid         = sink_channel[3] && sink_valid;
 
-        src4_data          = sink_data;
-        src4_startofpacket = sink_startofpacket;
-        src4_endofpacket   = sink_endofpacket;
-        src4_channel       = sink_channel >> NUM_OUTPUTS;
-
-        src4_valid         = sink_channel[4] && sink_valid;
-
     end
 
     // -------------------
@@ -152,9 +138,8 @@ module nios_cmd_xbar_demux_001
     assign ready_vector[1] = src1_ready;
     assign ready_vector[2] = src2_ready;
     assign ready_vector[3] = src3_ready;
-    assign ready_vector[4] = src4_ready;
 
-    assign sink_ready = |(sink_channel & ready_vector);
+    assign sink_ready = |(sink_channel & {{1{1'b0}},{ready_vector[NUM_OUTPUTS - 1 : 0]}});
 
 endmodule
 
