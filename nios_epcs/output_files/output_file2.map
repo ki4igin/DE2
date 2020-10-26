@@ -1,0 +1,12 @@
+BLOCK		START ADDRESS		END ADDRESS
+
+sw.hex		0x00042A8A		0x00045EBD
+Page_0		0x00045EBE		0x00116EC9
+
+
+
+Notes:
+
+- Data checksum for this conversion is 0x12F49CD6
+
+- All the addresses in this file are byte addresses

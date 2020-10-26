@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Oct 25 20:39:36 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : nios_epcs
+Top-level Entity Name : nios_epcs
+Family : Cyclone II
+Total logic elements : 1,634
+    Total combinational functions : 1,453
+    Dedicated logic registers : 860
+Total registers : 860
+Total pins : 62
+Total virtual pins : 0
+Total memory bits : 43,008
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

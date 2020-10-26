@@ -1,0 +1,7 @@
+
+**** Build of configuration Nios II for project led_blink ****
+
+make mem_init_install 
+../led_blink_bsp//mem_init.mk:213: *** Deprecated Makefile Target: 'mem_init_install'. Use target 'mem_init_generate' and then add mem_init/meminit.qip to your Quartus II Project.  Stop.
+
+**** Build Finished ****

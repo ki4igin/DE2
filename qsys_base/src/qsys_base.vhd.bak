@@ -1,0 +1,40 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity qsys_base is
+    port (
+        CLOCK_50 : in std_logic;
+
+        KEY : in std_logic_vector(3 downto 0);
+
+        LEDG : out std_logic_vector(8 downto 0) := (others => '0');
+
+        SRAM_ADDR : in std_logic_vector(17 downto 0);
+        SRAM_DQ   : inout std_logic_vector(15 downto 0) := (others => '0');
+        SRAM_WE_N : out std_logic                       := '0';
+        SRAM_OE_N : out std_logic                       := '0';
+        SRAM_UB_N : out std_logic                       := '0';
+        SRAM_LB_N : out std_logic                       := '0';
+        SRAM_CE_N : out std_logic                       := '0'
+    );
+end entity qsys_base;
+
+architecture rtl of qsys_base is
+    signal rst : std_logic;
+    signal clk : std_logic;
+
+begin
+    rst <= KEY(0);
+    clk <= CLOCK_50;
+
+    process (clk)
+    begin
+        if rising_edge(clk) then
+            LEDG(8) <= KEY(3);
+        end if;
+    end process;
+    LEDG(8) <= KEY(3);
+
+    
+end architecture rtl;

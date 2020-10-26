@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="761" />
+   <clocksource preferredWidth="761" />
+   <frequency preferredWidth="742" />
+  </columns>
+ </clocktable>
+ <window width="2578" height="1458" x="-9" y="-9" />
+ <library
+   expandedCategories="Project/Terasic Technologies Inc,Library,Project,Library/PLL" />
+ <hdlexample language="VHDL" />
+ <generation synthesis="VHDL" />
+</preferences>

@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=D\:\\DE2\\nios_epcs\\software\\led_blink
+newSoftwareExampleWizardPage.sopcinfoFile=D\:\\DE2\\nios_epcs\\nios.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=D\:\\DE2\\nios_epcs\\software\\led_blink_bsp

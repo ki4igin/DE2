@@ -1,0 +1,43 @@
+
+**** Build of configuration Nios II for project hello_world ****
+
+make mem_init_generate 
+Info: Building ../hello_world_bsp/
+make --no-print-directory -C ../hello_world_bsp/
+[BSP build complete]
+Post-processing to create mem_init/hdl_sim/qsys_epcs_flash_boot_rom.hex...
+bash -c 'elf2hex hello_world.elf 0x00009000 0x000097ff --width=32 \
+		--little-endian-mem --create-lanes=0 --no-zero-fill mem_init/hdl_sim/qsys_epcs_flash_boot_rom.hex'
+Post-processing to create mem_init/qsys_ram_sys.hex...
+bash -c 'elf2hex hello_world.elf 0x00004000 0x00007fff --width=32 \
+		--little-endian-mem --create-lanes=0  mem_init/qsys_ram_sys.hex'
+Post-processing to create qsys_epcs_flash_boot_rom.flash...
+bash -c 'elf2flash --input=hello_world.elf --outfile=qsys_epcs_flash_boot_rom.flash --sim_optimize=0 --little-endian-mem \
+		 --epcs '
+Post-processing to create mem_init/hdl_sim/qsys_epcs_flash_boot_rom.dat...
+mkdir -p -p mem_init/hdl_sim
+bash -c 'flash2dat --infile=qsys_epcs_flash_boot_rom.flash --outfile=mem_init/hdl_sim/qsys_epcs_flash_boot_rom.dat \
+		--base=0x00009000 --end=0x000097ff --width=32 \
+		--create-lanes=0  '
+Post-processing to create mem_init/hdl_sim/qsys_ram_sys.dat...
+bash -c 'elf2dat --infile=hello_world.elf --outfile=mem_init/hdl_sim/qsys_ram_sys.dat \
+		--base=0x00004000 --end=0x00007fff --width=32 \
+		--little-endian-mem --create-lanes=0 '
+Post-processing to create mem_init/hdl_sim/qsys_epcs_flash_boot_rom.sym...
+nios2-elf-nm -n hello_world.elf > mem_init/hdl_sim/qsys_epcs_flash_boot_rom.sym
+Post-processing to create mem_init/hdl_sim/qsys_ram_sys.sym...
+nios2-elf-nm -n hello_world.elf > mem_init/hdl_sim/qsys_ram_sys.sym
+Post-processing to create mem_init/meminit.spd...
+Post-processing to create mem_init/meminit.qip...
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project hello_world ****
+
+make all 
+Info: Building ../hello_world_bsp/
+make --no-print-directory -C ../hello_world_bsp/
+[BSP build complete]
+[hello_world build complete]
+
+**** Build Finished ****

@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity nios_epcs is
+    port (
+        CLOCK_50 : in std_logic;
+        KEY : in std_logic_vector(3 downto 0)
+    );
+end entity nios_epcs;
+
+architecture rtl of nios_epcs is
+    component qsys is
+        port (
+            clk_clk       : in std_logic := 'X'; -- clk
+            reset_reset_n : in std_logic := 'X'  -- reset_n
+        );
+    end component qsys;
+begin
+
+    u0 : qsys
+    port map(
+        clk_clk       => CLOCK_50,      --   clk.clk
+        reset_reset_n => KEY(0) -- reset.reset_n
+    );
+
+end architecture rtl;

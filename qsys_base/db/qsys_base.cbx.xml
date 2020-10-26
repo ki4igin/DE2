@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="qsys_base">
+		<CBX_INST_ENTRY INSTANCE_NAME="|qsys_base|sopc:u0|sopc_epcs:epcs|altsyncram:the_boot_copier_rom" CBX_FILE_NAME="altsyncram_6431.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qsys_base|sopc:u0|sopc_jtag_uart:jtag_uart|sopc_jtag_uart_scfifo_r:the_sopc_jtag_uart_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qsys_base|sopc:u0|sopc_cpu:cpu|sopc_cpu_nios2_oci:the_sopc_cpu_nios2_oci|sopc_cpu_nios2_ocimem:the_sopc_cpu_nios2_ocimem|sopc_cpu_ociram_sp_ram_module:sopc_cpu_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_8471.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qsys_base|sopc:u0|sopc_cpu:cpu|sopc_cpu_register_bank_a_module:sopc_cpu_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_4nf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qsys_base|sopc:u0|sopc_cpu:cpu|sopc_cpu_register_bank_b_module:sopc_cpu_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_5nf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|qsys_base|sopc:u0|sopc_jtag_uart:jtag_uart|sopc_jtag_uart_scfifo_w:the_sopc_jtag_uart_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

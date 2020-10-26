@@ -1,0 +1,46 @@
+!SESSION 2020-10-25 20:47:30.038 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-25 20:50:49.348
+!MESSAGE Indexed 'led_blink_bsp' (73 sources, 93 headers) in 54,52 sec: 2 006 declarations; 3 823 references; 26 unresolved inclusions; 507 syntax errors; 190 unresolved names (3,16 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-25 20:50:57.403
+!MESSAGE Indexed 'led_blink' (1 sources, 67 headers) in 8,05 sec: 2 640 declarations; 2 906 references; 4 unresolved inclusions; 2 syntax errors; 8 unresolved names (0,14 %)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-25 20:59:52.896
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-25 20:59:52.898
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x102010 --id=0x25]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-25 20:59:55.169
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x102010 --id=0x25 /cygdrive/d/DE2/nios_epcs/software/led_blink/led_blink.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-25 21:03:17.313
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-25 21:03:17.879
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-25 21:03:17.880
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x102010 --id=0x25]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-25 21:03:20.165
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x102010 --id=0x25 /cygdrive/d/DE2/nios_epcs/software/led_blink/led_blink.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-25 21:19:25.237
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-10-25 21:19:26.004
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-25 21:19:26.005
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x102010 --id=0x25]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-10-25 21:19:28.466
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x102010 --id=0x25 /cygdrive/d/DE2/nios_epcs/software/led_blink/led_blink.elf]

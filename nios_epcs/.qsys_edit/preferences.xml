@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable>
+  <columns>
+   <connections preferredWidth="127" />
+   <irq preferredWidth="34" />
+   <name preferredWidth="198" />
+   <description preferredWidth="201" />
+   <export preferredWidth="152" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="762" />
+   <clocksource preferredWidth="759" />
+   <frequency preferredWidth="743" />
+  </columns>
+ </clocktable>
+ <window width="2578" height="1458" x="-9" y="-9" />
+ <library
+   expandedCategories="Project,Library/Verification,Library/Verification/Debug &amp; Performance,Library/Peripherals,Library/Embedded Processors,Library,Library/Peripherals/Debug and Performance" />
+ <hdlexample language="VHDL" />
+ <generation synthesis="VHDL" />
+</preferences>

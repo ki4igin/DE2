@@ -1,0 +1,10 @@
+
+**** Build of configuration Nios II for project led_blink ****
+
+make all 
+Info: Building ../led_blink_bsp/
+make --no-print-directory -C ../led_blink_bsp/
+[BSP build complete]
+[led_blink build complete]
+
+**** Build Finished ****

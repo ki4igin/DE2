@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+<file path="hdl_sim/qsys_epcs_flash_boot_rom.dat" type="DAT" initParamName="INIT_FILE" memoryPath="epcs_flash" />
+<file path="hdl_sim/qsys_ram_sys.dat" type="DAT" initParamName="INIT_FILE" memoryPath="ram_sys" />
+<file path="hdl_sim/qsys_epcs_flash_boot_rom.hex" type="HEX" initParamName="INIT_FILE" memoryPath="epcs_flash" />
+<file path="qsys_ram_sys.hex" type="HEX" initParamName="INIT_FILE" memoryPath="ram_sys" />
+</simPackage>
