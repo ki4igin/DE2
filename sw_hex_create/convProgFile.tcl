@@ -1,0 +1,1 @@
+qexec "quartus_cpf -c sw_hex_create/output_file.cof" 
