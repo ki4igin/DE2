@@ -1,0 +1,19 @@
+[Files List]
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/env.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std-body.vhdl=S
+D:\DE2\CombVsReg/src/converters.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/timing_p_2000.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/timing_b_2000.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/prmtvs_p_2000.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/prmtvs_b_2000.vhd=S
+c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd=S
+c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/arith_p.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/arith_b.vhd=S
+D:\DE2\CombVsReg\simulation\activehdl\top_level/src/top_level.vho=S
+D:\DE2\CombVsReg/src/top_level_tb.vhd=S

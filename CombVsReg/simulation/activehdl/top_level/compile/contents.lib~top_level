@@ -1,0 +1,5 @@
+5
+~E 1 "../src/top_level.vho" 34 top_level
+~A 1 "../src/top_level.vho" 73 structure
+~E 1 "../../../../src/top_level_tb.vhd" 7 top_level_tb
+~A 1 "../../../../src/top_level_tb.vhd" 11 rtl

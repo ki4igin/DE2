@@ -1,0 +1,44 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity top_level is
+    port (
+        c_in_comb  : in std_logic;
+        a_comb     : in std_logic;
+        b_comb     : in std_logic;
+        s_comb     : out std_logic
+        s_out_comb : out std_logic
+
+        c_in_reg  : in std_logic;
+        a_reg     : in std_logic;
+        b_reg     : in std_logic;
+        s_reg     : out std_logic
+        s_out_reg : out std_logic
+
+    );
+end entity top_level;
+
+architecture rtl of top_level is
+
+begin
+
+    a1 : entity work.adder_comb is
+        port map(
+            c_in  => c_in_comb,
+            a     => a_comb,
+            b     => b_comb,
+            s     => s_comb,
+            s_out => s_out_comb
+        );
+
+    a2 : entity work.adder_reg is
+        port map(
+            c_in  => c_in_reg,
+            a     => a_reg,
+            b     => b_reg,
+            s     => s_reg,
+            s_out => s_out_reg
+        );
+
+end architecture rtl;

@@ -1,0 +1,38 @@
+|top_level
+CLOCK_50 => adder_reg:a2.clk
+c_in_comb => adder_comb:a1.c_in
+a_comb => adder_comb:a1.a
+b_comb => adder_comb:a1.b
+s_comb <= adder_comb:a1.s
+c_out_comb <= adder_comb:a1.c_out
+c_in_reg => adder_reg:a2.c_in
+a_reg => adder_reg:a2.a
+b_reg => adder_reg:a2.b
+s_reg <= adder_reg:a2.s
+c_out_reg <= adder_reg:a2.c_out
+
+
+|top_level|adder_comb:a1
+c_in => s.IN1
+c_in => c_out.IN1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level|adder_reg:a2
+clk => c_out~reg0.CLK
+clk => s~reg0.CLK
+c_in => s.IN1
+c_in => c_out.IN1
+a => p.IN0
+a => g.IN0
+b => p.IN1
+b => g.IN1
+s <= s~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

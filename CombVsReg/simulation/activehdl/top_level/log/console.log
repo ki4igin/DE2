@@ -1,0 +1,245 @@
+# Design Explorer: Shortcut to "D:\DE2\CombVsReg\simulation\activehdl\top_level\top_level.aws" workspace added.
+waveformmode ASDB
+alib  vhdl_libs/cycloneii_vhdl
+# Library Manager: Library "cycloneii_vhdl" attached.
+amap cycloneii vhdl_libs/cycloneii_vhdl
+# Library Manager: Library "cycloneii" attached.
+acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+# File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+# Compile Package "cycloneii_atom_pack"
+# Compile Package Body "cycloneii_atom_pack"
+# Compile Package "cycloneii_pllpack"
+# Compile Package Body "cycloneii_pllpack"
+# Compile Entity "cycloneii_dffe"
+# Compile Architecture "behave" of Entity "cycloneii_dffe"
+# Compile Entity "cycloneii_mux21"
+# Compile Architecture "AltVITAL" of Entity "cycloneii_mux21"
+# Compile Entity "cycloneii_mux41"
+# Compile Architecture "AltVITAL" of Entity "cycloneii_mux41"
+# Compile Entity "cycloneii_and1"
+# Compile Architecture "AltVITAL" of Entity "cycloneii_and1"
+# Compile Entity "cycloneii_ram_register"
+# Compile Architecture "reg_arch" of Entity "cycloneii_ram_register"
+# Compile Entity "cycloneii_ram_pulse_generator"
+# Compile Architecture "pgen_arch" of Entity "cycloneii_ram_pulse_generator"
+# Compile Entity "cycloneii_ram_block"
+# Compile Architecture "block_arch" of Entity "cycloneii_ram_block"
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2544, 0): Non resolved signal "mem_invalidate" may have multiple sources.
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2546, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2552, 0): Non resolved signal "mem_invalidate_loc" may have multiple sources.
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2553, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+# Compile Entity "cycloneii_jtag"
+# Compile Architecture "architecture_jtag" of Entity "cycloneii_jtag"
+# Compile Entity "cycloneii_crcblock"
+# Compile Architecture "architecture_crcblock" of Entity "cycloneii_crcblock"
+# Compile Entity "cycloneii_asmiblock"
+# Compile Architecture "architecture_asmiblock" of Entity "cycloneii_asmiblock"
+# Warning: DAGGEN_0002: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2701, 0): Process has no effect - no sequential statements.
+# Compile Entity "cycloneii_m_cntr"
+# Compile Architecture "behave" of Entity "cycloneii_m_cntr"
+# Compile Entity "cycloneii_n_cntr"
+# Compile Architecture "behave" of Entity "cycloneii_n_cntr"
+# Compile Entity "cycloneii_scale_cntr"
+# Compile Architecture "behave" of Entity "cycloneii_scale_cntr"
+# Compile Entity "cycloneii_pll_reg"
+# Compile Architecture "behave" of Entity "cycloneii_pll_reg"
+# Compile Entity "cycloneii_pll"
+# Compile Architecture "vital_pll" of Entity "cycloneii_pll"
+# Compile Entity "cycloneii_routing_wire"
+# Compile Architecture "behave" of Entity "cycloneii_routing_wire"
+# Compile Entity "cycloneii_lcell_ff"
+# Compile Architecture "vital_lcell_ff" of Entity "cycloneii_lcell_ff"
+# Compile Entity "cycloneii_lcell_comb"
+# Compile Architecture "vital_lcell_comb" of Entity "cycloneii_lcell_comb"
+# Compile Entity "cycloneii_asynch_io"
+# Compile Architecture "behave" of Entity "cycloneii_asynch_io"
+# Compile Entity "cycloneii_io"
+# Compile Architecture "structure" of Entity "cycloneii_io"
+# Compile Entity "cycloneii_clk_delay_ctrl"
+# Compile Architecture "vital_clk_delay_ctrl" of Entity "cycloneii_clk_delay_ctrl"
+# Compile Entity "cycloneii_clk_delay_cal_ctrl"
+# Compile Architecture "vital_clk_delay_cal_ctrl" of Entity "cycloneii_clk_delay_cal_ctrl"
+# Compile Entity "cycloneii_mac_data_reg"
+# Compile Architecture "vital_cycloneii_mac_data_reg" of Entity "cycloneii_mac_data_reg"
+# Compile Entity "cycloneii_mac_sign_reg"
+# Compile Architecture "cycloneii_mac_sign_reg" of Entity "cycloneii_mac_sign_reg"
+# Compile Entity "cycloneii_mac_mult_internal"
+# Compile Architecture "vital_cycloneii_mac_mult_internal" of Entity "cycloneii_mac_mult_internal"
+# Compile Entity "cycloneii_mac_mult"
+# Compile Architecture "vital_cycloneii_mac_mult" of Entity "cycloneii_mac_mult"
+# Compile Entity "cycloneii_mac_out"
+# Compile Architecture "vital_cycloneii_mac_out" of Entity "cycloneii_mac_out"
+# Compile Entity "cycloneii_ena_reg"
+# Compile Architecture "behave" of Entity "cycloneii_ena_reg"
+# Compile Entity "cycloneii_clkctrl"
+# Compile Architecture "vital_clkctrl" of Entity "cycloneii_clkctrl"
+# Compile success 0 Errors 5 Warnings  Analysis time :  2.0 [s]
+acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+# File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+# Design: Design "top_level" has been set as active.
+# Compile Package "cycloneii_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  23.0 [s]
+
+addfile -c -auto D:/DE2/CombVsReg/simulation/activehdl/top_level.vho
+# Adding file D:\DE2\CombVsReg\simulation\activehdl\top_level.vho ... Done
+
+addfile -c -auto D:/DE2/CombVsReg/simulation/activehdl/top_level_vhd.sdo
+# Adding file D:\DE2\CombVsReg\simulation\activehdl\top_level_vhd.sdo ... Done
+acom -reorder -O3 -e 100 -work top_level -2008  $dsn/src/top_level.vho
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/CombVsReg/simulation/activehdl/top_level/src/top_level.vho
+# Compile Entity "top_level"
+# Compile Architecture "structure" of Entity "top_level"
+# Top-level unit(s) detected:
+# Entity => top_level
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/CombVsReg/src/top_level_tb.vhd
+# Compile Entity "top_level_tb"
+# Error: COMP96_0078: ../../../../src/top_level_tb.vhd : (5, 5): Unknown identifier "converters".
+# Compile Architecture "rtl" of Entity "top_level_tb"
+# Error: COMP96_0015: ../../../../src/top_level_tb.vhd : (19, 1): ';' expected.
+# Error: COMP96_0019: ../../../../src/top_level_tb.vhd : (21, 14): Keyword 'map' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.6 [s]
+acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/converters.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/CombVsReg/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
+acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/CombVsReg/src/top_level_tb.vhd
+# Compile Entity "top_level_tb"
+# Compile Architecture "rtl" of Entity "top_level_tb"
+# Error: COMP96_0015: ../../../../src/top_level_tb.vhd : (19, 1): ';' expected.
+# Error: COMP96_0019: ../../../../src/top_level_tb.vhd : (21, 14): Keyword 'map' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/CombVsReg/src/top_level_tb.vhd
+# Compile Entity "top_level_tb"
+# Compile Architecture "rtl" of Entity "top_level_tb"
+# Error: COMP96_0015: ../../../../src/top_level_tb.vhd : (19, 1): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/CombVsReg/src/top_level_tb.vhd
+# Compile Entity "top_level_tb"
+# Compile Architecture "rtl" of Entity "top_level_tb"
+# Error: COMP96_0078: ../../../../src/top_level_tb.vhd : (33, 13): Unknown identifier "SW".
+# Error: COMP96_0133: ../../../../src/top_level_tb.vhd : (33, 13): Cannot find object declaration.
+# Error: COMP96_0078: ../../../../src/top_level_tb.vhd : (34, 13): Unknown identifier "SW".
+# Error: COMP96_0133: ../../../../src/top_level_tb.vhd : (34, 13): Cannot find object declaration.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/CombVsReg/src/top_level_tb.vhd
+# Compile Entity "top_level_tb"
+# Compile Architecture "rtl" of Entity "top_level_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -advdataflow  -O5 +access +r +m+top_level_tb top_level_tb rtl
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7754 kB (elbread=1284 elab2=6256 kernel=213 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\CombVsReg\simulation\activehdl\top_level\src\wave.asdb
+#  0:08, 27 окт€бр€ 2020 г.
+#  Simulation has been initialized
+# add wave -noreg {/top_level_tb/CLOCK_50_tb}
+# add wave -noreg {/top_level_tb/SW_tb}
+# add wave -noreg {/top_level_tb/LEDG_tb}
+# 3 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/DE2/CombVsReg/simulation/activehdl/top_level/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Test: OK
+# EXECUTION:: Time: 360 ns,  Iteration: 0,  Instance: /top_level_tb,  Process: sim.
+# RUNTIME: Info: RUNTIME_0142 top_level_tb.vhd (40): finish called.
+# KERNEL: Time: 360 ns,  Iteration: 0,  Instance: /top_level_tb,  Process: sim.
+# KERNEL: stopped at time: 360 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work top_level -2008  $dsn/src/top_level.vho $dsn/../../../src/top_level_tb.vhd $dsn/../../../src/converters.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/CombVsReg/simulation/activehdl/top_level/src/top_level.vho
+# Compile Entity "top_level"
+# Compile Architecture "structure" of Entity "top_level"
+# File: D:/DE2/CombVsReg/src/top_level_tb.vhd
+# Compile Entity "top_level_tb"
+# Compile Architecture "rtl" of Entity "top_level_tb"
+# File: D:/DE2/CombVsReg/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -advdataflow  -O5 +access +r +m+top_level_tb top_level_tb rtl
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7754 kB (elbread=1284 elab2=6256 kernel=213 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\CombVsReg\simulation\activehdl\top_level\src\wave.asdb
+#  0:10, 27 окт€бр€ 2020 г.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/CombVsReg/simulation/activehdl/top_level/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Test: OK
+# EXECUTION:: Time: 360 ns,  Iteration: 0,  Instance: /top_level_tb,  Process: sim.
+# RUNTIME: Info: RUNTIME_0142 top_level_tb.vhd (40): finish called.
+# KERNEL: Time: 360 ns,  Iteration: 0,  Instance: /top_level_tb,  Process: sim.
+# KERNEL: stopped at time: 360 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/top_level_tb/SW_tb(2)}
+# add wave -noreg {/top_level_tb/SW_tb(1)}
+# add wave -noreg {/top_level_tb/SW_tb(0)}
+# 3 signal(s) traced.
+# add wave -noreg {/top_level_tb/SW_tb(5)}
+# add wave -noreg {/top_level_tb/SW_tb(4)}
+# add wave -noreg {/top_level_tb/SW_tb(3)}
+# 3 signal(s) traced.
+# add wave -noreg {/top_level_tb/LEDG_tb(3)}
+# add wave -noreg {/top_level_tb/LEDG_tb(2)}
+# add wave -noreg {/top_level_tb/LEDG_tb(1)}
+# add wave -noreg {/top_level_tb/LEDG_tb(0)}
+# 4 signal(s) traced.
+# WAVEFORM: 5 signal(s) removed.
+# WAVEFORM: 5 signal(s) removed.
+endsim
+# ASDB: Info: Writing data to disk. Please wait...
+# VSIM: Simulation has finished.

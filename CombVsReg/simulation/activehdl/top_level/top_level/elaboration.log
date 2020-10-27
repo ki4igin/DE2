@@ -1,0 +1,52 @@
+Active-HDL 11.1.262.7351 2020-10-27 00:15:12
+
+Elaboration top modules:
+Architecture                  rtl(top_level_tb)
+
+
+-----------------------------------------------------------------------------------------------------------
+Entity               | Architecture     | Library   | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+top_level_tb         | rtl              | top_level |      | 11.1.262.7351 (Windows) | -O3 -2008
+top_level            | structure        | top_level |      | 11.1.262.7351 (Windows) | -O3 -2008
+cycloneii_io         | structure        | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_lcell_comb | vital_lcell_comb | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_clkctrl    | vital_clkctrl    | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_lcell_ff   | vital_lcell_ff   | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_mux21      | AltVITAL         | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_dffe       | behave           | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_asynch_io  | behave           | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_ena_reg    | behave           | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_and1       | AltVITAL         | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+VHDL Package                            | Library   | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+standard                                | std       |      |                         | <unavailable>
+TEXTIO                                  | std       |      |                         | <unavailable>
+std_logic_1164                          | ieee      |      |                         | <unavailable>
+ENV                                     | std       |      |                         | <unavailable>
+NUMERIC_STD                             | ieee      |      |                         | <unavailable>
+converters                              | top_level |      |                         | <unavailable>
+VITAL_Timing                            | ieee      |      |                         | <unavailable>
+VITAL_Primitives                        | ieee      |      |                         | <unavailable>
+cycloneii_atom_pack                     | cycloneii |      |                         | <unavailable>
+cycloneii_components                    | cycloneii |      |                         | <unavailable>
+std_logic_arith                         | ieee      |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Library                                 | Comment
+-----------------------------------------------------------------------------------------------------------
+cycloneii                               | None
+ieee                                    | Standard IEEE packages library
+std                                     | Standard VHDL library
+top_level                               | None
+-----------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -sdftyp /top_level_tb/u0=D:\DE2\CombVsReg\simulation\activehdl\top_level/src/top_level_vhd.sdo -advdataflow -O5 +access +r +m+top_level_tb top_level_tb rtl
+
+
+The performance of simulation is reduced. Version Student Edition
