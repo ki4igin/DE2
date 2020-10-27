@@ -23,7 +23,7 @@ Active-HDL Info: createdesign top_level D:/DE2/CombVsReg/simulation/activehdl
 Active-HDL Info: # Design top_level created
 Active-HDL Info: opendesign -a top_level.adf
 Active-HDL Info: # Design: Creating new workspace file: "D:\DE2\CombVsReg\simulation\activehdl\top_level\top_level.aws"
-Active-HDL Info: # Design: 0:03, 27 окт€бр€ 2020 г.
+Active-HDL Info: # Design: 11:05, 27 окт€бр€ 2020 г.
 Active-HDL Info: # Design: Opening design "D:\DE2\CombVsReg\simulation\activehdl\top_level\top_level.adf"
 Active-HDL Info: # Design Explorer: Shortcut to "D:\DE2\CombVsReg\simulation\activehdl\top_level\top_level.aws" workspace added.
 Active-HDL Info: waveformmode ASDB
@@ -100,12 +100,11 @@ Active-HDL Info: # Compile Entity "cycloneii_ena_reg"
 Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_ena_reg"
 Active-HDL Info: # Compile Entity "cycloneii_clkctrl"
 Active-HDL Info: # Compile Architecture "vital_clkctrl" of Entity "cycloneii_clkctrl"
-Active-HDL Info: # Compile success 0 Errors 5 Warnings  Analysis time :  2.0 [s]
+Active-HDL Info: # Compile success 0 Errors 5 Warnings  Analysis time :  1.0 [s]
 Active-HDL Info: acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
 Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
-Active-HDL Info: # Design: Design "top_level" has been set as active.
 Active-HDL Info: # Compile Package "cycloneii_components"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  23.0 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 Active-HDL Info: addfile -c -auto D:/DE2/CombVsReg/simulation/activehdl/top_level.vho
 Active-HDL Info: # Adding file D:\DE2\CombVsReg\simulation\activehdl\top_level.vho ... Done
 Active-HDL Info: addfile -c -auto D:/DE2/CombVsReg/simulation/activehdl/top_level_vhd.sdo
@@ -117,97 +116,78 @@ Active-HDL Info: # Compile Entity "top_level"
 Active-HDL Info: # Compile Architecture "structure" of Entity "top_level"
 Active-HDL Info: # Top-level unit(s) detected:
 Active-HDL Info: # Entity => top_level
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
 Active-HDL Info: # ELBREAD: Elaboration process.
 Active-HDL Info: # ELBREAD: Elaboration time 0.0 [s].
-Active-HDL Info: acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
+Active-HDL Info: acom -O3 -e 100 -work top_level -2008  $dsn/src/top_level.vho $dsn/../../../src/converters.vhd $dsn/../../../src/top_level_tb.vhd
 Active-HDL Warning: # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-Active-HDL Info: # File: D:/DE2/CombVsReg/src/top_level_tb.vhd
-Active-HDL Info: # Compile Entity "top_level_tb"
-Active-HDL Error: # Error: COMP96_0078: ../../../../src/top_level_tb.vhd : (5, 5): Unknown identifier "converters".
-Active-HDL Info: # Compile Architecture "rtl" of Entity "top_level_tb"
-Active-HDL Error: # Error: COMP96_0015: ../../../../src/top_level_tb.vhd : (19, 1): ';' expected.
-Active-HDL Error: # Error: COMP96_0019: ../../../../src/top_level_tb.vhd : (21, 14): Keyword 'map' expected.
-Active-HDL Info: # Compile failure 3 Errors 0 Warnings  Analysis time :  0.6 [s]
-Active-HDL Info: acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/converters.vhd
-Active-HDL Warning: # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+Active-HDL Info: # File: D:/DE2/CombVsReg/simulation/activehdl/top_level/src/top_level.vho
+Active-HDL Info: # Compile Entity "top_level"
+Active-HDL Info: # Compile Architecture "structure" of Entity "top_level"
 Active-HDL Info: # File: D:/DE2/CombVsReg/src/converters.vhd
 Active-HDL Info: # Compile Package "converters"
 Active-HDL Info: # Compile Package Body "converters"
-Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
-Active-HDL Info: acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
-Active-HDL Warning: # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 Active-HDL Info: # File: D:/DE2/CombVsReg/src/top_level_tb.vhd
 Active-HDL Info: # Compile Entity "top_level_tb"
 Active-HDL Info: # Compile Architecture "rtl" of Entity "top_level_tb"
-Active-HDL Error: # Error: COMP96_0015: ../../../../src/top_level_tb.vhd : (19, 1): ';' expected.
-Active-HDL Error: # Error: COMP96_0019: ../../../../src/top_level_tb.vhd : (21, 14): Keyword 'map' expected.
-Active-HDL Info: # Compile failure 2 Errors 0 Warnings  Analysis time :  1.0 [s]
-Active-HDL Info: acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
-Active-HDL Warning: # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-Active-HDL Info: # File: D:/DE2/CombVsReg/src/top_level_tb.vhd
-Active-HDL Info: # Compile Entity "top_level_tb"
-Active-HDL Info: # Compile Architecture "rtl" of Entity "top_level_tb"
-Active-HDL Error: # Error: COMP96_0015: ../../../../src/top_level_tb.vhd : (19, 1): ';' expected.
-Active-HDL Info: # Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
-Active-HDL Info: acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
-Active-HDL Warning: # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-Active-HDL Info: # File: D:/DE2/CombVsReg/src/top_level_tb.vhd
-Active-HDL Info: # Compile Entity "top_level_tb"
-Active-HDL Info: # Compile Architecture "rtl" of Entity "top_level_tb"
-Active-HDL Error: # Error: COMP96_0078: ../../../../src/top_level_tb.vhd : (33, 13): Unknown identifier "SW".
-Active-HDL Error: # Error: COMP96_0133: ../../../../src/top_level_tb.vhd : (33, 13): Cannot find object declaration.
-Active-HDL Error: # Error: COMP96_0078: ../../../../src/top_level_tb.vhd : (34, 13): Unknown identifier "SW".
-Active-HDL Error: # Error: COMP96_0133: ../../../../src/top_level_tb.vhd : (34, 13): Cannot find object declaration.
-Active-HDL Info: # Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
-Error: Encountered an error while running Active-HDL Simulation software 
-Error: NativeLink simulation flow was NOT successful
-
-
-
-================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
-Nativelink TCL script failed with errorCode:  CHILDKILLED 13812 {unknown signal} {unknown signal}
-Nativelink TCL script failed with errorInfo:  child killed: unknown signal
-    while executing
-"close $pipe_id"
-    invoked from within
-"if [catch {close $pipe_id} errstream ] {
-				set savedCode $::errorCode
-				set savedInfo $::errorInfo
-				if { [regexp {CHILDSTATUS ([1-9]+) ([1-9]+)..."
-    invoked from within
-"if [ catch {eval gen_activehdl_script args_hash} sim_do_file_name] {
-
-		# when exception is thrown, sim_do_file_name contains the error msg (otherwise..."
-    (procedure "launch_sim" line 20)
-    invoked from within
-"launch_sim launch_args_hash"
-    ("eval" body line 1)
-    invoked from within
-"eval launch_sim launch_args_hash"
-    invoked from within
-"if [ info exists ::errorCode ] {
-				set savedCode $::errorCode
-				set savedInfo $::errorInfo
-				error $result $savedInfo $savedCode
-			} else {
-			..."
-    invoked from within
-"if [catch {eval launch_sim launch_args_hash} result ] {
-			set status 1
-			if [ info exists ::errorCode ] {
-				set savedCode $::errorCode
-				set sav..."
-    (procedure "run_sim" line 78)
-    invoked from within
-"run_sim run_sim_args_hash"
-    invoked from within
-"if [ info exists ::errorCode ] {
-			set savedCode $::errorCode
-			set savedInfo $::errorInfo
-			error "$result" $savedInfo $savedCode
-		} else {
-			er..."
-    (procedure "run_eda_simulation_tool" line 330)
-    invoked from within
-"run_eda_simulation_tool eda_opts_hash"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+Active-HDL Info: # ELBREAD: Elaboration process.
+Active-HDL Info: # ELBREAD: Elaboration time 0.0 [s].
+Active-HDL Info: addfile -do {D:\DE2\CombVsReg\simulation\activehdl\top_level\src\macro\compile.do}
+Active-HDL Info: # Adding file D:\DE2\CombVsReg\simulation\activehdl\top_level\src\macro\compile.do ... Done
+Active-HDL Info: addfile -do {D:\DE2\CombVsReg\simulation\activehdl\top_level\src\macro\simulate.do}
+Active-HDL Info: # Adding file D:\DE2\CombVsReg\simulation\activehdl\top_level\src\macro\simulate.do ... Done
+Active-HDL Info: asim -sdftyp /top_level_tb/u0=$dsn/src/top_level_vhd.sdo -O5 +access +r +m+top_level_tb top_level_tb rtl
+Active-HDL Info: # ELBREAD: Elaboration process.
+Active-HDL Info: # ELBREAD: Elaboration time 0.0 [s].
+Active-HDL Info: # VSIM: Stack memory: 32MB
+Active-HDL Info: # VSIM: Retval memory: 32MB
+Active-HDL Info: # KERNEL: Main thread initiated.
+Active-HDL Info: # KERNEL: Kernel process initialization phase.
+Active-HDL Info: # ELAB2: Elaboration final pass...
+Active-HDL Info: # KERNEL: PLI/VHPI kernel's engine initialization done.
+Active-HDL Info: # PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+Active-HDL Info: # VHPI: Loading library 'systf.dll'
+Active-HDL Info: # ELAB2: Create instances ...
+Active-HDL Info: # KERNEL: Time resolution set to 1ps.
+Active-HDL Info: # ELAB2: Create instances complete.
+Active-HDL Info: # SLP: Started
+Active-HDL Info: # SLP: Elaboration phase ...
+Active-HDL Info: # SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+Active-HDL Info: # SLP: Finished : 0.0 [s]
+Active-HDL Info: # ELAB2: Elaboration final pass complete - time: 0.1 [s].
+Active-HDL Warning: # KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+Active-HDL Warning: # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+Active-HDL Info: # SDF: 53 generic(s) read from D:\DE2\CombVsReg\simulation\activehdl\top_level/src/top_level_vhd.sdo
+Active-HDL Info: # SDF: SDF load & update time: 0.0 [s].
+Active-HDL Info: # SDF: 53 SDF entries loaded while 53 entries read
+Active-HDL Info: # KERNEL: Kernel process initialization done.
+Active-HDL Info: # Allocation: Simulator allocated 7759 kB (elbread=1282 elab2=5997 kernel=179 sdf=300)
+Active-HDL Info: # KERNEL: ASDB file was created in location D:\DE2\CombVsReg\simulation\activehdl\top_level\src\wave.asdb
+Active-HDL Info: #  11:13, 27 окт€бр€ 2020 г.
+Active-HDL Info: #  Simulation has been initialized
+Active-HDL Info: # add wave -noreg {/top_level_tb/CLOCK_50_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/c_in_comb_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/a_comb_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/b_comb_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/s_comb_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/c_out_comb_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/c_in_reg_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/a_reg_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/b_reg_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/s_reg_tb}
+Active-HDL Info: # add wave -noreg {/top_level_tb/c_out_reg_tb}
+Active-HDL Info: # 11 signal(s) traced.
+Active-HDL Info: # Waveform file 'untitled.awc' connected to 'D:/DE2/CombVsReg/simulation/activehdl/top_level/src/wave.asdb'.
+Active-HDL Info: # WAVEFORM: 5 signal(s) removed.
+Active-HDL Info: # WAVEFORM: 5 signal(s) removed.
+Active-HDL Info: run
+Active-HDL Info: # EXECUTION:: WARNING: Test: OK
+Active-HDL Info: # EXECUTION:: Time: 360 ns,  Iteration: 0,  Instance: /top_level_tb,  Process: sim.
+Active-HDL Info: # RUNTIME: Info: RUNTIME_0142 top_level_tb.vhd (60): finish called.
+Active-HDL Info: # KERNEL: Time: 360 ns,  Iteration: 0,  Instance: /top_level_tb,  Process: sim.
+Active-HDL Info: # KERNEL: stopped at time: 360 ns
+Active-HDL Info: # VSIM: Simulation has finished. There are no more test vectors to simulate.
+Active-HDL Info: endsim
+Active-HDL Info: # VSIM: Simulation has finished.
+Info: NativeLink simulation flow was successful

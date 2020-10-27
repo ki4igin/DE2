@@ -1,1 +1,0 @@
- -w -cvi  -2008  -s "D:/DE2/CombVsReg/simulation/activehdl/top_level/hdl_assist/library.cfg"  -work top_level  -e 100  "D:/DE2/CombVsReg/simulation/activehdl/top_level/hdl_assist/72c1-cffd-cfe6-f6f7"

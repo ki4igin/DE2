@@ -27,69 +27,34 @@ ChangeSDFErrorToWarning=0
 EnableSDFErrorLimit=0
 SDFErrorLimit=0
 
-[Folders]
-Name0=Event Lists
-Directory0=D:\DE2\CombVsReg\simulation\activehdl\top_level\
-Extension0=lst
-Name1=Logs
-Directory1=D:\DE2\CombVsReg\simulation\activehdl\top_level\
-Extension1=log;htm;xml;txt
-Name2=Waveforms
-Directory2=D:\DE2\CombVsReg\simulation\activehdl\top_level\
-Extension2=asdb;awc;asdbc;asdbe
-Name3=Makefiles
-Directory3=D:\DE2\CombVsReg\simulation\activehdl\top_level\
-Extension3=mak
-Name4=Memory
-Directory4=D:\DE2\CombVsReg\simulation\activehdl\top_level\
-Extension4=mem;mif;hex
-Name5=Dll Libraries
-Directory5=D:\DE2\CombVsReg\simulation\activehdl\top_level\
-Extension5=dll
-Name6=PDF
-Directory6=D:\DE2\CombVsReg\simulation\activehdl\top_level\
-Extension6=pdf
-Name7=HTML
-Directory7=D:\DE2\CombVsReg\simulation\activehdl\top_level\
-Extension7=htm;html
-
-[SpecTracer]
-WindowVisible=0
-
 [sdf.ea.top_level-structure]
 0=src\top_level_vhd.sdo| /top_level, Average, No
+
+[sdf.ea.top_level_tb-rtl]
+0=src\top_level_vhd.sdo| /top_level_tb/u0, Average, Yes
+
+[Groups]
+macro=1
 
 [Files]
 /top_level.vho=-1
 /top_level_vhd.sdo=-1
-/..\..\..\..\src\top_level_tb.vhd=-1
 /..\..\..\..\src\converters.vhd=-1
+/..\..\..\..\src\top_level_tb.vhd=-1
+macro/compile.do=-1
+macro/simulate.do=-1
 
 [Files.Data]
 .\src\top_level.vho=VHDL Source Code
 .\src\top_level_vhd.sdo=SDF File
-.\..\..\..\src\top_level_tb.vhd=VHDL Source Code
 .\..\..\..\src\converters.vhd=VHDL Source Code
+.\..\..\..\src\top_level_tb.vhd=VHDL Source Code
 
-[sdf.ea.top_level_tb-rtl]
-0=src\top_level_vhd.sdo| /top_level_tb/u0, Average, Yes
-[CoverageProfiler]
-SelectedTool=None
-[AcdbCoverageStatement]
-Enabled=1
-[AcdbCoverageBranch]
-Enabled=1
-[AcdbCoverageExpression]
-Enabled=1
-[AcdbCoverageCondition]
-Enabled=1
-[AcdbCoverageAssertion]
-Enabled=1
-[AcdbCoverageToggle]
-Enabled=1
-[AcdbCoverageFsm]
-Enabled=1
-[AcdbCoveragePath]
-Enabled=1
-[AcdbCoverage]
-OutputFile=$dsn/coverage.acdb
+.\src\macro\compile.do=Macro
+.\src\macro\simulate.do=Macro
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=top_level|structure|0 top_level_tb|rtl|0 
+ShowHide=ShowTopLevel
+Selected=

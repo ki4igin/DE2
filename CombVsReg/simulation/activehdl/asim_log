@@ -2,7 +2,7 @@ createdesign top_level D:/DE2/CombVsReg/simulation/activehdl
 # Design top_level created
 opendesign -a top_level.adf
 # Design: Creating new workspace file: "D:\DE2\CombVsReg\simulation\activehdl\top_level\top_level.aws"
-# Design: 0:03, 27 окт€бр€ 2020 г.
+# Design: 11:05, 27 окт€бр€ 2020 г.
 # Design: Opening design "D:\DE2\CombVsReg\simulation\activehdl\top_level\top_level.adf"
 # Design Explorer: Shortcut to "D:\DE2\CombVsReg\simulation\activehdl\top_level\top_level.aws" workspace added.
 waveformmode ASDB
@@ -79,12 +79,11 @@ acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cyclon
 # Compile Architecture "behave" of Entity "cycloneii_ena_reg"
 # Compile Entity "cycloneii_clkctrl"
 # Compile Architecture "vital_clkctrl" of Entity "cycloneii_clkctrl"
-# Compile success 0 Errors 5 Warnings  Analysis time :  2.0 [s]
+# Compile success 0 Errors 5 Warnings  Analysis time :  1.0 [s]
 acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
 # File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
-# Design: Design "top_level" has been set as active.
 # Compile Package "cycloneii_components"
-# Compile success 0 Errors 0 Warnings  Analysis time :  23.0 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 addfile -c -auto D:/DE2/CombVsReg/simulation/activehdl/top_level.vho
 # Adding file D:\DE2\CombVsReg\simulation\activehdl\top_level.vho ... Done
 addfile -c -auto D:/DE2/CombVsReg/simulation/activehdl/top_level_vhd.sdo
@@ -96,46 +95,77 @@ acom -reorder -O3 -e 100 -work top_level -2008  $dsn/src/top_level.vho
 # Compile Architecture "structure" of Entity "top_level"
 # Top-level unit(s) detected:
 # Entity => top_level
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
+acom -O3 -e 100 -work top_level -2008  $dsn/src/top_level.vho $dsn/../../../src/converters.vhd $dsn/../../../src/top_level_tb.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/DE2/CombVsReg/src/top_level_tb.vhd
-# Compile Entity "top_level_tb"
-# Error: COMP96_0078: ../../../../src/top_level_tb.vhd : (5, 5): Unknown identifier "converters".
-# Compile Architecture "rtl" of Entity "top_level_tb"
-# Error: COMP96_0015: ../../../../src/top_level_tb.vhd : (19, 1): ';' expected.
-# Error: COMP96_0019: ../../../../src/top_level_tb.vhd : (21, 14): Keyword 'map' expected.
-# Compile failure 3 Errors 0 Warnings  Analysis time :  0.6 [s]
-acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/converters.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/CombVsReg/simulation/activehdl/top_level/src/top_level.vho
+# Compile Entity "top_level"
+# Compile Architecture "structure" of Entity "top_level"
 # File: D:/DE2/CombVsReg/src/converters.vhd
 # Compile Package "converters"
 # Compile Package Body "converters"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.7 [s]
-acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: D:/DE2/CombVsReg/src/top_level_tb.vhd
 # Compile Entity "top_level_tb"
 # Compile Architecture "rtl" of Entity "top_level_tb"
-# Error: COMP96_0015: ../../../../src/top_level_tb.vhd : (19, 1): ';' expected.
-# Error: COMP96_0019: ../../../../src/top_level_tb.vhd : (21, 14): Keyword 'map' expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  1.0 [s]
-acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/DE2/CombVsReg/src/top_level_tb.vhd
-# Compile Entity "top_level_tb"
-# Compile Architecture "rtl" of Entity "top_level_tb"
-# Error: COMP96_0015: ../../../../src/top_level_tb.vhd : (19, 1): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
-acom -O3 -e 100 -work top_level -2008  $dsn/../../../src/top_level_tb.vhd
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: D:/DE2/CombVsReg/src/top_level_tb.vhd
-# Compile Entity "top_level_tb"
-# Compile Architecture "rtl" of Entity "top_level_tb"
-# Error: COMP96_0078: ../../../../src/top_level_tb.vhd : (33, 13): Unknown identifier "SW".
-# Error: COMP96_0133: ../../../../src/top_level_tb.vhd : (33, 13): Cannot find object declaration.
-# Error: COMP96_0078: ../../../../src/top_level_tb.vhd : (34, 13): Unknown identifier "SW".
-# Error: COMP96_0133: ../../../../src/top_level_tb.vhd : (34, 13): Cannot find object declaration.
-# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+addfile -do {D:\DE2\CombVsReg\simulation\activehdl\top_level\src\macro\compile.do}
+# Adding file D:\DE2\CombVsReg\simulation\activehdl\top_level\src\macro\compile.do ... Done
+addfile -do {D:\DE2\CombVsReg\simulation\activehdl\top_level\src\macro\simulate.do}
+# Adding file D:\DE2\CombVsReg\simulation\activehdl\top_level\src\macro\simulate.do ... Done
+asim -sdftyp /top_level_tb/u0=$dsn/src/top_level_vhd.sdo -O5 +access +r +m+top_level_tb top_level_tb rtl
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# SDF: 53 generic(s) read from D:\DE2\CombVsReg\simulation\activehdl\top_level/src/top_level_vhd.sdo
+# SDF: SDF load & update time: 0.0 [s].
+# SDF: 53 SDF entries loaded while 53 entries read
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7759 kB (elbread=1282 elab2=5997 kernel=179 sdf=300)
+# KERNEL: ASDB file was created in location D:\DE2\CombVsReg\simulation\activehdl\top_level\src\wave.asdb
+#  11:13, 27 окт€бр€ 2020 г.
+#  Simulation has been initialized
+# add wave -noreg {/top_level_tb/CLOCK_50_tb}
+# add wave -noreg {/top_level_tb/c_in_comb_tb}
+# add wave -noreg {/top_level_tb/a_comb_tb}
+# add wave -noreg {/top_level_tb/b_comb_tb}
+# add wave -noreg {/top_level_tb/s_comb_tb}
+# add wave -noreg {/top_level_tb/c_out_comb_tb}
+# add wave -noreg {/top_level_tb/c_in_reg_tb}
+# add wave -noreg {/top_level_tb/a_reg_tb}
+# add wave -noreg {/top_level_tb/b_reg_tb}
+# add wave -noreg {/top_level_tb/s_reg_tb}
+# add wave -noreg {/top_level_tb/c_out_reg_tb}
+# 11 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/DE2/CombVsReg/simulation/activehdl/top_level/src/wave.asdb'.
+# WAVEFORM: 5 signal(s) removed.
+# WAVEFORM: 5 signal(s) removed.
+run
+# EXECUTION:: WARNING: Test: OK
+# EXECUTION:: Time: 360 ns,  Iteration: 0,  Instance: /top_level_tb,  Process: sim.
+# RUNTIME: Info: RUNTIME_0142 top_level_tb.vhd (60): finish called.
+# KERNEL: Time: 360 ns,  Iteration: 0,  Instance: /top_level_tb,  Process: sim.
+# KERNEL: stopped at time: 360 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
