@@ -1,0 +1,6 @@
+[Version]
+Version=11.1
+[Designs]
+lr3=lr3.adf
+[Settings]
+Active=lr3

@@ -1,0 +1,1 @@
+-w -erf D:/DE2/lr/simulation/activehdl/lr3/compile/lr3.erf -d D:/DE2/lr/simulation/activehdl/lr3/compile -s D:/DE2/lr/simulation/activehdl/lr3/library.cfg -j D:/DE2/lr/simulation/activehdl/lr3/projlib.cfg -work lr3 -reorder -O3 -e 100 -work lr3 -2008 D:/DE2/lr/simulation/activehdl/lr3/src/lr3.vho D:/DE2/lr/simulation/activehdl/lr3/src/calc_tb.vhd 

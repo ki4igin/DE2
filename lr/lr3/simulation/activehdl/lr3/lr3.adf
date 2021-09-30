@@ -1,0 +1,48 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=lr3
+[Library]
+lr3=.\lr3\lr3.lib
+cycloneii_vhdl=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+cycloneii=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+[$LibMap$]
+lr3=.
+cycloneii_vhdl=.
+cycloneii=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+NoWarningsSDF=0
+ChangeSDFErrorToWarning=0
+EnableSDFErrorLimit=0
+SDFErrorLimit=0
+DisableIEEEWarnings=0
+DisableVitalMsg=0
+VitalAccel=1
+UnboundError=0
+VitalGlitches=0
+[Files]
+/lr3.vho=-1
+/lr3_vhd.sdo=-1
+/calc_tb.vhd=-1
+[Files.Data]
+.\src\lr3.vho=VHDL Source Code
+.\src\lr3_vhd.sdo=SDF File
+.\src\calc_tb.vhd=VHDL Source Code
+[sdf.ea.calc_tb-tb]
+0=src\lr3_vhd.sdo| /calc_tb/rtc1, Average, No
+[sdf.ea.calc-structure]
+0=src\lr3_vhd.sdo| /calc, Average, Yes
+[LoadVHPI]
+Count=0
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=calc|structure|0 calc_tb|tb|0 
+ShowHide=ShowTopLevel
+Selected=

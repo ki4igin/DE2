@@ -1,5 +1,5 @@
 Flow report for qsys_base
-Mon Oct 26 00:07:15 2020
+Fri Nov 13 16:17:09 2020
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Oct 26 00:06:57 2020           ;
+; Flow Status                        ; Successful - Fri Nov 13 16:17:06 2020           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; qsys_base                                       ;
 ; Top-level Entity Name              ; qsys_base                                       ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C35F672C6                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 2,016 / 33,216 ( 6 % )                          ;
-;     Total combinational functions  ; 1,895 / 33,216 ( 6 % )                          ;
+; Total logic elements               ; 2,013 / 33,216 ( 6 % )                          ;
+;     Total combinational functions  ; 1,892 / 33,216 ( 6 % )                          ;
 ;     Dedicated logic registers      ; 1,162 / 33,216 ( 3 % )                          ;
 ; Total registers                    ; 1162                                            ;
 ; Total pins                         ; 53 / 475 ( 11 % )                               ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/26/2020 00:05:57 ;
+; Start date & time ; 11/13/2020 16:16:33 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; qsys_base           ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+--------------------------------------------------------+---------------+---------------------------------+------------+
 ; Assignment Name                     ; Value                                                  ; Default Value ; Entity Name                     ; Section Id ;
 +-------------------------------------+--------------------------------------------------------+---------------+---------------------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 163683357590921.160365995609364                        ; --            ; --                              ; --         ;
+; COMPILER_SIGNATURE_ID               ; 62488682138860.160527339323884                         ; --            ; --                              ; --         ;
 ; IP_TOOL_ENV                         ; Qsys                                                   ; --            ; altera_avalon_sc_fifo           ; --         ;
 ; IP_TOOL_ENV                         ; Qsys                                                   ; --            ; altera_merlin_burst_adapter     ; --         ;
 ; IP_TOOL_ENV                         ; Qsys                                                   ; --            ; altera_merlin_master_agent      ; --         ;
@@ -181,11 +181,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:33     ; 1.0                     ; 4732 MB             ; 00:00:17                           ;
-; Fitter                    ; 00:00:19     ; 1.0                     ; 4908 MB             ; 00:00:14                           ;
-; Assembler                 ; 00:00:06     ; 1.0                     ; 4583 MB             ; 00:00:05                           ;
-; TimeQuest Timing Analyzer ; 00:00:12     ; 1.0                     ; 4577 MB             ; 00:00:04                           ;
-; Total                     ; 00:01:10     ; --                      ; --                  ; 00:00:40                           ;
+; Analysis & Synthesis      ; 00:00:13     ; 1.0                     ; 4730 MB             ; 00:00:13                           ;
+; Fitter                    ; 00:00:13     ; 1.0                     ; 4910 MB             ; 00:00:13                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4578 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4566 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:29     ; --                      ; --                  ; 00:00:29                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -194,10 +194,10 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-86ABG6U  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-86ABG6U  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-86ABG6U  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-86ABG6U  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; ARTEM            ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; ARTEM            ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; ARTEM            ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; ARTEM            ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

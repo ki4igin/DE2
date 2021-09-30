@@ -1,0 +1,394 @@
+acom -reorder -O3 -e 100 -work Counter -2008  $dsn/src/Counter.vho
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/Counter/simulation/activehdl/Counter/src/Counter.vho
+# Compile Entity "counter_top"
+# Compile Architecture "structure" of Entity "counter_top"
+# Top-level unit(s) detected:
+# Entity => counter_top
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+counter_top counter_top structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 8167 kB (elbread=1293 elab2=6549 kernel=324 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\Counter\simulation\activehdl\Counter\src\wave.asdb
+#  13:12, 6 сент€бр€ 2021 г.
+#  Simulation has been initialized
+# add wave -noreg {/counter_top/gnd}
+# add wave -noreg {/counter_top/vcc}
+# add wave -noreg {/counter_top/unknown}
+# add wave -noreg {/counter_top/devoe}
+# add wave -noreg {/counter_top/devclrn}
+# add wave -noreg {/counter_top/devpor}
+# add wave -noreg {/counter_top/ww_devoe}
+# add wave -noreg {/counter_top/ww_devclrn}
+# add wave -noreg {/counter_top/ww_devpor}
+# add wave -noreg {/counter_top/ww_CLOCK_50}
+# add wave -noreg {/counter_top/ww_EXT_CLOCK}
+# add wave -noreg {/counter_top/ww_KEY}
+# add wave -noreg {/counter_top/ww_HEX0}
+# add wave -noreg {/counter_top/ww_HEX1}
+# add wave -noreg {/counter_top/ww_HEX2}
+# add wave -noreg {/counter_top/ww_HEX3}
+# add wave -noreg {/counter_top/ww_HEX4}
+# add wave -noreg {/counter_top/ww_HEX5}
+# add wave -noreg {/counter_top/ww_HEX6}
+# add wave -noreg {/counter_top/ww_HEX7}
+# add wave -noreg {/counter_top/\EXT_CLOCK~clkctrl_INCLK_bus\}
+# add wave -noreg {/counter_top/\EXT_CLOCK~combout\}
+# add wave -noreg {/counter_top/\EXT_CLOCK~clkctrl_outclk\}
+# add wave -noreg {/counter_top/\cnt[0]~93_combout\}
+# add wave -noreg {/counter_top/\cnt[1]~32\}
+# add wave -noreg {/counter_top/\cnt[2]~33_combout\}
+# add wave -noreg {/counter_top/\cnt[1]~31_combout\}
+# add wave -noreg {/counter_top/\cnt[2]~34\}
+# add wave -noreg {/counter_top/\cnt[3]~35_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[3]~36\}
+# add wave -noreg {/counter_top/\cnt[4]~37_combout\}
+# add wave -noreg {/counter_top/\cnt[4]~38\}
+# add wave -noreg {/counter_top/\cnt[5]~40\}
+# add wave -noreg {/counter_top/\cnt[6]~41_combout\}
+# add wave -noreg {/counter_top/\cnt[5]~39_combout\}
+# add wave -noreg {/counter_top/\cnt[6]~42\}
+# add wave -noreg {/counter_top/\cnt[7]~43_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[7]~44\}
+# add wave -noreg {/counter_top/\cnt[8]~45_combout\}
+# add wave -noreg {/counter_top/\cnt[8]~46\}
+# add wave -noreg {/counter_top/\cnt[9]~47_combout\}
+# add wave -noreg {/counter_top/\cnt[9]~48\}
+# add wave -noreg {/counter_top/\cnt[10]~49_combout\}
+# add wave -noreg {/counter_top/\cnt[10]~50\}
+# add wave -noreg {/counter_top/\cnt[11]~51_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[11]~52\}
+# add wave -noreg {/counter_top/\cnt[12]~53_combout\}
+# add wave -noreg {/counter_top/\cnt[12]~54\}
+# add wave -noreg {/counter_top/\cnt[13]~55_combout\}
+# add wave -noreg {/counter_top/\cnt[13]~56\}
+# add wave -noreg {/counter_top/\cnt[14]~57_combout\}
+# add wave -noreg {/counter_top/\cnt[14]~58\}
+# add wave -noreg {/counter_top/\cnt[15]~59_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[15]~60\}
+# add wave -noreg {/counter_top/\cnt[16]~61_combout\}
+# add wave -noreg {/counter_top/\cnt[16]~62\}
+# add wave -noreg {/counter_top/\cnt[17]~63_combout\}
+# add wave -noreg {/counter_top/\cnt[17]~64\}
+# add wave -noreg {/counter_top/\cnt[18]~65_combout\}
+# add wave -noreg {/counter_top/\cnt[18]~66\}
+# add wave -noreg {/counter_top/\cnt[19]~67_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[19]~68\}
+# add wave -noreg {/counter_top/\cnt[20]~69_combout\}
+# add wave -noreg {/counter_top/\cnt[20]~70\}
+# add wave -noreg {/counter_top/\cnt[21]~72\}
+# add wave -noreg {/counter_top/\cnt[22]~73_combout\}
+# add wave -noreg {/counter_top/\cnt[21]~71_combout\}
+# add wave -noreg {/counter_top/\cnt[22]~74\}
+# add wave -noreg {/counter_top/\cnt[23]~75_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[23]~76\}
+# add wave -noreg {/counter_top/\cnt[24]~78\}
+# add wave -noreg {/counter_top/\cnt[25]~79_combout\}
+# add wave -noreg {/counter_top/\cnt[25]~80\}
+# add wave -noreg {/counter_top/\cnt[26]~82\}
+# add wave -noreg {/counter_top/\cnt[27]~83_combout\}
+# add wave -noreg {/counter_top/\cnt[24]~77_combout\}
+# add wave -noreg {/counter_top/\cnt[26]~81_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[27]~84\}
+# add wave -noreg {/counter_top/\cnt[28]~85_combout\}
+# add wave -noreg {/counter_top/\cnt[28]~86\}
+# add wave -noreg {/counter_top/\cnt[29]~87_combout\}
+# add wave -noreg {/counter_top/\cnt[29]~88\}
+# add wave -noreg {/counter_top/\cnt[30]~89_combout\}
+# add wave -noreg {/counter_top/\cnt[30]~90\}
+# add wave -noreg {/counter_top/\cnt[31]~91_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/cnt}
+# add wave -noreg {/counter_top/\KEY~combout\}
+# add wave -noreg {/counter_top/\ALT_INV_KEY~combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/CLOCK_50}
+# add wave -noreg {/counter_top/EXT_CLOCK}
+# add wave -noreg {/counter_top/KEY}
+# add wave -noreg {/counter_top/HEX0}
+# add wave -noreg {/counter_top/HEX1}
+# add wave -noreg {/counter_top/HEX2}
+# add wave -noreg {/counter_top/HEX3}
+# add wave -noreg {/counter_top/HEX4}
+# add wave -noreg {/counter_top/HEX5}
+# add wave -noreg {/counter_top/HEX6}
+# add wave -noreg {/counter_top/HEX7}
+# 163 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/DE2/Counter/simulation/activehdl/Counter/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+counter_top counter_top structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 8167 kB (elbread=1293 elab2=6549 kernel=324 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\Counter\simulation\activehdl\Counter\src\wave.asdb
+#  13:13, 6 сент€бр€ 2021 г.
+#  Simulation has been initialized
+# add wave -noreg {/counter_top/gnd}
+# add wave -noreg {/counter_top/vcc}
+# add wave -noreg {/counter_top/unknown}
+# add wave -noreg {/counter_top/devoe}
+# add wave -noreg {/counter_top/devclrn}
+# add wave -noreg {/counter_top/devpor}
+# add wave -noreg {/counter_top/ww_devoe}
+# add wave -noreg {/counter_top/ww_devclrn}
+# add wave -noreg {/counter_top/ww_devpor}
+# add wave -noreg {/counter_top/ww_CLOCK_50}
+# add wave -noreg {/counter_top/ww_EXT_CLOCK}
+# add wave -noreg {/counter_top/ww_KEY}
+# add wave -noreg {/counter_top/ww_HEX0}
+# add wave -noreg {/counter_top/ww_HEX1}
+# add wave -noreg {/counter_top/ww_HEX2}
+# add wave -noreg {/counter_top/ww_HEX3}
+# add wave -noreg {/counter_top/ww_HEX4}
+# add wave -noreg {/counter_top/ww_HEX5}
+# add wave -noreg {/counter_top/ww_HEX6}
+# add wave -noreg {/counter_top/ww_HEX7}
+# add wave -noreg {/counter_top/\EXT_CLOCK~clkctrl_INCLK_bus\}
+# add wave -noreg {/counter_top/\EXT_CLOCK~combout\}
+# add wave -noreg {/counter_top/\EXT_CLOCK~clkctrl_outclk\}
+# add wave -noreg {/counter_top/\cnt[0]~93_combout\}
+# add wave -noreg {/counter_top/\cnt[1]~32\}
+# add wave -noreg {/counter_top/\cnt[2]~33_combout\}
+# add wave -noreg {/counter_top/\cnt[1]~31_combout\}
+# add wave -noreg {/counter_top/\cnt[2]~34\}
+# add wave -noreg {/counter_top/\cnt[3]~35_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[3]~36\}
+# add wave -noreg {/counter_top/\cnt[4]~37_combout\}
+# add wave -noreg {/counter_top/\cnt[4]~38\}
+# add wave -noreg {/counter_top/\cnt[5]~40\}
+# add wave -noreg {/counter_top/\cnt[6]~41_combout\}
+# add wave -noreg {/counter_top/\cnt[5]~39_combout\}
+# add wave -noreg {/counter_top/\cnt[6]~42\}
+# add wave -noreg {/counter_top/\cnt[7]~43_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[7]~44\}
+# add wave -noreg {/counter_top/\cnt[8]~45_combout\}
+# add wave -noreg {/counter_top/\cnt[8]~46\}
+# add wave -noreg {/counter_top/\cnt[9]~47_combout\}
+# add wave -noreg {/counter_top/\cnt[9]~48\}
+# add wave -noreg {/counter_top/\cnt[10]~49_combout\}
+# add wave -noreg {/counter_top/\cnt[10]~50\}
+# add wave -noreg {/counter_top/\cnt[11]~51_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[11]~52\}
+# add wave -noreg {/counter_top/\cnt[12]~53_combout\}
+# add wave -noreg {/counter_top/\cnt[12]~54\}
+# add wave -noreg {/counter_top/\cnt[13]~55_combout\}
+# add wave -noreg {/counter_top/\cnt[13]~56\}
+# add wave -noreg {/counter_top/\cnt[14]~57_combout\}
+# add wave -noreg {/counter_top/\cnt[14]~58\}
+# add wave -noreg {/counter_top/\cnt[15]~59_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[15]~60\}
+# add wave -noreg {/counter_top/\cnt[16]~61_combout\}
+# add wave -noreg {/counter_top/\cnt[16]~62\}
+# add wave -noreg {/counter_top/\cnt[17]~63_combout\}
+# add wave -noreg {/counter_top/\cnt[17]~64\}
+# add wave -noreg {/counter_top/\cnt[18]~65_combout\}
+# add wave -noreg {/counter_top/\cnt[18]~66\}
+# add wave -noreg {/counter_top/\cnt[19]~67_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[19]~68\}
+# add wave -noreg {/counter_top/\cnt[20]~69_combout\}
+# add wave -noreg {/counter_top/\cnt[20]~70\}
+# add wave -noreg {/counter_top/\cnt[21]~72\}
+# add wave -noreg {/counter_top/\cnt[22]~73_combout\}
+# add wave -noreg {/counter_top/\cnt[21]~71_combout\}
+# add wave -noreg {/counter_top/\cnt[22]~74\}
+# add wave -noreg {/counter_top/\cnt[23]~75_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[23]~76\}
+# add wave -noreg {/counter_top/\cnt[24]~78\}
+# add wave -noreg {/counter_top/\cnt[25]~79_combout\}
+# add wave -noreg {/counter_top/\cnt[25]~80\}
+# add wave -noreg {/counter_top/\cnt[26]~82\}
+# add wave -noreg {/counter_top/\cnt[27]~83_combout\}
+# add wave -noreg {/counter_top/\cnt[24]~77_combout\}
+# add wave -noreg {/counter_top/\cnt[26]~81_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\cnt[27]~84\}
+# add wave -noreg {/counter_top/\cnt[28]~85_combout\}
+# add wave -noreg {/counter_top/\cnt[28]~86\}
+# add wave -noreg {/counter_top/\cnt[29]~87_combout\}
+# add wave -noreg {/counter_top/\cnt[29]~88\}
+# add wave -noreg {/counter_top/\cnt[30]~89_combout\}
+# add wave -noreg {/counter_top/\cnt[30]~90\}
+# add wave -noreg {/counter_top/\cnt[31]~91_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr6~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr5~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr4~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr3~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr2~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr1~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|WideOr0~0_combout\}
+# add wave -noreg {/counter_top/cnt}
+# add wave -noreg {/counter_top/\KEY~combout\}
+# add wave -noreg {/counter_top/\ALT_INV_KEY~combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u7|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u6|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u5|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u4|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u3|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u2|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u1|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/\seg7_lut|u0|ALT_INV_WideOr0~0_combout\}
+# add wave -noreg {/counter_top/CLOCK_50}
+# add wave -noreg {/counter_top/EXT_CLOCK}
+# add wave -noreg {/counter_top/KEY}
+# add wave -noreg {/counter_top/HEX0}
+# add wave -noreg {/counter_top/HEX1}
+# add wave -noreg {/counter_top/HEX2}
+# add wave -noreg {/counter_top/HEX3}
+# add wave -noreg {/counter_top/HEX4}
+# add wave -noreg {/counter_top/HEX5}
+# add wave -noreg {/counter_top/HEX6}
+# add wave -noreg {/counter_top/HEX7}
+# 163 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/DE2/Counter/simulation/activehdl/Counter/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/counter_top/KEY' has already been traced.
+# 0 signal(s) traced.

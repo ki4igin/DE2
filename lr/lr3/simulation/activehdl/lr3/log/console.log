@@ -1,0 +1,1017 @@
+waveformmode ASDB
+alib  vhdl_libs/cycloneii_vhdl
+# Library Manager: Library "cycloneii_vhdl" attached.
+amap cycloneii vhdl_libs/cycloneii_vhdl
+# Library Manager: Library "cycloneii" attached.
+acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+# File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+# Compile Package "cycloneii_atom_pack"
+# Compile Package Body "cycloneii_atom_pack"
+# Compile Package "cycloneii_pllpack"
+# Compile Package Body "cycloneii_pllpack"
+# Compile Entity "cycloneii_dffe"
+# Compile Architecture "behave" of Entity "cycloneii_dffe"
+# Compile Entity "cycloneii_mux21"
+# Compile Architecture "AltVITAL" of Entity "cycloneii_mux21"
+# Compile Entity "cycloneii_mux41"
+# Compile Architecture "AltVITAL" of Entity "cycloneii_mux41"
+# Compile Entity "cycloneii_and1"
+# Compile Architecture "AltVITAL" of Entity "cycloneii_and1"
+# Compile Entity "cycloneii_ram_register"
+# Compile Architecture "reg_arch" of Entity "cycloneii_ram_register"
+# Compile Entity "cycloneii_ram_pulse_generator"
+# Compile Architecture "pgen_arch" of Entity "cycloneii_ram_pulse_generator"
+# Compile Entity "cycloneii_ram_block"
+# Compile Architecture "block_arch" of Entity "cycloneii_ram_block"
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2544, 0): Non resolved signal "mem_invalidate" may have multiple sources.
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2546, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2552, 0): Non resolved signal "mem_invalidate_loc" may have multiple sources.
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2553, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+# Compile Entity "cycloneii_jtag"
+# Compile Architecture "architecture_jtag" of Entity "cycloneii_jtag"
+# Compile Entity "cycloneii_crcblock"
+# Compile Architecture "architecture_crcblock" of Entity "cycloneii_crcblock"
+# Compile Entity "cycloneii_asmiblock"
+# Compile Architecture "architecture_asmiblock" of Entity "cycloneii_asmiblock"
+# Warning: DAGGEN_0002: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2701, 0): Process has no effect - no sequential statements.
+# Compile Entity "cycloneii_m_cntr"
+# Compile Architecture "behave" of Entity "cycloneii_m_cntr"
+# Compile Entity "cycloneii_n_cntr"
+# Compile Architecture "behave" of Entity "cycloneii_n_cntr"
+# Compile Entity "cycloneii_scale_cntr"
+# Compile Architecture "behave" of Entity "cycloneii_scale_cntr"
+# Compile Entity "cycloneii_pll_reg"
+# Compile Architecture "behave" of Entity "cycloneii_pll_reg"
+# Compile Entity "cycloneii_pll"
+# Compile Architecture "vital_pll" of Entity "cycloneii_pll"
+# Compile Entity "cycloneii_routing_wire"
+# Compile Architecture "behave" of Entity "cycloneii_routing_wire"
+# Compile Entity "cycloneii_lcell_ff"
+# Compile Architecture "vital_lcell_ff" of Entity "cycloneii_lcell_ff"
+# Compile Entity "cycloneii_lcell_comb"
+# Compile Architecture "vital_lcell_comb" of Entity "cycloneii_lcell_comb"
+# Compile Entity "cycloneii_asynch_io"
+# Compile Architecture "behave" of Entity "cycloneii_asynch_io"
+# Compile Entity "cycloneii_io"
+# Compile Architecture "structure" of Entity "cycloneii_io"
+# Compile Entity "cycloneii_clk_delay_ctrl"
+# Compile Architecture "vital_clk_delay_ctrl" of Entity "cycloneii_clk_delay_ctrl"
+# Compile Entity "cycloneii_clk_delay_cal_ctrl"
+# Compile Architecture "vital_clk_delay_cal_ctrl" of Entity "cycloneii_clk_delay_cal_ctrl"
+# Compile Entity "cycloneii_mac_data_reg"
+# Compile Architecture "vital_cycloneii_mac_data_reg" of Entity "cycloneii_mac_data_reg"
+# Compile Entity "cycloneii_mac_sign_reg"
+# Compile Architecture "cycloneii_mac_sign_reg" of Entity "cycloneii_mac_sign_reg"
+# Compile Entity "cycloneii_mac_mult_internal"
+# Compile Architecture "vital_cycloneii_mac_mult_internal" of Entity "cycloneii_mac_mult_internal"
+# Compile Entity "cycloneii_mac_mult"
+# Compile Architecture "vital_cycloneii_mac_mult" of Entity "cycloneii_mac_mult"
+# Compile Entity "cycloneii_mac_out"
+# Compile Architecture "vital_cycloneii_mac_out" of Entity "cycloneii_mac_out"
+# Compile Entity "cycloneii_ena_reg"
+# Compile Architecture "behave" of Entity "cycloneii_ena_reg"
+# Compile Entity "cycloneii_clkctrl"
+# Compile Architecture "vital_clkctrl" of Entity "cycloneii_clkctrl"
+# Compile success 0 Errors 5 Warnings  Analysis time :  0.9 [s]
+acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+# File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+# Compile Package "cycloneii_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+
+addfile -c -auto D:/DE2/lr/simulation/activehdl/lr3.vho
+# Adding file D:\DE2\lr\simulation\activehdl\lr3.vho ... Done
+
+addfile -c -auto D:/DE2/lr/simulation/activehdl/lr3_vhd.sdo
+# Adding file D:\DE2\lr\simulation\activehdl\lr3_vhd.sdo ... Done
+addfile -c -auto D:/DE2/lr/tb/calc_tb.vhd
+# Adding file D:\DE2\lr\tb\calc_tb.vhd ... Done
+comp -reorder
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/lr/simulation/activehdl/lr3/src/lr3.vho
+# Compile Entity "calc"
+# Compile Architecture "structure" of Entity "calc"
+# File: D:/DE2/lr/simulation/activehdl/lr3/src/calc_tb.vhd
+# Compile Entity "calc_tb"
+# Compile Architecture "tb" of Entity "calc_tb"
+# Top-level unit(s) detected:
+# Entity => calc_tb
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+
+asim +access +r -t 1ps +transport_int_delays +transport_path_delays -sdftyp /NA=lr3_vhd.sdo -L lr3 -L work -L cycloneii  calc_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library work.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SDF: Error: lr3_vhd.sdo(39): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[1]~2\ not found
+# SDF: Error: lr3_vhd.sdo(40): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[1]~2\ not found
+# SDF: Error: lr3_vhd.sdo(41): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[1]~2\ not found
+# SDF: Error: lr3_vhd.sdo(42): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[1]~2\ not found
+# SDF: Error: lr3_vhd.sdo(43): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[1]~2\ not found
+# SDF: Error: lr3_vhd.sdo(44): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[1]~2\ not found
+# SDF: Error: lr3_vhd.sdo(45): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[1]~2\ not found
+# SDF: Error: lr3_vhd.sdo(46): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[1]~2\ not found
+# SDF: Error: lr3_vhd.sdo(47): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[1]~2\ not found
+# SDF: Error: lr3_vhd.sdo(56): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[2]~4\ not found
+# SDF: Error: lr3_vhd.sdo(57): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[2]~4\ not found
+# SDF: Error: lr3_vhd.sdo(58): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[2]~4\ not found
+# SDF: Error: lr3_vhd.sdo(59): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[2]~4\ not found
+# SDF: Error: lr3_vhd.sdo(60): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[2]~4\ not found
+# SDF: Error: lr3_vhd.sdo(61): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[2]~4\ not found
+# SDF: Error: lr3_vhd.sdo(62): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[2]~4\ not found
+# SDF: Error: lr3_vhd.sdo(63): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[2]~4\ not found
+# SDF: Error: lr3_vhd.sdo(64): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[2]~4\ not found
+# SDF: Error: lr3_vhd.sdo(73): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[4]~8\ not found
+# SDF: Error: lr3_vhd.sdo(74): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[4]~8\ not found
+# SDF: Error: lr3_vhd.sdo(75): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[4]~8\ not found
+# SDF: Error: lr3_vhd.sdo(76): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[4]~8\ not found
+# SDF: Error: lr3_vhd.sdo(77): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[4]~8\ not found
+# SDF: Error: lr3_vhd.sdo(78): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[4]~8\ not found
+# SDF: Error: lr3_vhd.sdo(79): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[4]~8\ not found
+# SDF: Error: lr3_vhd.sdo(80): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[4]~8\ not found
+# SDF: Error: lr3_vhd.sdo(81): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|result_int[4]~8\ not found
+# SDF: Error: lr3_vhd.sdo(90): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/datain_a_register not found
+# SDF: Error: lr3_vhd.sdo(94): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/datain_a_register not found
+# SDF: Error: lr3_vhd.sdo(95): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/datain_a_register not found
+# SDF: Error: lr3_vhd.sdo(103): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(104): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(105): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(106): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(107): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(108): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(109): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(110): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(114): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(115): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(123): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/active_port_a not found
+# SDF: Error: lr3_vhd.sdo(132): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/rpgen_a not found
+# SDF: Error: lr3_vhd.sdo(133): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/rpgen_a not found
+# SDF: Error: lr3_vhd.sdo(142): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(143): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(147): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(148): Instance /NA/\table3|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(156): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/datain_a_register not found
+# SDF: Error: lr3_vhd.sdo(160): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/datain_a_register not found
+# SDF: Error: lr3_vhd.sdo(161): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/datain_a_register not found
+# SDF: Error: lr3_vhd.sdo(169): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(170): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(171): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(172): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(173): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(174): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(175): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(176): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(180): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(181): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(189): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/active_port_a not found
+# SDF: Error: lr3_vhd.sdo(198): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/rpgen_a not found
+# SDF: Error: lr3_vhd.sdo(199): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/rpgen_a not found
+# SDF: Error: lr3_vhd.sdo(208): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(209): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(213): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(214): Instance /NA/\table2|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(222): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/datain_a_register not found
+# SDF: Error: lr3_vhd.sdo(226): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/datain_a_register not found
+# SDF: Error: lr3_vhd.sdo(227): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/datain_a_register not found
+# SDF: Error: lr3_vhd.sdo(235): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(236): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(237): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(238): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(239): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(240): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(241): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(242): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(246): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(247): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/addr_a_register not found
+# SDF: Error: lr3_vhd.sdo(255): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/active_port_a not found
+# SDF: Error: lr3_vhd.sdo(264): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/rpgen_a not found
+# SDF: Error: lr3_vhd.sdo(265): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/rpgen_a not found
+# SDF: Error: lr3_vhd.sdo(274): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(275): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(279): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(280): Instance /NA/\table1|altsyncram_component|auto_generated|ram_block1a0\/dataout_a_register not found
+# SDF: Error: lr3_vhd.sdo(288): Instance /NA/\add_sub1|dataa_reg[6]\ not found
+# SDF: Error: lr3_vhd.sdo(289): Instance /NA/\add_sub1|dataa_reg[6]\ not found
+# SDF: Error: lr3_vhd.sdo(290): Instance /NA/\add_sub1|dataa_reg[6]\ not found
+# SDF: Error: lr3_vhd.sdo(294): Instance /NA/\add_sub1|dataa_reg[6]\ not found
+# SDF: Error: lr3_vhd.sdo(302): Instance /NA/\add_sub1|datab_reg[5]\ not found
+# SDF: Error: lr3_vhd.sdo(303): Instance /NA/\add_sub1|datab_reg[5]\ not found
+# SDF: Error: lr3_vhd.sdo(304): Instance /NA/\add_sub1|datab_reg[5]\ not found
+# SDF: Error: lr3_vhd.sdo(308): Instance /NA/\add_sub1|datab_reg[5]\ not found
+# SDF: Error: lr3_vhd.sdo(316): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|_~1\ not found
+# SDF: Error: lr3_vhd.sdo(317): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|_~1\ not found
+# SDF: Error: lr3_vhd.sdo(318): Instance /NA/\add_sub1|addsub_1|LPM_ADD_SUB_component|auto_generated|_~1\ not found
+# SDF: Error: lr3_vhd.sdo(327): Instance /NA/\add_sub1|datab_reg[4]\ not found
+# SDF: Error: lr3_vhd.sdo(328): Instance /NA/\add_sub1|datab_reg[4]\ not found
+# SDF: Error: There were 1156 errors during SDF annotation, to view them all use the +verbose_sdf_annotation switch
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# SDF: 1156 generic(s) read from lr3_vhd.sdo
+# SDF: SDF load & update time: 0.0 [s].
+# SDF: 0 SDF entries loaded while 1156 entries read
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 9879 kB (elbread=1298 elab2=7648 kernel=429 sdf=504)
+# KERNEL: ASDB file was created in location D:\DE2\lr\simulation\activehdl\lr3\src\wave.asdb
+#  19:31, 4 декабря 2020 г.
+#  Simulation has been initialized
+
+wave *
+# 10 signal(s) traced.
+run  
+# Waveform file 'untitled.awc' connected to 'D:/DE2/lr/simulation/activehdl/lr3/src/wave.asdb'.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: Stopped at time 0 ps + 0.
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Cannot find library work.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+calc calc structure
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 9351 kB (elbread=1298 elab2=7624 kernel=428 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\lr\simulation\activehdl\lr3\src\wave.asdb
+#  19:34, 4 декабря 2020 г.
+#  Simulation has been initialized
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+calc_tb calc_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 9375 kB (elbread=1298 elab2=7648 kernel=429 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\lr\simulation\activehdl\lr3\src\wave.asdb
+#  19:35, 4 декабря 2020 г.
+#  Simulation has been initialized
+run
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: Stopped at time 0 ps + 0.
+run
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: Stopped at time 0 ps + 0.
+run
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# RUNTIME: Info: RUNTIME_0142 calc_tb.vhd (65): finish called.
+# KERNEL: Time: 4540 ns,  Iteration: 0,  Instance: /calc_tb,  Process: sim.
+# KERNEL: stopped at time: 4540 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+run
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+calc_tb calc_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 9375 kB (elbread=1298 elab2=7648 kernel=429 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\lr\simulation\activehdl\lr3\src\wave.asdb
+#  19:36, 4 декабря 2020 г.
+#  Simulation has been initialized
+# add wave -noreg {/calc_tb/tb_clock_50}
+# add wave -noreg {/calc_tb/tb_key}
+# add wave -noreg {/calc_tb/tb_sw}
+# add wave -noreg {/calc_tb/tb_ledg}
+# add wave -noreg {/calc_tb/tb_hex2}
+# add wave -noreg {/calc_tb/tb_hex3}
+# add wave -noreg {/calc_tb/tb_hex4}
+# add wave -noreg {/calc_tb/tb_hex5}
+# add wave -noreg {/calc_tb/tb_hex6}
+# add wave -noreg {/calc_tb/tb_hex7}
+# 10 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/DE2/lr/simulation/activehdl/lr3/src/wave.asdb'.
+run
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: Stopped at time 0 ps + 0.
+run
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[2]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: FAILURE: 32-bit argument is too wide for CONV_INTEGER. Use `asim -relax' to allow 32-bit arguments for CONV_INTEGER.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# KERNEL: Stopped at time 0 ps + 0.
+run
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /calc_tb/rtc1/\key[1]~clk_delay_ctrl\,  Process: line__6796.
+# RUNTIME: Info: RUNTIME_0142 calc_tb.vhd (65): finish called.
+# KERNEL: Time: 4540 ns,  Iteration: 0,  Instance: /calc_tb,  Process: sim.
+# KERNEL: stopped at time: 4540 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.

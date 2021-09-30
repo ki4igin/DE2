@@ -1,0 +1,56 @@
+Active-HDL 11.1.262.7351 2020-12-04 19:36:20
+
+Elaboration top modules:
+Architecture                  tb(calc_tb)
+
+
+------------------------------------------------------------------------------------------------------------------------
+Entity                        | Architecture         | Library   | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------
+calc_tb                       | tb                   | lr3       |      | 11.1.262.7351 (Windows) | -O3 -2008
+calc                          | structure            | lr3       |      | 11.1.262.7351 (Windows) | -O3 -2008
+cycloneii_lcell_comb          | vital_lcell_comb     | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_ram_block           | block_arch           | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_lcell_ff            | vital_lcell_ff       | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_io                  | structure            | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_clk_delay_ctrl      | vital_clk_delay_ctrl | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_clkctrl             | vital_clkctrl        | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_ram_register        | reg_arch             | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_ram_pulse_generator | pgen_arch            | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_and1                | AltVITAL             | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_mux21               | AltVITAL             | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_dffe                | behave               | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_asynch_io           | behave               | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_ena_reg             | behave               | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                         | Library   | Info | Compiler Version        | Compilation Options
+------------------------------------------------------------------------------------------------------------------------
+standard                                             | std       |      |                         | <unavailable>
+TEXTIO                                               | std       |      |                         | <unavailable>
+std_logic_1164                                       | ieee      |      |                         | <unavailable>
+ENV                                                  | std       |      |                         | <unavailable>
+NUMERIC_STD                                          | ieee      |      |                         | <unavailable>
+VITAL_Timing                                         | ieee      |      |                         | <unavailable>
+VITAL_Primitives                                     | ieee      |      |                         | <unavailable>
+cycloneii_atom_pack                                  | cycloneii |      |                         | <unavailable>
+cycloneii_components                                 | cycloneii |      |                         | <unavailable>
+std_logic_arith                                      | ieee      |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED                                   | ieee      |      |                         | <unavailable>
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+Library                                              | Comment
+------------------------------------------------------------------------------------------------------------------------
+cycloneii                                            | None
+ieee                                                 | Standard IEEE packages library
+lr3                                                  | None
+std                                                  | Standard VHDL library
+------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+calc_tb calc_tb tb
+
+
+The performance of simulation is reduced. Version Student Edition

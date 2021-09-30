@@ -1,0 +1,48 @@
+Active-HDL 11.1.262.7351 2021-09-06 13:13:54
+
+Elaboration top modules:
+Architecture                  structure(counter_top)
+
+
+-----------------------------------------------------------------------------------------------------------
+Entity               | Architecture     | Library   | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+counter_top          | structure        | counter   |      | 11.1.262.7351 (Windows) | -O3 -2008
+cycloneii_io         | structure        | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_clkctrl    | vital_clkctrl    | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_lcell_comb | vital_lcell_comb | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_lcell_ff   | vital_lcell_ff   | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_mux21      | AltVITAL         | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_dffe       | behave           | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_asynch_io  | behave           | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_ena_reg    | behave           | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_and1       | AltVITAL         | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+VHDL Package                            | Library   | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+standard                                | std       |      |                         | <unavailable>
+TEXTIO                                  | std       |      |                         | <unavailable>
+std_logic_1164                          | ieee      |      |                         | <unavailable>
+VITAL_Timing                            | ieee      |      |                         | <unavailable>
+VITAL_Primitives                        | ieee      |      |                         | <unavailable>
+cycloneii_atom_pack                     | cycloneii |      |                         | <unavailable>
+cycloneii_components                    | cycloneii |      |                         | <unavailable>
+std_logic_arith                         | ieee      |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Library                                 | Comment
+-----------------------------------------------------------------------------------------------------------
+counter                                 | None
+cycloneii                               | None
+ieee                                    | Standard IEEE packages library
+std                                     | Standard VHDL library
+-----------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+counter_top counter_top structure
+
+
+The performance of simulation is reduced. Version Student Edition

@@ -1,0 +1,1 @@
+-w -erf D:/DE2/Counter/simulation/activehdl/Counter/compile/Counter.erf -d D:/DE2/Counter/simulation/activehdl/Counter/compile -s D:/DE2/Counter/simulation/activehdl/Counter/library.cfg -j D:/DE2/Counter/simulation/activehdl/Counter/projlib.cfg -work Counter -reorder -O3 -e 100 -work Counter -2008 D:/DE2/Counter/simulation/activehdl/Counter/src/Counter.vho 

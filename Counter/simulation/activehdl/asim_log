@@ -1,0 +1,90 @@
+createdesign Counter D:/DE2/Counter/simulation/activehdl
+# Design Counter created
+opendesign -a Counter.adf
+# Design: Creating new workspace file: "D:\DE2\Counter\simulation\activehdl\Counter\Counter.aws"
+# Design: 19:15, 11 марта 2021 г.
+# Design: Opening design "D:\DE2\Counter\simulation\activehdl\Counter\Counter.adf"
+# Design Explorer: Shortcut to "D:\DE2\Counter\simulation\activehdl\Counter\Counter.aws" workspace added.
+waveformmode ASDB
+alib  vhdl_libs/cycloneii_vhdl
+# Library Manager: Library "cycloneii_vhdl" attached.
+amap cycloneii vhdl_libs/cycloneii_vhdl
+# Library Manager: Library "cycloneii" attached.
+acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+# File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+# Compile Package "cycloneii_atom_pack"
+# Compile Package Body "cycloneii_atom_pack"
+# Compile Package "cycloneii_pllpack"
+# Compile Package Body "cycloneii_pllpack"
+# Compile Entity "cycloneii_dffe"
+# Compile Architecture "behave" of Entity "cycloneii_dffe"
+# Compile Entity "cycloneii_mux21"
+# Compile Architecture "AltVITAL" of Entity "cycloneii_mux21"
+# Compile Entity "cycloneii_mux41"
+# Compile Architecture "AltVITAL" of Entity "cycloneii_mux41"
+# Compile Entity "cycloneii_and1"
+# Compile Architecture "AltVITAL" of Entity "cycloneii_and1"
+# Compile Entity "cycloneii_ram_register"
+# Compile Architecture "reg_arch" of Entity "cycloneii_ram_register"
+# Compile Entity "cycloneii_ram_pulse_generator"
+# Compile Architecture "pgen_arch" of Entity "cycloneii_ram_pulse_generator"
+# Compile Entity "cycloneii_ram_block"
+# Compile Architecture "block_arch" of Entity "cycloneii_ram_block"
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2544, 0): Non resolved signal "mem_invalidate" may have multiple sources.
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2546, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2552, 0): Non resolved signal "mem_invalidate_loc" may have multiple sources.
+# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2553, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+# Compile Entity "cycloneii_jtag"
+# Compile Architecture "architecture_jtag" of Entity "cycloneii_jtag"
+# Compile Entity "cycloneii_crcblock"
+# Compile Architecture "architecture_crcblock" of Entity "cycloneii_crcblock"
+# Compile Entity "cycloneii_asmiblock"
+# Compile Architecture "architecture_asmiblock" of Entity "cycloneii_asmiblock"
+# Warning: DAGGEN_0002: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2701, 0): Process has no effect - no sequential statements.
+# Compile Entity "cycloneii_m_cntr"
+# Compile Architecture "behave" of Entity "cycloneii_m_cntr"
+# Compile Entity "cycloneii_n_cntr"
+# Compile Architecture "behave" of Entity "cycloneii_n_cntr"
+# Compile Entity "cycloneii_scale_cntr"
+# Compile Architecture "behave" of Entity "cycloneii_scale_cntr"
+# Compile Entity "cycloneii_pll_reg"
+# Compile Architecture "behave" of Entity "cycloneii_pll_reg"
+# Compile Entity "cycloneii_pll"
+# Compile Architecture "vital_pll" of Entity "cycloneii_pll"
+# Compile Entity "cycloneii_routing_wire"
+# Compile Architecture "behave" of Entity "cycloneii_routing_wire"
+# Compile Entity "cycloneii_lcell_ff"
+# Compile Architecture "vital_lcell_ff" of Entity "cycloneii_lcell_ff"
+# Compile Entity "cycloneii_lcell_comb"
+# Compile Architecture "vital_lcell_comb" of Entity "cycloneii_lcell_comb"
+# Compile Entity "cycloneii_asynch_io"
+# Compile Architecture "behave" of Entity "cycloneii_asynch_io"
+# Compile Entity "cycloneii_io"
+# Compile Architecture "structure" of Entity "cycloneii_io"
+# Compile Entity "cycloneii_clk_delay_ctrl"
+# Compile Architecture "vital_clk_delay_ctrl" of Entity "cycloneii_clk_delay_ctrl"
+# Compile Entity "cycloneii_clk_delay_cal_ctrl"
+# Compile Architecture "vital_clk_delay_cal_ctrl" of Entity "cycloneii_clk_delay_cal_ctrl"
+# Compile Entity "cycloneii_mac_data_reg"
+# Compile Architecture "vital_cycloneii_mac_data_reg" of Entity "cycloneii_mac_data_reg"
+# Compile Entity "cycloneii_mac_sign_reg"
+# Compile Architecture "cycloneii_mac_sign_reg" of Entity "cycloneii_mac_sign_reg"
+# Compile Entity "cycloneii_mac_mult_internal"
+# Compile Architecture "vital_cycloneii_mac_mult_internal" of Entity "cycloneii_mac_mult_internal"
+# Compile Entity "cycloneii_mac_mult"
+# Compile Architecture "vital_cycloneii_mac_mult" of Entity "cycloneii_mac_mult"
+# Compile Entity "cycloneii_mac_out"
+# Compile Architecture "vital_cycloneii_mac_out" of Entity "cycloneii_mac_out"
+# Compile Entity "cycloneii_ena_reg"
+# Compile Architecture "behave" of Entity "cycloneii_ena_reg"
+# Compile Entity "cycloneii_clkctrl"
+# Compile Architecture "vital_clkctrl" of Entity "cycloneii_clkctrl"
+# Compile success 0 Errors 5 Warnings  Analysis time :  1.0 [s]
+acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+# File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+# Compile Package "cycloneii_components"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+addfile -c -auto D:/DE2/Counter/simulation/activehdl/Counter.vho
+# Adding file D:\DE2\Counter\simulation\activehdl\Counter.vho ... Done
+addfile -c -auto D:/DE2/Counter/simulation/activehdl/Counter_vhd.sdo
+# Adding file D:\DE2\Counter\simulation\activehdl\Counter_vhd.sdo ... Done

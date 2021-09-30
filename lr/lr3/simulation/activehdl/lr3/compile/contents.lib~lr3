@@ -1,0 +1,5 @@
+1
+~E 1 "../src/lr3.vho" 34 calc
+~A 1 "../src/lr3.vho" 102 structure
+~E 1 "../src/calc_tb.vhd" 6 calc_tb
+~A 1 "../src/calc_tb.vhd" 9 tb
