@@ -1,0 +1,43 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=counter
+
+[Library]
+Counter=.\Counter\Counter.lib
+cycloneii_vhdl=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+cycloneii=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+
+[$LibMap$]
+Counter=.
+cycloneii_vhdl=.
+cycloneii=.
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=counter_top|structure|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[sdf.ea.counter_top-structure]
+0=src\Counter_vhd.sdo| /counter_top, Average, No
+
+[Files]
+/Counter.vho=-1
+/Counter_vhd.sdo=-1
+
+[Files.Data]
+.\src\Counter.vho=VHDL Source Code
+.\src\Counter_vhd.sdo=SDF File
+
