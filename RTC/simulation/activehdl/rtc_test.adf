@@ -1,0 +1,20 @@
+[Library]
+rtc_test=.\rtc_test\rtc_test.LIB
+[$LibMap$]
+rtc_test=.
+[Configurations]
+compile=rtc_test
+[Project]
+version=4
+Current Config=compile
+Current Flow=Generic
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

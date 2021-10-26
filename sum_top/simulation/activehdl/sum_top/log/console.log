@@ -1,0 +1,20 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work sum_top -2008  $dsn/src/sum_top_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sum_top/simulation/activehdl/sum_top/src/sum_top_tb.vhd
+# Compile Entity "sum_top_tb"
+# Compile Architecture "tb" of Entity "sum_top_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -O3 -e 100 -work sum_top -2008  $dsn/src/sum.vhd $dsn/src/sum_top.vhd $dsn/src/sum_top_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sum_top/simulation/activehdl/sum_top/src/sum.vhd
+# Compile Entity "sum"
+# Compile Architecture "rtl" of Entity "sum"
+# File: D:/DE2/sum_top/simulation/activehdl/sum_top/src/sum_top.vhd
+# Compile Entity "sum_top"
+# Compile Architecture "rtl" of Entity "sum_top"
+# File: D:/DE2/sum_top/simulation/activehdl/sum_top/src/sum_top_tb.vhd
+# Compile Entity "sum_top_tb"
+# Compile Architecture "tb" of Entity "sum_top_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]

@@ -3,29 +3,62 @@ Current Flow=Generic
 VCS=0
 version=4
 Current Config=compile
+
 [Configurations]
 compile=rtc_test
+
 [Library]
 rtc_test=.\rtc_test\rtc_test.lib
+altera_vhdl=.\src\vhdl_libs\altera_vhdl\altera_vhdl.lib
+altera=.\src\vhdl_libs\altera_vhdl\altera_vhdl.lib
+lpm_vhdl=.\src\vhdl_libs\lpm_vhdl\lpm_vhdl.lib
+lpm=.\src\vhdl_libs\lpm_vhdl\lpm_vhdl.lib
+sgate_vhdl=.\src\vhdl_libs\sgate_vhdl\sgate_vhdl.lib
+sgate=.\src\vhdl_libs\sgate_vhdl\sgate_vhdl.lib
+altera_mf_vhdl=.\src\vhdl_libs\altera_mf_vhdl\altera_mf_vhdl.lib
+altera_mf=.\src\vhdl_libs\altera_mf_vhdl\altera_mf_vhdl.lib
+altera_lnsim_vhdl=.\src\vhdl_libs\altera_lnsim_vhdl\altera_lnsim_vhdl.lib
+altera_lnsim=.\src\vhdl_libs\altera_lnsim_vhdl\altera_lnsim_vhdl.lib
 cycloneii_vhdl=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
 cycloneii=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+
 [$LibMap$]
 rtc_test=.
+altera_vhdl=.
+altera=.
+lpm_vhdl=.
+lpm=.
+sgate_vhdl=.
+sgate=.
+altera_mf_vhdl=.
+altera_mf=.
+altera_lnsim_vhdl=.
+altera_lnsim=.
 cycloneii_vhdl=.
 cycloneii=.
+
 [Settings]
 FLOW_TYPE=HDL
 LANGUAGE=VHDL
 REFRESH_FLOW=1
+
 [Files]
-/rtc_test.vho=-1
-/rtc_test_vhd.sdo=-1
+/seg7.vhd=-1
+/tools.vhd=-1
+/rtc.vhd=-1
+/rtc_tb.vhd=-1
+/rtc_test.vhd=-1
+
 [Files.Data]
-.\src\rtc_test.vho=VHDL Source Code
-.\src\rtc_test_vhd.sdo=SDF File
+.\src\seg7.vhd=VHDL Source Code
+.\src\tools.vhd=VHDL Source Code
+.\src\rtc.vhd=VHDL Source Code
+.\src\rtc_tb.vhd=VHDL Source Code
+.\src\rtc_test.vhd=VHDL Source Code
+
 [SpecTracer]
 WindowVisible=0
 [HierarchyViewer]
-HierarchyInformation=
+HierarchyInformation=rtc_tb|rtl|0  
 ShowHide=ShowTopLevel
 Selected=

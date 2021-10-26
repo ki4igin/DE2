@@ -1,0 +1,14 @@
+[Version]
+Version=11.1
+[Designs]
+sum_top=sum_top.adf
+[Settings]
+Active=sum_top
+[Expand]
+sum_top=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

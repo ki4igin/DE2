@@ -1,0 +1,1 @@
+-o D:/DE2/RTC/simulation/activehdl/rtc_test/compile -lc D:/DE2/RTC/simulation/activehdl/rtc_test/library.cfg -fl D:/DE2/RTC/simulation/activehdl/rtc_test/projlib.cfg -pli "C:/Aldec/Active-HDL-Student-Edition/bin/systf.dll" -epr D:/DE2/RTC/simulation/activehdl/rtc_test/compile/rtc_test.epr -sv2k5 -dbg -msg 0 -work altera_lnsim c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv 

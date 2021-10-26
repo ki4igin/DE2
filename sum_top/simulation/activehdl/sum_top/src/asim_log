@@ -1,0 +1,17 @@
+# WAVEFORM: 3 signal(s) removed.
+# add wave -noreg {/sum_top_tb/tb_clk}
+# add wave -noreg {/sum_top_tb/tb_rst_n}
+# add wave -noreg {/sum_top_tb/tb_a}
+# add wave -noreg {/sum_top_tb/tb_b}
+# add wave -noreg {/sum_top_tb/tb_c_in}
+# add wave -noreg {/sum_top_tb/tb_s}
+# add wave -noreg {/sum_top_tb/tb_c_out}
+# KERNEL: Warning: KERNEL_0291 Signal '/sum_top_tb/tb_clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/sum_top_tb/tb_rst_n' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/sum_top_tb/tb_a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/sum_top_tb/tb_b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/sum_top_tb/tb_c_in' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/sum_top_tb/tb_s' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/sum_top_tb/tb_c_out' has already been traced.
+# 0 signal(s) traced.
+# ASDB: Info: Writing data to disk. Please wait...

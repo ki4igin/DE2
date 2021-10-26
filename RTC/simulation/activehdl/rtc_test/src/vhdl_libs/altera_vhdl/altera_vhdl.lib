@@ -1,0 +1,528 @@
+timestamp=1634494567002
+
+[~A]
+ModifyID=6
+Version=74
+
+[~MFT]
+0=266|0altera_vhdl.mgf|147157|0
+1=38|1altera_vhdl.mgf|73469|0
+3=38|3altera_vhdl.mgf|44497|0
+
+[alt_bidir_buf]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1758|1*73469
+BinI32/behavior=3*44497
+I=0*146319
+I/behavior=I/BEHAVIOR 0*147157
+M=11|0|ve4|1634494566654|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*145483*0xda473a5b61f9598ed7d387798042cac1a0d4d0a4|0*146193*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566664|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*146525*0xaf9e81f649c4a8a0ebcdc42e4d84a259f0ecf15c|0*147019*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1740
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|d988558db19b1000d6b5f90b945b2748bfc8e62f9c4873f45c9999fbfde9b3bc9de56b08eaad2641f567e6a1c1dfef8b
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f3d90ab5a9bb0a809c3b6a17c4c2d8690
+
+[alt_bidir_diff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1705|1*70906
+BinI32/behavior=3*43708
+I=0*143941
+I/behavior=I/BEHAVIOR 0*144933
+M=11|0|ve4|1634494566626|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*143077*0xaf1828b4f784b9082dfaa7194f0e82ff7dd661e0|0*143814*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566641|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*144148*0xc4fb4b1da0d8f7d6d2d0d9c2ecd7c0b58ae790d1|0*144794*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1686
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|97b235da27926036b20995442085b479bf42fc03731fc0c6ad2a8297514994cfeebd43088ff3b4e9ae604d24cad0f2f5
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fc83f6ca52f062b41a4aac274635b4bce
+
+[alt_dspbuilder_package]
+BinI32/alt_dspbuilder_package=3*452
+E=1*998
+I=0*37741
+I/alt_dspbuilder_package=0*42409
+M=3|0|ve4|1634494564365|c:/altera/13.0sp1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd|0*5796*0x254662606ddee1487fa2d0f56b0f28140428cc1d|0*37601*0xaeff33d0d327e4f66feab22160c8fa0a
+M/alt_dspbuilder_package=4|0|ve4|1634494564443|c:/altera/13.0sp1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd|0*37990*0x69ba85e69678f1b85e56675fb043181378fe10be|0*42244*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd|24
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|39f30a6ba82b9cfbf8728d2ba9286731778cdf82d0b6f0015801744acc02fbee1725f63ce236a99818220036d7021475
+Version/alt_dspbuilder_package=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|39f30a6ba82b9cfbf8728d2ba9286731778cdf82d0b6f0015801744acc02fbee1725f63ce236a99818220036d7021475
+
+[alt_inbuf]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1455|1*53973
+BinI32/behavior=3*40336
+I=0*127986
+I/behavior=I/BEHAVIOR 0*128528
+M=11|0|ve4|1634494566442|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*127388*0x2ab61b93856c95b11cb5e10b7fde05366d5e43d9|0*127864*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566452|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*128188*0x845157f37bb4172bcb1159e5a1d5466e7fe1e356|0*128394*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1443
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|31ac415be30461c8a5ab41113eaf0bc8d11a51508dfe70bf9efaf19ddf0be0fd06dd98e0daaad6c6b5587b74a4c434c7
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f01d10693661bffe2d0ba9427693e3ca4
+
+[alt_inbuf_diff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1558|1*62240
+BinI32/behavior=3*41576
+I=0*135435
+I/behavior=I/BEHAVIOR 0*136258
+M=11|0|ve4|1634494566526|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*134790*0x769ac9eb990efd36ad2a10c084b40b6ab40448f3|0*135308*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566536|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*135642*0x00e9506d04eb46edb2fbdeed654090fbca54ffc7|0*136119*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1545
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|d0bd63600c21bf649d5ede721fe89bbf903c2b79568faa25fc89a124d62420867ca8232b7d58e1b2bb1a83db9b41ed97
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fc24c4ed58cd991b82bd3a1822e5588bf
+
+[alt_iobuf]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1530|1*59790
+BinI32/behavior=3*41175
+I=0*133676
+I/behavior=I/BEHAVIOR 0*134288
+M=11|0|ve4|1634494566503|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*132810*0xfff715ff2e30fbe73a7ea9ba892b896faca5ed8c|0*133554*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566514|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*133878*0xd97dee38b494a2e49f86c376ab3941a29eb813a3|0*134154*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1510
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|56286a729aac2ab29d159f004a5ca3673b7fd6471a083072b1d7305c6137d6732babe3f9a3aa13691e2ff972831d7c17
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fdd783bd1043a04b1f330dad5a6528c97
+
+[alt_iobuf_diff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1652|1*68311
+BinI32/behavior=3*42959
+I=0*141582
+I/behavior=I/BEHAVIOR 0*142520
+M=11|0|ve4|1634494566593|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*140705*0x6244c6b2aec629a02849640f76fc1d7f7d226f55|0*141455*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566608|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*141789*0x9d7b0a9d1834dfde6fafd583be009f69ba1b9563|0*142381*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1632
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0cd92dda68df26949cdce566ac9ed0159309c62bc186e29af9545741f769a1d03f1a1db767d27a263b2cff2476df570b
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f46cd55e0633373e35f68acbb421c20e8
+
+[alt_outbuf]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1478|1*55555
+BinI32/behavior=3*40591
+I=0*129807
+I/behavior=I/BEHAVIOR 0*130353
+M=11|0|ve4|1634494566464|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*129057*0x6dc43626b06e6adc0031a73a71a4355697bc307a|0*129684*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566469|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*130010*0x95dcc8930a0a7d5f71d3011c2c7fda238f5f3330|0*130218*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1462
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|b2d4f73bf2567350da90a2a8847d97a182d1a211da2d1a850547f94940ffc9c4a41f86ed67f8b24b9c7b0b350505d1bb
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fc3ed26c94a17cb41a45952c46792fb31
+
+[alt_outbuf_diff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1595|1*64065
+BinI32/behavior=3*42089
+I=0*137559
+I/behavior=I/BEHAVIOR 0*138140
+M=11|0|ve4|1634494566549|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*136799*0xcdd2e07e2cd5d5e0c02e38e4e9f22a2f6a7f299f|0*137431*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566554|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*137767*0xd51ecae328d05d12febfc0f951a59fe05f329fca|0*138000*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1579
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f2870537cb1c81688f32bbf344683990bb50b9e1c6d139c9b9610773e7f84917631c1e899e87d0698756a81731c684ca
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f255b02cb5c552c638969f6da53398299
+
+[alt_outbuf_tri]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1502|1*57664
+BinI32/behavior=3*40846
+I=0*131683
+I/behavior=I/BEHAVIOR 0*132259
+M=11|0|ve4|1634494566481|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*130893*0x22b61c2de882f5146ae9b81501b00ed89710448b|0*131556*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566491|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*131890*0xdc24ad9285caa0bce17147c869ff4c87ea6ffa1c|0*132120*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1485
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f1f307b2f70d3e6279f7b4f203411a15214e8c2ab3765cdfb97ccdd78643d221dd82db5cefcb64173feb8ea06a64d802
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f0ed83397f46ded636c4acd7d83cc38aa
+
+[alt_outbuf_tri_diff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1620|1*66198
+BinI32/behavior=3*42412
+I=0*139491
+I/behavior=I/BEHAVIOR 0*140142
+M=11|0|ve4|1634494566568|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*138691*0x9d1a71a9809c3c25e2517cd2d36cbaad80a9c134|0*139359*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566580|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*139703*0xa4391ed1f3773a540db8c39b0c7a1606d438abf3|0*139998*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1603
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f1f307b2f70d3e6279f7b4f203411a15d089347a0690c7629ae2a6bc63971864bdc4bd61cbc73c7d0baf7489a28b28af
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f79347a6db76a218d87555b1e5ab8d0dc
+
+[altera_europa_support_lib]
+BinI32/altera_europa_support_lib=3*7621
+E=1*5070
+I=0*46642
+I/altera_europa_support_lib=0*57773
+M=3|0|ve4|1634494564907|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_europa_support_lib.vhd|0*43662*0xe54155410223127e144f5d37fa489677487d8062|0*46496*0xaeff33d0d327e4f66feab22160c8fa0a
+M/altera_europa_support_lib=4|0|ve4|1634494565091|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_europa_support_lib.vhd|0*46976*0x500a644da115c8e31cb0987a4e69f8466fec196d|0*57599*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_europa_support_lib.vhd|35
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|99dfe5cb235c5a5e3f0e16ca433575fecd3b81ad3f6770ea72a250b62361c92ef536111266342c4d6fa565ae4418a08f0c5859d64cdfe0e2f99fbe0eab4782ed
+Version/altera_europa_support_lib=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|99dfe5cb235c5a5e3f0e16ca433575fecd3b81ad3f6770ea72a250b62361c92ef536111266342c4d6fa565ae4418a08f1fa02a744c6104f7a5d4d7872d362fdf
+
+[altera_primitives_components]
+E=1*10173
+I=0*69350
+M=3|0|ve4|1634494565633|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives_components.vhd|0*60309*0x22e7bc203c02213d6b2f289cf326c5c41324c7b7|0*69198*0xaeff33d0d327e4f66feab22160c8fa0a
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives_components.vhd|46
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a8b9be7b6b3a1d3a9eee13a4737bb98c41e4a266583118b99750642bee3d95983e77db8e5dd0df359f8dc84c0547d4a3f68647966283c451cce2b579c614703d
+
+[altera_standard_functions]
+BinI32/altera_standard_functions=3*0
+E=1*353
+I=0*2172
+I/altera_standard_functions=0*2837
+M=3|0|ve4|1634494563984|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_standard_functions.vhd|0*1685*0xf6789f6bbb59129219d72cbbc3b413b08f2fa349|0*2026*0xaeff33d0d327e4f66feab22160c8fa0a
+M/altera_standard_functions=4|0|ve4|1634494563989|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_standard_functions.vhd|0*2226*0xa069178b8b78805cdf8031592e7f0dc05d255c55|0*2663*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_standard_functions.vhd|18
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|33f45c0cad6b007b25b97cda3321109229725c9562c06753ceff3c052742b0516de7188821179f96d1ec929a6677fd44d8ba9ea397686ec0a5541c61f662815a
+Version/altera_standard_functions=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|33f45c0cad6b007b25b97cda3321109229725c9562c06753ceff3c052742b0516de7188821179f96d1ec929a6677fd44d8ba9ea397686ec0a5541c61f662815a
+
+[altera_syn_attributes]
+E=1*0
+I=0*1295
+M=3|0|ve4|1634494563671|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_syn_attributes.vhd|0*485*0x1e4910c0f8a788a751027ac1bda6b5c9c963a78b|0*1157*0xaeff33d0d327e4f66feab22160c8fa0a
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_syn_attributes.vhd|32
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c0f5b077d6351a96f78c02547dc6a7d52287a4ce7466d2adb94e970a849547a13b756fe4e8ff788cdb1bfa3c5177ec6d
+
+[carry]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|155|1*11772
+BinI32/behavior=3*21907
+I=0*71509
+I/behavior=I/BEHAVIOR 0*72040
+M=11|0|ve4|1634494565803|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*71144*0x10883ce934fe11a822b2b63ae1e7af339835027b|0*71391*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565808|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*71707*0xb9447b7fd33e08b0e4c1a1fe4021c966b4dfc33f|0*71910*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|150
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|bfe93747ce552961188dae1d7c347f09b384f61a7fb455dd9874201a1e2e90af
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f19ee5434aa6dfc20e4fd7c56bcf8fc08
+
+[carry_sum]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|181|1*13212
+BinI32/behavior=3*22415
+I=0*74157
+I/behavior=I/BEHAVIOR 0*74718
+M=11|0|ve4|1634494565830|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*73735*0xb3919c40b47b0c2c13e24d66e06f315a70412486|0*74035*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565834|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*74359*0x55a82e64540dfa318eb2a1334fcfe3470fa2f454|0*74584*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|174
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a1c4ca4a766f5b795d67a6f5d0ffc7914fff32ca6be2d86a22eaa69897de254af983f69a40262f89af8261928d6360d0
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f4179e7f06f978e51dc9574a988b9abf8
+
+[cascade]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|167|1*12491
+BinI32/behavior=3*22161
+I=0*72798
+I/behavior=I/BEHAVIOR 0*73337
+M=11|0|ve4|1634494565815|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*72425*0x5e09b0fff272a6bff3929f7b68c3cfd51f00c6f8|0*72678*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565823|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*72998*0x88fe52d6e979a392c31b8389a83ccd02e3ce43a7|0*73205*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|162
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0a553179f6b63f0082823b6008e5d75326527262ddaa47cb266f3a3c4d9b973a68cb6ee942f2a1baa2d8c3641ddcd267
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f0f5800d306fd1047bc93126236428b27
+
+[clklock]
+A/behavior=21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1161|1*50050
+BinI32/behavior=3*35520
+I=0*119753
+I/behavior=0*126904
+M=11|0|ve4|1634494566388|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*119304*0x55465f2c6d1346b77b2522b1f45cbad0b2247b2a|0*119633*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|0|ve4|1634494566428|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*119953*0x4062e3a378de91d57be08cae005575a02e6aa306|0*126772*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1147
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|aa79dd6d1cdb15720c7fe5d3f6f8cf5626527262ddaa47cb266f3a3c4d9b973a8830026cb09ef19f13cc9754d09225d6
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f76bc4e819fdc156040e02d7a209b596f
+
+[dff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|388|1*22341
+BinI32/behavior=3*26866
+I=0*89448
+I/behavior=I/BEHAVIOR 0*90416
+M=11|0|ve4|1634494566025|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*89055*0x87e2e5f1d463f55483ee6e72e48bbefeb6fb902e|0*89332*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566040|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*89644*0x7858fddc0a48e72b32626d1abaedf79330ddbcee|0*90288*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|382
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|6a4f0a87167aa7fed99534ff2dffab1baf51a531970223d92e315afe162fddb9
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fc70f9a9e2469d89482eb949f1e76b2ee
+
+[dffe]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|432|1*24278
+BinI32/behavior=3*27196
+I=0*91250
+I/behavior=I/BEHAVIOR 0*92190
+M=11|0|ve4|1634494566048|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*90847*0xc3ad33df6439df5bf84f4567ed07ba36fb3fbb49|0*91133*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566063|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*91447*0x776abffabf56cb241798489c17afa884ef3faa98|0*92061*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|426
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|01d4a72707ae89965d6e4e60b42996a3c2cd8f01b8b6689d2239cbe6e7cf50de
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f5e48e525c823f3c090bcf662f8124e55
+
+[dffea]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|475|1*26200
+BinI32/behavior=3*27522
+I=0*93060
+I/behavior=I/BEHAVIOR 0*93998
+M=11|0|ve4|1634494566076|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*92637*0x2958adba0edcea77454621c7db7a0afb11f71684|0*92942*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566090|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*93258*0x303e41412e27ecc902f891cfb510f186976b2e1c|0*93868*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|469
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|20742f3a47625e49cc96bf6615b247b04cf740873709545bcda4a6f8ed2813d2
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f30949987479131cbea5e686ea10d2f1e
+
+[dffeas]
+A/vital_dffeas=21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|571|1*28203
+BinI32/vital_dffeas=3*27849
+I=0*97411
+I/vital_dffeas=0*103823
+M=11|0|ve4|1634494566111|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*94825*0xd65326d988d77b1aaa5048e82e8d9370e8b28789|0*97292*0xaeff33d0d327e4f66feab22160c8fa0a
+M/vital_dffeas=21|0|ve4|1634494566145|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*97721*0x151d7ef7d814082519d6911720cbad0cc80244be|0*103688*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|514
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e8b9f586f561944bc426a3d620d97cf23693b6985a6e35bf8c4db128968ea299
+Version/vital_dffeas=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|cea6072eedc0b63708ec0002265e78756bc2bfadb53d81961e62abf7adcb103727b1189295ed3bfd11605a6408755d7b
+
+[dffeas_pack]
+E=1*8853
+I=0*59407
+M=3|0|ve4|1634494565455|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives_components.vhd|0*58552*0x079a21dd9bad06d9a92e83ad86aee43db6cce50f|0*59272*0xaeff33d0d327e4f66feab22160c8fa0a
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives_components.vhd|25
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|b5ab7060a9635161ee8c75e8716fe0cf494b67f206b390b37a09cd5f2585a6aaef3e46c04b55963d7965cf1776d83563
+
+[dlatch]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|312|1*19991
+BinI32/behavior=3*25173
+I=0*86100
+I/behavior=I/BEHAVIOR 0*86769
+M=11|0|ve4|1634494565976|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*85672*0x3c763c11cb93843f8d9b4b5e09306e10085fd39c|0*85981*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565986|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*86299*0xab8f19214a498514fe578696f329f4c887a959b0|0*86638*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|304
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c858ac2bee9ead80db437eaa42b9af65bfe2e9f1f371eb900b1bfcb9aa9aed65
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f5f85b5cdaaa9635e0d728972bb37aecb
+
+[exp]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|194|1*14119
+BinI32/behavior=3*22729
+I=0*75456
+I/behavior=I/BEHAVIOR 0*75980
+M=11|0|ve4|1634494565847|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*75099*0xed6745ab08ab6d4953536478af9b4daf571af397|0*75340*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565851|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*75652*0xe711ced69a12129772b90caf575e4c737b8e7256|0*75852*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|189
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|6100221c91cc8fe894e67160f19f84d8589a01e188aea476b590104543ff8eac
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f273143334a23ed7dd1c378783e26c1c5
+
+[global]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|143|1*11052
+BinI32/behavior=3*21653
+I=0*70227
+I/behavior=I/BEHAVIOR 0*70762
+M=11|0|ve4|1634494565788|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*69858*0x9f62c7742aae6fb1612b4bfc4c8d6ce8e600c371|0*70108*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565791|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*70426*0x1c2290b6e0f4cfd084d967b50ac31fec1bb14917|0*70631*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|138
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c0f9e5003eec43bd96b47574636b6e2bd1aba4e5ab7b1af0fbc1c302ac099792
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5ff085bceb631f5ed1861168f00abb8f27
+
+[jkff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|958|1*42084
+BinI32/behavior=3*33320
+I=0*111269
+I/behavior=I/BEHAVIOR 0*112123
+M=11|0|ve4|1634494566256|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*110867*0xdb3011a3b902ab5c960acddeb18330c93ef03495|0*111152*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566271|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*111466*0xb7481afef4a9dd7fff9a3e856fbf68ecbcb5ded0|0*111994*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|952
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|83a7367c1e9cf1cfe1707edefaa119e8ffdfa30a711989844465e8cfcac2ea82
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f1f16a02d3ad001ab14e568d8e208c906
+
+[jkffe]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|998|1*43796
+BinI32/behavior=3*33646
+I=0*112973
+I/behavior=I/BEHAVIOR 0*113801
+M=11|0|ve4|1634494566284|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*112561*0x2c90b24d1860ff52685b021536a367a1fa5ac943|0*112855*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566294|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*113171*0x915e9213c69bb2d4e3b8ec13ca81e2cd5b732fd8|0*113671*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|992
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|d405a073ad12bd7cd5a8196f34b812ef8723d5f19afb1194aad79bd6b2a945ba
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f7c9f88570c72581d7ee3db0c7745d432
+
+[latch]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|290|1*19126
+BinI32/behavior=3*24758
+I=0*84672
+I/behavior=I/BEHAVIOR 0*85275
+M=11|0|ve4|1634494565959|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*84291*0x8e0e0a8139e742be64c895fe5aafd717166ea965|0*84554*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565964|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*84870*0xf07c2f672678cf39ea6771e2d23aeabfdb8fea87|0*85145*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|284
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a22d876ebebee021e55c6f2aa5a429669d2cd7d4128e16c40cbe680381644793
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fd74762c82564edec16e5718841dee188
+
+[lut_input]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|265|1*17679
+BinI32/behavior=3*24250
+I=0*82014
+I/behavior=I/BEHAVIOR 0*82564
+M=11|0|ve4|1634494565926|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*81631*0x079835b0ec1eba3f3db22f3f0bba89993ab61b14|0*81892*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565935|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*82216*0x71641ad336c2e29357e999da0f9476379ce51168|0*82430*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|260
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|efa4bba023c336e5efeaa4d65146857d9dd4038800ea7627f6858577fd3be4ba9145e2821ecf97fdadfe398223d41a11
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f7ab526ee3d1d984ad0be35eef7c6215b
+
+[lut_output]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|277|1*18402
+BinI32/behavior=3*24504
+I=0*83346
+I/behavior=I/BEHAVIOR 0*83900
+M=11|0|ve4|1634494565942|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*82959*0x807123330241bc11b25c8c7fb5f43e8044e89e64|0*83223*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565947|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*83549*0x1363dbbfbb984bf9e186f43a509f7b558f26cabd|0*83765*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|272
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|96ba0a968c281119128f133afa2ef13c3554cb63af590c7b18f670a1fb250a97b3c5436cdc93e3563385223525d6d63a
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fe3baf5fcddfbb06f8fa20b676e1c7d1f
+
+[opndrn]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|218|1*15556
+BinI32/behavior=3*23243
+I=0*77996
+I/behavior=I/BEHAVIOR 0*78611
+M=11|0|ve4|1634494565875|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*77627*0x50a9ede10545a5be6f970f1303a8e14d1bb63771|0*77877*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565885|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*78195*0xd86c017e8f2c5033a4fc7b4da2c904cb4b6b07a4|0*78480*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|213
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ae4f29a9ff2827b80769384ef0060e8b84c60dd01901bb9e374e67d6b9f507f2
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fd140ae2d32ce2dc411acb2266d6b56b8
+
+[prim_gdff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|336|1*20946
+BinI32/behavior=3*25760
+I=0*87623
+I/behavior=I/BEHAVIOR 0*88662
+M=11|0|ve4|1634494565998|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*87196*0xa31fc8f100d4f788dd54f2f2d1f17cb4d30fec52|0*87501*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566013|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*87825*0xe2374cbbb22eadf29848135590e28baa547ed4c4|0*88528*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|330
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|624c1ed215642af43668c485d3fe0147fe08ec5dd4a9166b7b73853feca17806b7ab0d876d73fe06c1d901e4be69b5f7
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fe7308a951b06189cc2d7f30dd97496a6
+
+[prim_gjkff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|920|1*41010
+BinI32/behavior=3*32433
+I=0*109635
+I/behavior=I/BEHAVIOR 0*110469
+M=11|0|ve4|1634494566231|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*109227*0x7efa5e375756b073d16ddcbf8cb28a7ccc908db1|0*109512*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566248|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*109838*0x42a7ac141aa1dabdd69dc118416ed7c2a3d9d81c|0*110334*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|914
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ae98167fb39144235c314b26c3ba55e7a1a4b2da5f81a1b18251bed6457d96684f941b2814aa30e524d78d0c8ff14cbc
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f77ec52a6b3b5af51e1baa0578a30ded2
+
+[prim_gsrff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1035|1*45507
+BinI32/behavior=3*33977
+I=0*114659
+I/behavior=I/BEHAVIOR 0*115493
+M=11|0|ve4|1634494566315|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*114251*0x45484e5e8f4c68326019a73f8f944672efd14539|0*114536*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566330|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*114862*0x1fc74d754f2de3f0315b9bf6e0e3eb9e3753c649|0*115358*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1029
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a625ad3f3e15b72e2a5c2396a20f1290109df2cd4aa456566bd79f13f7410aee2be95239bd1e2334ec1256b1fee10aad
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f43f499d87ada14fe60bd85b7c9e17f8c
+
+[prim_gtff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|809|1*36718
+BinI32/behavior=3*31044
+I=0*104746
+I/behavior=I/BEHAVIOR 0*105524
+M=11|0|ve4|1634494566156|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*104346*0x12e3e1bc49023e9360009264d464513212ff8861|0*104624*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566171|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*104948*0x2899c64a69e0c7d51f7889899fec282d81313e10|0*105390*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|803
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e4c40de7fb515f9e467df53b888ba6a0d3653051ad52a43dcf83c4813aa3d7d0ab8de63f4c72a016328b2d7f5f26bf20
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f4d3b7fc46699e8b0b6dc4bcb4e418bf3
+
+[row_global]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|239|1*16237
+BinI32/behavior=3*23672
+I=0*79388
+I/behavior=I/BEHAVIOR 0*79940
+M=11|0|ve4|1634494565897|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*79003*0x01471eb7077a76978afd07c3122802897663a73f|0*79265*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565902|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*79591*0xda1fc3e6c35d2056ec95b68002da3d1c89e87d1c|0*79805*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|234
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|59048e08c9e6367d964a44a7e098add72148c4825ea6393e4e1a2b958244ed351109b4c162bb355bb519b6b59a0b4b9e
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f59314600a96249cf58bc53708df00ec4
+
+[soft]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|206|1*14838
+BinI32/behavior=3*22989
+I=0*76718
+I/behavior=I/BEHAVIOR 0*77245
+M=11|0|ve4|1634494565864|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*76357*0xc95e6e5f9fd23b0e316e30578192151ff0586628|0*76601*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565868|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*76915*0x7c398728158e8f9a8c2f5ea859f7c676bcc91a75|0*77116*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|201
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|2f699b4b18eda94a3ffe06979e81e069e991b9451a157b65cebad7b07597dd0c
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f8e0644841cbd0adf3b02c117b851d034
+
+[srff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1073|1*46595
+BinI32/behavior=3*34862
+I=0*116294
+I/behavior=I/BEHAVIOR 0*117148
+M=11|0|ve4|1634494566338|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*115892*0xbf5d960bd76acdb7281c9b8824888189b8593841|0*116177*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566352|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*116491*0xe6bdd982fb6b32458f2e8cb17f21b8acb73ea3a5|0*117019*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1067
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|718095396e2505172fb9ae63fc31fbd4587d42560256dfbae6ed8ef066670704
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fe2c3148f8c56833e10c82fa108a380d1
+
+[srffe]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1113|1*48330
+BinI32/behavior=3*35188
+I=0*117997
+I/behavior=I/BEHAVIOR 0*118823
+M=11|0|ve4|1634494566365|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*117585*0x8bbf720f12f14103757195c12343f5fbb3c4aae2|0*117879*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566374|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*118195*0x84f651cd530f65ced9c2574f4f65721c05ca8ac6|0*118693*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|1107
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|09dcd5576415d11287b7a96b4e5a2cd83c2bc1f4021063504dca40e8c2270656
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fc3ff97602e4c075fc515bb0e7e67a26c
+
+[tff]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|844|1*37799
+BinI32/behavior=3*31777
+I=0*106310
+I/behavior=I/BEHAVIOR 0*107143
+M=11|0|ve4|1634494566179|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*105917*0x05649e24fe8bb5b1c37f179250aec8f68f5bef42|0*106194*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566194|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*106506*0xacebc5c71d404b3023691545c93fc5af41cfe33a|0*107015*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|838
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0c00345ad7fb6fd0846289e8b5bbfd446972e2becac8c66a2a46a0ce8f46f187
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f18857f13f47566d5a37dac7e6abcffc1
+
+[tffe]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|883|1*39412
+BinI32/behavior=3*32107
+I=0*107976
+I/behavior=I/BEHAVIOR 0*108781
+M=11|0|ve4|1634494566206|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*107573*0xb4e69dd23ef8a51b8e7e8e49f053d3bafe93318c|0*107859*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494566217|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*108173*0x7e2c2e1242f5351f30c088e31f8cae06b1044143|0*108652*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|877
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|3fc05f1313292003e7211380e09cfa36abefc6051fce31d5b511a788bae507fa
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f7c2c5e07b24795bcaa95cf5fe326b7b1
+
+[tri]
+A/behavior=A/BEHAVIOR 21|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|252|1*16961
+BinI32/behavior=3*23926
+I=0*80705
+I/behavior=I/BEHAVIOR 0*81244
+M=11|0|ve4|1634494565909|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*80328*0x945486bba3d826a774f71cde59fa1599611966d7|0*80589*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=M/BEHAVIOR 21|0|ve4|1634494565918|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|0*80901*0xe1206c7ab6a7405f1dc8450c9a77a197061a3786|0*81116*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd|246
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|96cf7c28ccff24a1bdf4e049c8553779df563ff06a5defd764708951a1b296a9
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f5e732578ab7c1763e5a060663ece5115
+
+[~U]
+alt_bidir_buf=11|0*145149|
+alt_bidir_diff=11|0*142736|
+alt_dspbuilder_package=3|0*2917|0*3441
+alt_inbuf=11|0*127113|
+alt_inbuf_diff=11|0*134499|
+alt_iobuf=11|0*132475|
+alt_iobuf_diff=11|0*140363|
+alt_outbuf=11|0*128739|
+alt_outbuf_diff=11|0*136474|
+alt_outbuf_tri=11|0*130565|
+alt_outbuf_tri_diff=11|0*138357|
+altera_europa_support_lib=3|0*42681|0*42873
+altera_primitives_components=3|0*59687|0*59849
+altera_standard_functions=3|0*1345|0*1501
+altera_syn_attributes=3|0*0|0*148
+carry=CARRY 11|0*70970|
+carry_sum=CARRY_SUM 11|0*73546|
+cascade=CASCADE 11|0*72247|
+clklock=11|0*119067|
+dff=DFF 11|0*88873|
+dffe=DFFE 11|0*90658|
+dffea=DFFEA 11|0*92433|
+dffeas=DFFEAS 11|0*94242|
+dffeas_pack=3|0*58133|0*58261
+dlatch=11|0*85482|
+exp=EXP 11|0*74929|
+global=GLOBAL 11|0*69682|
+jkff=JKFF 11|0*110681|
+jkffe=JKFFE 11|0*112368|
+latch=11|0*84112|
+lut_input=LUT_INPUT 11|0*81449|
+lut_output=LUT_OUTPUT 11|0*82775|
+opndrn=OPNDRN 11|0*77451|
+prim_gdff=PRIM_GDFF 11|0*86977|
+prim_gjkff=PRIM_GJKFF 11|0*109023|
+prim_gsrff=PRIM_GSRFF 11|0*114047|
+prim_gtff=PRIM_GTFF 11|0*104146|
+row_global=ROW_GLOBAL 11|0*78819|
+soft=SOFT 11|0*76185|
+srff=SRFF 11|0*115705|
+srffe=SRFFE 11|0*117391|
+tff=TFF 11|0*105735|
+tffe=TFFE 11|0*107384|
+tri=TRI 11|0*80152|

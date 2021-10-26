@@ -1,8 +1,9 @@
 Info: Start Nativelink Simulation process
+Info: NativeLink has detected VHDL design -- VHDL simulation models will be used
 
 ========= EDA Simulation Settings =====================
 
-Sim Mode              :  Gate
+Sim Mode              :  RTL
 Family                :  cycloneii
 Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
 Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
@@ -10,23 +11,460 @@ Simulation Tool       :  active-hdl
 Simulation Language   :  vhdl
 Version               :  93
 Simulation Mode       :  GUI
-Sim Output File       :  rtc_test.vho
-Sim SDF file          :  rtc_test__vhdl.sdo
+Sim Output File       :  
+Sim SDF file          :  
 Sim dir               :  simulation\activehdl
 
 =======================================================
 
 Info: Starting NativeLink simulation with Active-HDL software
 Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/active-hdl.tcl
-Warning: File rtc_test_sim_gate_vhdl.do already exists - backing up current file as rtc_test_sim_gate_vhdl.do.bak5
+Warning: File rtc_test_sim_rtl_vhdl.do already exists - backing up current file as rtc_test_sim_rtl_vhdl.do.bak4
 Probing asim_log
 Active-HDL Info: createdesign rtc_test D:/DE2/RTC/simulation/activehdl
 Active-HDL Info: # Design rtc_test created
 Active-HDL Info: opendesign -a rtc_test.adf
 Active-HDL Info: # Design: Creating new workspace file: "D:\DE2\RTC\simulation\activehdl\rtc_test\rtc_test.aws"
-Active-HDL Info: # Design: 17:36, 20 октября 2020 г.
+Active-HDL Info: # Design: 21:16, 17 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2021 пїЅ.
 Active-HDL Info: # Design: Opening design "D:\DE2\RTC\simulation\activehdl\rtc_test\rtc_test.adf"
 Active-HDL Info: waveformmode ASDB
+Active-HDL Info: alib  vhdl_libs/altera_vhdl
+Active-HDL Info: # Library Manager: Library "altera_vhdl" attached.
+Active-HDL Info: amap altera vhdl_libs/altera_vhdl
+Active-HDL Info: # Library Manager: Library "altera" attached.
+Active-HDL Info: acom -strict93 -dbg -work altera c:/altera/13.0sp1/quartus/eda/sim_lib/altera_syn_attributes.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/altera_syn_attributes.vhd
+Active-HDL Info: # Compile Package "altera_syn_attributes"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+Active-HDL Info: acom -strict93 -dbg -work altera c:/altera/13.0sp1/quartus/eda/sim_lib/altera_standard_functions.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/altera_standard_functions.vhd
+Active-HDL Info: # Compile Package "altera_standard_functions"
+Active-HDL Info: # Compile Package Body "altera_standard_functions"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+Active-HDL Info: acom -strict93 -dbg -work altera c:/altera/13.0sp1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/alt_dspbuilder_package.vhd
+Active-HDL Info: # Compile Package "alt_dspbuilder_package"
+Active-HDL Info: # Compile Package Body "alt_dspbuilder_package"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+Active-HDL Info: acom -strict93 -dbg -work altera c:/altera/13.0sp1/quartus/eda/sim_lib/altera_europa_support_lib.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/altera_europa_support_lib.vhd
+Active-HDL Info: # Compile Package "altera_europa_support_lib"
+Active-HDL Info: # Compile Package Body "altera_europa_support_lib"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+Active-HDL Info: acom -strict93 -dbg -work altera c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives_components.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives_components.vhd
+Active-HDL Info: # Compile Package "dffeas_pack"
+Active-HDL Info: # Compile Package "altera_primitives_components"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+Active-HDL Info: acom -strict93 -dbg -work altera c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.vhd
+Active-HDL Info: # Compile Entity "GLOBAL"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "GLOBAL"
+Active-HDL Info: # Compile Entity "CARRY"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "CARRY"
+Active-HDL Info: # Compile Entity "CASCADE"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "CASCADE"
+Active-HDL Info: # Compile Entity "CARRY_SUM"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "CARRY_SUM"
+Active-HDL Info: # Compile Entity "EXP"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "EXP"
+Active-HDL Info: # Compile Entity "SOFT"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "SOFT"
+Active-HDL Info: # Compile Entity "OPNDRN"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "OPNDRN"
+Active-HDL Info: # Compile Entity "ROW_GLOBAL"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "ROW_GLOBAL"
+Active-HDL Info: # Compile Entity "TRI"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "TRI"
+Active-HDL Info: # Compile Entity "LUT_INPUT"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "LUT_INPUT"
+Active-HDL Info: # Compile Entity "LUT_OUTPUT"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "LUT_OUTPUT"
+Active-HDL Info: # Compile Entity "latch"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "latch"
+Active-HDL Info: # Compile Entity "dlatch"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "dlatch"
+Active-HDL Info: # Compile Entity "PRIM_GDFF"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "PRIM_GDFF"
+Active-HDL Info: # Compile Entity "DFF"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "DFF"
+Active-HDL Info: # Compile Entity "DFFE"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "DFFE"
+Active-HDL Info: # Compile Entity "DFFEA"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "DFFEA"
+Active-HDL Info: # Compile Entity "DFFEAS"
+Active-HDL Info: # Compile Architecture "vital_dffeas" of Entity "dffeas"
+Active-HDL Info: # Compile Entity "PRIM_GTFF"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "PRIM_GTFF"
+Active-HDL Info: # Compile Entity "TFF"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "TFF"
+Active-HDL Info: # Compile Entity "TFFE"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "TFFE"
+Active-HDL Info: # Compile Entity "PRIM_GJKFF"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "PRIM_GJKFF"
+Active-HDL Info: # Compile Entity "JKFF"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "JKFF"
+Active-HDL Info: # Compile Entity "JKFFE"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "JKFFE"
+Active-HDL Info: # Compile Entity "PRIM_GSRFF"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "PRIM_GSRFF"
+Active-HDL Info: # Compile Entity "SRFF"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "SRFF"
+Active-HDL Info: # Compile Entity "SRFFE"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "SRFFE"
+Active-HDL Info: # Compile Entity "clklock"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "clklock"
+Active-HDL Info: # Compile Entity "alt_inbuf"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_inbuf"
+Active-HDL Info: # Compile Entity "alt_outbuf"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_outbuf"
+Active-HDL Info: # Compile Entity "alt_outbuf_tri"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_outbuf_tri"
+Active-HDL Info: # Compile Entity "alt_iobuf"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_iobuf"
+Active-HDL Info: # Compile Entity "alt_inbuf_diff"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_inbuf_diff"
+Active-HDL Info: # Compile Entity "alt_outbuf_diff"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_outbuf_diff"
+Active-HDL Info: # Compile Entity "alt_outbuf_tri_diff"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_outbuf_tri_diff"
+Active-HDL Info: # Compile Entity "alt_iobuf_diff"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_iobuf_diff"
+Active-HDL Info: # Compile Entity "alt_bidir_diff"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_bidir_diff"
+Active-HDL Info: # Compile Entity "alt_bidir_buf"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "alt_bidir_buf"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+Active-HDL Info: alib  vhdl_libs/lpm_vhdl
+Active-HDL Info: # Library Manager: Library "lpm_vhdl" attached.
+Active-HDL Info: amap lpm vhdl_libs/lpm_vhdl
+Active-HDL Info: # Library Manager: Library "lpm" attached.
+Active-HDL Info: acom -strict93 -dbg -work lpm c:/altera/13.0sp1/quartus/eda/sim_lib/220pack.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/220pack.vhd
+Active-HDL Info: # Compile Package "LPM_COMPONENTS"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+Active-HDL Info: acom -strict93 -dbg -work lpm c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd
+Active-HDL Info: # Compile Package "LPM_COMMON_CONVERSION"
+Active-HDL Info: # Compile Package Body "LPM_COMMON_CONVERSION"
+Active-HDL Info: # Compile Package "LPM_HINT_EVALUATION"
+Active-HDL Info: # Compile Package Body "LPM_HINT_EVALUATION"
+Active-HDL Info: # Compile Package "LPM_DEVICE_FAMILIES"
+Active-HDL Info: # Compile Package Body "LPM_DEVICE_FAMILIES"
+Active-HDL Info: # Compile Entity "LPM_CONSTANT"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_CONSTANT"
+Active-HDL Info: # Compile Entity "LPM_INV"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_INV"
+Active-HDL Info: # Compile Entity "lpm_and"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "lpm_and"
+Active-HDL Info: # Compile Entity "LPM_OR"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_OR"
+Active-HDL Info: # Compile Entity "LPM_XOR"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_XOR"
+Active-HDL Info: # Compile Entity "LPM_BUSTRI"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_BUSTRI"
+Active-HDL Info: # Compile Entity "LPM_MUX"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_MUX"
+Active-HDL Info: # Compile Entity "LPM_DECODE"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_DECODE"
+Active-HDL Info: # Compile Entity "LPM_CLSHIFT"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_CLSHIFT"
+Active-HDL Info: # Compile Entity "LPM_ADD_SUB_SIGNED"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_ADD_SUB_SIGNED"
+Active-HDL Info: # Compile Entity "LPM_ADD_SUB_UNSIGNED"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_ADD_SUB_UNSIGNED"
+Active-HDL Info: # Compile Entity "LPM_ADD_SUB"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_ADD_SUB"
+Active-HDL Info: # Compile Entity "LPM_COMPARE_SIGNED"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_COMPARE_SIGNED"
+Active-HDL Info: # Compile Entity "LPM_COMPARE_UNSIGNED"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_COMPARE_UNSIGNED"
+Active-HDL Info: # Compile Entity "LPM_COMPARE"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_COMPARE"
+Active-HDL Info: # Compile Entity "LPM_MULT"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_MULT"
+Active-HDL Info: # Compile Entity "LPM_DIVIDE"
+Active-HDL Info: # Compile Architecture "behave" of Entity "lpm_divide"
+Active-HDL Info: # Compile Entity "lpm_abs"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_ABS"
+Active-HDL Info: # Compile Entity "LPM_COUNTER"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_COUNTER"
+Active-HDL Info: # Compile Entity "LPM_LATCH"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_LATCH"
+Active-HDL Info: # Compile Entity "LPM_FF"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_FF"
+Active-HDL Info: # Compile Entity "LPM_SHIFTREG"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_SHIFTREG"
+Active-HDL Info: # Compile Entity "LPM_RAM_DQ"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "lpm_ram_dq"
+Active-HDL Info: # Compile Entity "LPM_RAM_DP"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_RAM_DP"
+Active-HDL Info: # Compile Entity "LPM_RAM_IO"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "lpm_ram_io"
+Active-HDL Info: # Compile Entity "LPM_ROM"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "lpm_rom"
+Active-HDL Info: # Compile Entity "LPM_FIFO"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "LPM_FIFO"
+Active-HDL Info: # Compile Entity "LPM_FIFO_DC_DFFPIPE"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "LPM_FIFO_DC_DFFPIPE"
+Active-HDL Info: # Compile Entity "LPM_FIFO_DC_FEFIFO"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "LPM_FIFO_DC_FEFIFO"
+Active-HDL Info: # Compile Entity "LPM_FIFO_DC_ASYNC"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "LPM_FIFO_DC_ASYNC"
+Active-HDL Info: # Compile Entity "LPM_FIFO_DC"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "LPM_FIFO_DC"
+Active-HDL Info: # Compile Entity "LPM_INpad"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_INpad"
+Active-HDL Info: # Compile Entity "LPM_OUTpad"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_OUTpad"
+Active-HDL Info: # Compile Entity "LPM_BIpad"
+Active-HDL Info: # Compile Architecture "LPM_SYN" of Entity "LPM_BIpad"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+Active-HDL Info: alib  vhdl_libs/sgate_vhdl
+Active-HDL Info: # Library Manager: Library "sgate_vhdl" attached.
+Active-HDL Info: amap sgate vhdl_libs/sgate_vhdl
+Active-HDL Info: # Library Manager: Library "sgate" attached.
+Active-HDL Info: acom -strict93 -dbg -work sgate c:/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd
+Active-HDL Info: # Compile Package "sgate_pack"
+Active-HDL Info: # Compile Package Body "sgate_pack"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+Active-HDL Info: acom -strict93 -dbg -work sgate c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd
+Active-HDL Info: # Compile Entity "oper_add"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_add"
+Active-HDL Info: # Compile Entity "oper_addsub"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_addsub"
+Active-HDL Info: # Compile Entity "mux21"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "mux21"
+Active-HDL Info: # Compile Entity "io_buf_tri"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "io_buf_tri"
+Active-HDL Info: # Compile Entity "io_buf_opdrn"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "io_buf_opdrn"
+Active-HDL Info: # Compile Entity "tri_bus"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "tri_bus"
+Active-HDL Info: # Compile Entity "oper_mult"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_mult"
+Active-HDL Info: # Compile Entity "oper_div"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_div"
+Active-HDL Info: # Compile Entity "oper_mod"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_mod"
+Active-HDL Info: # Compile Entity "oper_left_shift"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_left_shift"
+Active-HDL Info: # Compile Entity "oper_right_shift"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_right_shift"
+Active-HDL Info: # Compile Entity "oper_rotate_left"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_rotate_left"
+Active-HDL Info: # Compile Entity "oper_rotate_right"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_rotate_right"
+Active-HDL Info: # Compile Entity "oper_less_than"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_less_than"
+Active-HDL Info: # Compile Entity "oper_mux"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_mux"
+Active-HDL Info: # Compile Entity "oper_selector"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_selector"
+Active-HDL Info: # Compile Entity "oper_prio_selector"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_prio_selector"
+Active-HDL Info: # Compile Entity "oper_decoder"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_decoder"
+Active-HDL Info: # Compile Entity "oper_bus_mux"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_bus_mux"
+Active-HDL Info: # Compile Entity "oper_latch"
+Active-HDL Info: # Compile Architecture "sim_arch" of Entity "oper_latch"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.9 [s]
+Active-HDL Info: alib  vhdl_libs/altera_mf_vhdl
+Active-HDL Info: # Library Manager: Library "altera_mf_vhdl" attached.
+Active-HDL Info: amap altera_mf vhdl_libs/altera_mf_vhdl
+Active-HDL Info: # Library Manager: Library "altera_mf" attached.
+Active-HDL Info: acom -strict93 -dbg -work altera_mf c:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf_components.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf_components.vhd
+Active-HDL Info: # Compile Package "altera_mf_components"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+Active-HDL Info: acom -strict93 -dbg -work altera_mf c:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.vhd
+Active-HDL Info: # Compile Entity "LCELL"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "LCELL"
+Active-HDL Info: # Compile Package "ALTERA_COMMON_CONVERSION"
+Active-HDL Info: # Compile Package Body "ALTERA_COMMON_CONVERSION"
+Active-HDL Info: # Compile Package "ALTERA_MF_HINT_EVALUATION"
+Active-HDL Info: # Compile Package Body "ALTERA_MF_HINT_EVALUATION"
+Active-HDL Info: # Compile Package "ALTERA_DEVICE_FAMILIES"
+Active-HDL Info: # Compile Package Body "ALTERA_DEVICE_FAMILIES"
+Active-HDL Info: # Compile Package "MF_pllpack"
+Active-HDL Info: # Compile Package Body "MF_pllpack"
+Active-HDL Info: # Compile Entity "DFFP"
+Active-HDL Info: # Compile Architecture "behave" of Entity "DFFP"
+Active-HDL Info: # Compile Entity "pll_iobuf"
+Active-HDL Info: # Compile Architecture "BEHAVIOR" of Entity "pll_iobuf"
+Active-HDL Info: # Compile Entity "MF_m_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_m_cntr"
+Active-HDL Info: # Compile Entity "MF_n_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_n_cntr"
+Active-HDL Info: # Compile Entity "stx_scale_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "stx_scale_cntr"
+Active-HDL Info: # Compile Entity "MF_pll_reg"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_pll_reg"
+Active-HDL Info: # Compile Entity "MF_stratix_pll"
+Active-HDL Info: # Compile Architecture "vital_pll" of Entity "MF_stratix_pll"
+Active-HDL Info: # Compile Entity "arm_m_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "arm_m_cntr"
+Active-HDL Info: # Compile Entity "arm_n_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "arm_n_cntr"
+Active-HDL Info: # Compile Entity "arm_scale_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "arm_scale_cntr"
+Active-HDL Info: # Compile Entity "MF_stratixii_pll"
+Active-HDL Info: # Compile Architecture "vital_pll" of Entity "MF_stratixii_pll"
+Active-HDL Info: # Compile Entity "MF_ttn_mn_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_ttn_mn_cntr"
+Active-HDL Info: # Compile Entity "MF_ttn_scale_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_ttn_scale_cntr"
+Active-HDL Info: # Compile Entity "MF_stratixiii_pll"
+Active-HDL Info: # Compile Architecture "vital_pll" of Entity "MF_stratixiii_pll"
+Active-HDL Info: # Compile Entity "MF_cda_mn_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_cda_mn_cntr"
+Active-HDL Info: # Compile Entity "MF_cda_scale_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_cda_scale_cntr"
+Active-HDL Info: # Compile Entity "MF_cycloneiii_pll"
+Active-HDL Info: # Compile Architecture "vital_pll" of Entity "MF_cycloneiii_pll"
+Active-HDL Info: # Compile Entity "MF_stingray_mn_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_stingray_mn_cntr"
+Active-HDL Info: # Compile Entity "MF_stingray_post_divider"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_stingray_post_divider"
+Active-HDL Info: # Compile Entity "MF_stingray_scale_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "MF_stingray_scale_cntr"
+Active-HDL Info: # Compile Entity "MF_cycloneiiigl_pll"
+Active-HDL Info: # Compile Architecture "vital_pll" of Entity "MF_cycloneiiigl_pll"
+Active-HDL Info: # Compile Entity "altpll"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "altpll"
+Active-HDL Info: # Compile Entity "altaccumulate"
+Active-HDL Info: # Compile Architecture "behaviour" of Entity "altaccumulate"
+Active-HDL Info: # Compile Entity "altmult_accum"
+Active-HDL Info: # Compile Architecture "behaviour" of Entity "altmult_accum"
+Active-HDL Info: # Compile Entity "altmult_add"
+Active-HDL Info: # Compile Architecture "behaviour" of Entity "altmult_add"
+Active-HDL Info: # Compile Entity "altfp_mult"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "altfp_mult"
+Active-HDL Info: # Compile Entity "altsqrt"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "altsqrt"
+Active-HDL Info: # Compile Entity "altclklock"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "altclklock"
+Active-HDL Info: # Compile Entity "altddio_in"
+Active-HDL Info: # Compile Architecture "behave" of Entity "altddio_in"
+Active-HDL Info: # Compile Entity "altddio_out"
+Active-HDL Info: # Compile Architecture "behave" of Entity "altddio_out"
+Active-HDL Info: # Compile Entity "altddio_bidir"
+Active-HDL Info: # Compile Architecture "struct" of Entity "altddio_bidir"
+Active-HDL Info: # Compile Entity "stratixii_lvds_rx"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "stratixii_lvds_rx"
+Active-HDL Info: # Compile Entity "flexible_lvds_rx"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "flexible_lvds_rx"
+Active-HDL Info: # Compile Entity "stratixiii_lvds_rx_dpa"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "stratixiii_lvds_rx_dpa"
+Active-HDL Info: # Compile Entity "stratixv_local_clk_divider"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "stratixv_local_clk_divider"
+Active-HDL Info: # Compile Entity "stratixiii_lvds_rx_channel"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "stratixiii_lvds_rx_channel"
+Active-HDL Info: # Compile Entity "stratixiii_lvds_rx"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "stratixiii_lvds_rx"
+Active-HDL Info: # Compile Entity "altlvds_rx"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "altlvds_rx"
+Active-HDL Info: # Compile Entity "stratix_tx_outclk"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "stratix_tx_outclk"
+Active-HDL Info: # Compile Entity "stratixii_tx_outclk"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "stratixii_tx_outclk"
+Active-HDL Info: # Compile Entity "flexible_lvds_tx"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "flexible_lvds_tx"
+Active-HDL Info: # Compile Entity "altlvds_tx"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "altlvds_tx"
+Active-HDL Info: # Compile Entity "altdpram"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "altdpram"
+Active-HDL Info: # Compile Entity "altsyncram"
+Active-HDL Info: # Compile Architecture "translated" of Entity "altsyncram"
+Active-HDL Info: # Compile Entity "alt3pram"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "alt3pram"
+Active-HDL Info: # Compile Entity "parallel_add"
+Active-HDL Info: # Compile Architecture "behaviour" of Entity "parallel_add"
+Active-HDL Info: # Compile Entity "SCFIFO"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "SCFIFO"
+Active-HDL Info: # Compile Entity "DCFIFO_DFFPIPE"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "DCFIFO_DFFPIPE"
+Active-HDL Info: # Compile Entity "DCFIFO_FEFIFO"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "DCFIFO_FEFIFO"
+Active-HDL Info: # Compile Entity "DCFIFO_ASYNC"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "DCFIFO_ASYNC"
+Active-HDL Info: # Compile Entity "DCFIFO_SYNC"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "DCFIFO_SYNC"
+Active-HDL Info: # Compile Entity "DCFIFO_LOW_LATENCY"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "DCFIFO_LOW_LATENCY"
+Active-HDL Info: # Compile Entity "DCFIFO_MIXED_WIDTHS"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "DCFIFO_MIXED_WIDTHS"
+Active-HDL Info: # Compile Entity "DCFIFO"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "DCFIFO"
+Active-HDL Info: # Compile Entity "altshift_taps"
+Active-HDL Info: # Compile Architecture "behavioural" of Entity "altshift_taps"
+Active-HDL Info: # Compile Entity "A_GRAYCOUNTER"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "A_GRAYCOUNTER"
+Active-HDL Info: # Compile Entity "altsquare"
+Active-HDL Info: # Compile Architecture "altsquare_syn" of Entity "altsquare"
+Active-HDL Info: # Compile Entity "altera_std_synchronizer"
+Active-HDL Info: # Compile Architecture "behavioral" of Entity "altera_std_synchronizer"
+Active-HDL Info: # Compile Entity "altera_std_synchronizer_bundle"
+Active-HDL Info: # Compile Architecture "behavioral" of Entity "altera_std_synchronizer_bundle"
+Active-HDL Info: # Compile Entity "alt_cal"
+Active-HDL Info: # Compile Architecture "RTL" of Entity "alt_cal"
+Active-HDL Info: # Compile Entity "alt_cal_mm"
+Active-HDL Info: # Compile Architecture "RTL" of Entity "alt_cal_mm"
+Active-HDL Info: # Compile Entity "alt_cal_c3gxb"
+Active-HDL Info: # Compile Architecture "RTL" of Entity "alt_cal_c3gxb"
+Active-HDL Info: # Compile Entity "alt_cal_sv"
+Active-HDL Info: # Compile Architecture "RTL" of Entity "alt_cal_sv"
+Active-HDL Info: # Compile Entity "alt_cal_av"
+Active-HDL Info: # Compile Architecture "RTL" of Entity "alt_cal_av"
+Active-HDL Info: # Compile Package "alt_aeq_s4_func"
+Active-HDL Info: # Compile Package Body "alt_aeq_s4_func"
+Active-HDL Info: # Compile Entity "alt_aeq_s4"
+Active-HDL Info: # Compile Architecture "trans" of Entity "alt_aeq_s4"
+Active-HDL Info: # Compile Package "alt_eyemon_func"
+Active-HDL Info: # Compile Package Body "alt_eyemon_func"
+Active-HDL Info: # Compile Entity "alt_eyemon"
+Active-HDL Info: # Compile Architecture "trans" of Entity "alt_eyemon"
+Active-HDL Info: # Compile Package "alt_dfe_func"
+Active-HDL Info: # Compile Package Body "alt_dfe_func"
+Active-HDL Info: # Compile Entity "alt_dfe"
+Active-HDL Info: # Compile Architecture "trans" of Entity "alt_dfe"
+Active-HDL Info: # Compile Package "SLD_NODE"
+Active-HDL Info: # Compile Package Body "SLD_NODE"
+Active-HDL Info: # Compile Entity "signal_gen"
+Active-HDL Info: # Compile Architecture "simModel" of Entity "signal_gen"
+Active-HDL Info: # Compile Entity "jtag_tap_controller"
+Active-HDL Info: # Compile Architecture "FSM" of Entity "jtag_tap_controller"
+Active-HDL Info: # Compile Entity "dummy_hub"
+Active-HDL Info: # Compile Architecture "behavior" of Entity "dummy_hub"
+Active-HDL Info: # Compile Entity "sld_virtual_jtag"
+Active-HDL Info: # Compile Architecture "structural" of Entity "sld_virtual_jtag"
+Active-HDL Info: # Compile Entity "sld_signaltap"
+Active-HDL Info: # Compile Architecture "sim_sld_signaltap" of Entity "sld_signaltap"
+Active-HDL Info: # Compile Entity "altstratixii_oct"
+Active-HDL Info: # Compile Architecture "sim_altstratixii_oct" of Entity "altstratixii_oct"
+Active-HDL Info: # Compile Entity "altparallel_flash_loader"
+Active-HDL Info: # Compile Architecture "sim_altparallel_flash_loader" of Entity "altparallel_flash_loader"
+Active-HDL Info: # Compile Entity "altserial_flash_loader"
+Active-HDL Info: # Compile Architecture "sim_altserial_flash_loader" of Entity "altserial_flash_loader"
+Active-HDL Info: # Compile Entity "sld_virtual_jtag_basic"
+Active-HDL Info: # Compile Architecture "sim_sld_virtual_jtag_basic" of Entity "sld_virtual_jtag_basic"
+Active-HDL Info: # Compile Entity "altsource_probe"
+Active-HDL Info: # Compile Architecture "sim_altsource_probe" of Entity "altsource_probe"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  2.0 [s]
+Active-HDL Info: alib  vhdl_libs/altera_lnsim_vhdl
+Active-HDL Info: # Library Manager: Library "altera_lnsim_vhdl" attached.
+Active-HDL Info: amap altera_lnsim vhdl_libs/altera_lnsim_vhdl
+Active-HDL Info: # Library Manager: Library "altera_lnsim" attached.
+Active-HDL Info: alog  -sv2k5 -dbg -msg 0 -work altera_lnsim c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv
+Active-HDL Info: # done
+Active-HDL Info: acom -strict93 -dbg -work altera_lnsim c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim_components.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim_components.vhd
+Active-HDL Info: # Compile Package "altera_lnsim_components"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
 Active-HDL Info: alib  vhdl_libs/cycloneii_vhdl
 Active-HDL Info: # Library Manager: Library "cycloneii_vhdl" attached.
 Active-HDL Info: amap cycloneii vhdl_libs/cycloneii_vhdl
@@ -105,8 +543,112 @@ Active-HDL Info: acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/e
 Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
 Active-HDL Info: # Compile Package "cycloneii_components"
 Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-Active-HDL Info: addfile -c -auto D:/DE2/RTC/simulation/activehdl/rtc_test.vho
-Active-HDL Info: # Adding file D:\DE2\RTC\simulation\activehdl\rtc_test.vho ... Done
-Active-HDL Info: addfile -c -auto D:/DE2/RTC/simulation/activehdl/rtc_test_vhd.sdo
-Active-HDL Info: # Adding file D:\DE2\RTC\simulation\activehdl\rtc_test_vhd.sdo ... Done
-Info: NativeLink simulation flow was successful
+Active-HDL Info: addfile -c -auto D:/DE2/RTC/src/tools.vhd
+Active-HDL Info: # Adding file D:\DE2\RTC\src\tools.vhd ... Done
+Active-HDL Info: addfile -c -auto D:/DE2/RTC/src/seg7.vhd
+Active-HDL Info: # Adding file D:\DE2\RTC\src\seg7.vhd ... Done
+Active-HDL Info: addfile -c -auto D:/DE2/RTC/src/rtc_test.vhd
+Active-HDL Info: # Adding file D:\DE2\RTC\src\rtc_test.vhd ... Done
+Active-HDL Info: addfile -c -auto D:/DE2/RTC/src/rtc.vhd
+Active-HDL Info: # Adding file D:\DE2\RTC\src\rtc.vhd ... Done
+Active-HDL Info: addfile -c -auto D:/DE2/RTC/src/rtc_tb.vhd
+Active-HDL Info: # Adding file D:\DE2\RTC\src\rtc_tb.vhd ... Done
+Active-HDL Info: comp -reorder
+Active-HDL Warning: # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+Active-HDL Info: # File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/tools.vhd
+Active-HDL Info: # Compile Package "tools"
+Active-HDL Info: # Compile Package Body "tools"
+Active-HDL Info: # File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/seg7.vhd
+Active-HDL Info: # Compile Entity "seg7"
+Active-HDL Info: # Compile Architecture "rtl" of Entity "seg7"
+Active-HDL Info: # File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/rtc_test.vhd
+Active-HDL Info: # Compile Entity "rtc_test"
+Active-HDL Info: # Compile Architecture "rtl" of Entity "rtc_test"
+Active-HDL Info: # File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/rtc.vhd
+Active-HDL Info: # Compile Entity "rtc"
+Active-HDL Info: # Compile Architecture "rtl" of Entity "rtc"
+Active-HDL Info: # File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/rtc_tb.vhd
+Active-HDL Info: # Compile Entity "rtc_tb"
+Active-HDL Info: # Compile Architecture "rtl" of Entity "rtc_tb"
+Active-HDL Info: # Incorrect order of units detected.
+Active-HDL Info: # Automatic reorder and incremental recompilation of required units in progress.
+Active-HDL Info: # Top-level unit(s) detected:
+Active-HDL Info: # Entity => rtc_tb
+Active-HDL Info: # Entity => rtc_test
+Active-HDL Info: # File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/rtc_test.vhd
+Active-HDL Info: # Compile Architecture "rtl" of Entity "rtc_test"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+Active-HDL Info: # ELBREAD: Elaboration process.
+Active-HDL Info: # ELBREAD: Elaboration time 0.0 [s].
+Active-HDL Info: asim +access +r -t 1ps -L rtc_test -L work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneii  rtc_tb
+Active-HDL Info: # ELBREAD: Elaboration process.
+Active-HDL Warning: # ELBREAD: Warning: Cannot find library work.
+Active-HDL Info: # ELBREAD: Elaboration time 0.0 [s].
+Active-HDL Info: # VSIM: Stack memory: 32MB
+Active-HDL Info: # VSIM: Retval memory: 32MB
+Active-HDL Info: # KERNEL: Main thread initiated.
+Active-HDL Info: # KERNEL: Kernel process initialization phase.
+Active-HDL Info: # ELAB2: Elaboration final pass...
+Active-HDL Info: # KERNEL: PLI/VHPI kernel's engine initialization done.
+Active-HDL Info: # PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+Active-HDL Info: # VHPI: Loading library 'systf.dll'
+Active-HDL Info: # ELAB2: Create instances ...
+Active-HDL Info: # KERNEL: Time resolution set to 1ps.
+Active-HDL Info: # ELAB2: Create instances complete.
+Active-HDL Info: # SLP: Started
+Active-HDL Info: # SLP: Elaboration phase ...
+Active-HDL Info: # SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+Active-HDL Info: # SLP: Finished : 0.0 [s]
+Active-HDL Info: # ELAB2: Elaboration final pass complete - time: 0.0 [s].
+Active-HDL Warning: # KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+Error: Encountered an error while running Active-HDL Simulation software 
+Error: NativeLink simulation flow was NOT successful
+
+
+
+================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
+Nativelink TCL script failed with errorCode:  CHILDKILLED 16068 {unknown signal} {unknown signal}
+Nativelink TCL script failed with errorInfo:  child killed: unknown signal
+    while executing
+"close $pipe_id"
+    invoked from within
+"if [catch {close $pipe_id} errstream ] {
+				set savedCode $::errorCode
+				set savedInfo $::errorInfo
+				if { [regexp {CHILDSTATUS ([1-9]+) ([1-9]+)..."
+    invoked from within
+"if [ catch {eval gen_activehdl_script args_hash} sim_do_file_name] {
+
+		# when exception is thrown, sim_do_file_name contains the error msg (otherwise..."
+    (procedure "launch_sim" line 20)
+    invoked from within
+"launch_sim launch_args_hash"
+    ("eval" body line 1)
+    invoked from within
+"eval launch_sim launch_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set savedInfo $::errorInfo
+				error $result $savedInfo $savedCode
+			} else {
+			..."
+    invoked from within
+"if [catch {eval launch_sim launch_args_hash} result ] {
+			set status 1
+			if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set sav..."
+    (procedure "run_sim" line 78)
+    invoked from within
+"run_sim run_sim_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+			set savedCode $::errorCode
+			set savedInfo $::errorInfo
+			error "$result" $savedInfo $savedCode
+		} else {
+			er..."
+    (procedure "run_eda_simulation_tool" line 330)
+    invoked from within
+"run_eda_simulation_tool eda_opts_hash"

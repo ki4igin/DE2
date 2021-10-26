@@ -1,1 +1,9 @@
-0
+3
+~E 1 "../src/rtc.vhd" 6 rtc
+~A 1 "../src/rtc.vhd" 19 rtl
+~E 1 "../src/rtc_tb.vhd" 6 rtc_tb
+~A 1 "../src/rtc_tb.vhd" 9 rtl
+~E 1 "../src/rtc_test.vhd" 5 rtc_test
+~A 1 "../src/rtc_test.vhd" 19 rtl
+~E 1 "../src/seg7.vhd" 5 seg7
+~A 1 "../src/seg7.vhd" 12 rtl

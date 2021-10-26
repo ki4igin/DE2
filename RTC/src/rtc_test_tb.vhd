@@ -1,11 +1,12 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
+use std.env.all;
 
 entity rtc_test_tb is
 end rtc_test_tb;
 
 architecture tb of rtc_test_tb is
-    constant clock_frequency : integer := 50e6;
+    constant clock_frequency : integer := 50e1;
     constant clock_period    : time    := 1000 ms / clock_frequency;
 
     signal CLOCK_50 : std_logic                    := '0';
@@ -32,5 +33,11 @@ begin
 
     CLOCK_50 <= not CLOCK_50 after clock_period / 2;
     KEY      <= "1111" after clock_period;
+
+    tb: process
+    begin
+        wait for 10 sec;
+        finish;
+    end process tb;
 
 end tb;

@@ -1,0 +1,363 @@
+timestamp=1634494579929
+
+[~A]
+LastVerilogToplevel=altera_pll_reconfig_tasks
+ModifyID=2
+Version=74
+c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv=0*63673*202825
+
+[~MFT]
+0=5|0altera_lnsim_vhdl.mgf|249958|0
+1=1|1altera_lnsim_vhdl.mgf|1894975|0
+3=0|3altera_lnsim_vhdl.mgf|719763|0
+4=0|4altera_lnsim_vhdl.mgf|2107|0
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|c73a565f2ade592f8ac1c68f484c92167cf2590a0562dfb11fdcc3b01ec3cf18
+
+[altera_arriav_pll]
+A/altera_arriav_pll=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|5872|1*503083
+BinI32/altera_arriav_pll=3*272763
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|5872
+SLP=3*338150
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|6d640b514321f4a897da31fca3a226a703b012c5e4e7e432cdb81cf979a7ccb8697dcb57cc8c63214b282b3dd97e62a0
+
+[altera_arriavgz_pll]
+A/altera_arriavgz_pll=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|7746|1*723986
+BinI32/altera_arriavgz_pll=3*341276
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|7746
+SLP=3*406003
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|6d640b514321f4a897da31fca3a226a730aa6b40bf7d078a0d33a496997beafdde191525dd032d794635baeeb647b2b6
+
+[altera_cyclonev_pll]
+A/altera_cyclonev_pll=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|9619|1*944841
+BinI32/altera_cyclonev_pll=3*409102
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|9619
+SLP=3*458452
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|43ce050f4cb0bc08e0cb7fda0127894a0e1182bc2f5c88037d623a2a4e10bafc6e9996ee72d41c8efbf68ee74da9cc8e
+
+[altera_generic_pll_functions]
+A/altera_generic_pll_functions=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|10898|1*1075354
+BinI32/altera_generic_pll_functions=3*460749
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|10898
+SLP=3*462065
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|ad7e42b4c717d6c4ddc4693ad2a563d853fdcc6ae3f313c56cf54eded46215c69438a0a9b6fa5e6fbed0a76fb21341dee6b7f61a2b63fb91a41074571febd72e
+
+[altera_lnsim_components]
+E=1*1894975
+I=0*249958
+M=3|0|ve4|1634494579915|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim_components.vhd|0*203933*0xf94f4082d4b4938f8ab4f8c2855bc94217b21e5f|0*249816*0xaeff33d0d327e4f66feab22160c8fa0a
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim_components.vhd|27
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|008263d1396e0d8aeab5750599279870bdcf7421dcdad8f41a96e489950cda8b26527262ddaa47cb266f3a3c4d9b973ae1d46ba81cb6c881daec4beb64dc4bc0
+
+[altera_lnsim_functions]
+A/altera_lnsim_functions=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|4|1*518
+BinI32/altera_lnsim_functions=3*172
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|4
+SLP=3*27810
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|008263d1396e0d8aeab575059927987086f488f4588dbf63e8f53522b86d5fae04ee81bdedf384364145957be4275287
+
+[altera_mult_add]
+A/altera_mult_add=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14743|1*1250279
+BinI32/altera_mult_add=3*570339
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14743
+SLP=3*579947
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|9f7f5fb18c631caf24163cf04f349c96f2501d2dcd404cf9666e138b954d2bc2758fb0794a9fb90c95b8c194393ed2ee
+
+[altera_mult_add_rtl]
+A/altera_mult_add_rtl=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|15596|1*1316249
+BinI32/altera_mult_add_rtl=3*580968
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|15596
+SLP=3*597525
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|9f7f5fb18c631caf24163cf04f349c966583ac0cdc570ba327f31a23fe7de4da33c3a17c2aea0dd83a8370dd6650d993
+
+[altera_pll]
+A/altera_pll=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|1408|1*35367
+BinI32/altera_pll=3*47516
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|1408
+SLP=3*139056
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|8e28fc235bd717516e4f6ee8b392d0f34ef04c80722cfa1eb7252d0d1f04b8f73691429afba7b716edebb69002904047
+
+[altera_pll_reconfig_tasks]
+A/altera_pll_reconfig_tasks=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|18026|1*1504619
+BinI32/altera_pll_reconfig_tasks=3*665468
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|18026
+SLP=3*719763
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|ef2509ba86a1f1aa52fdc487c46acf10961b3ecc5414e3d70f649bf6e17f073e40457b802bf31722f0fd45d050d43f64f92764b7053df6674940b4a8d241c635
+
+[altera_stratixv_pll]
+A/altera_stratixv_pll=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|3999|1*282228
+BinI32/altera_stratixv_pll=3*204491
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|3999
+SLP=3*269665
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|294a07a950fd96cff7796f3f0aeebb5bb9e9b78e64ca83e715c11322462df0a713685b4e8401b5b052d6c73e2a9d8333
+
+[ama_accumulator_function]
+A/ama_accumulator_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17600|1*1487892
+BinI32/ama_accumulator_function=3*654837
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17600
+SLP=3*658498
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|a3afd8df8c4d42ee3604b7d1fedc02f5e7549859b50cdf037af946cfa4abfea8dee517a8f11eaca41eeada4f35cf50f365c8feec4ef8f4c27792115add436011
+
+[ama_adder_function]
+A/ama_adder_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17070|1*1464859
+BinI32/ama_adder_function=3*639723
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17070
+SLP=3*644956
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|3cee35a6657fc9033048aa70d9ba5d45024fe8be478a11734e93a98e9aab99fec4b9f60e0943381a7803f22af98d563e
+
+[ama_coef_reg_ext_function]
+A/ama_coef_reg_ext_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16855|1*1410062
+BinI32/ama_coef_reg_ext_function=3*612087
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16855
+SLP=3*615575
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|ea32f0e0ee58b9ba98144da55c02a7ea9b9a2a1603937119b8af2e75949dcfce4b07103a3f1f9038157c06394cb602ee7ea433450427659cc1fe863b7aa79d9d
+
+[ama_data_split_reg_ext_function]
+A/ama_data_split_reg_ext_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16736|1*1400922
+BinI32/ama_data_split_reg_ext_function=3*606272
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16736
+SLP=3*611397
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|54c5c5c03f16b9813e25b41b7184c2be78aabe07e163f44dacddbcd210d138d2bba1ea47153f3d65533e17d17cc3eafa737e50baa5d6dee30dc0b44361ff8a98
+
+[ama_dynamic_signed_function]
+A/ama_dynamic_signed_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16481|1*1497820
+BinI32/ama_dynamic_signed_function=3*661429
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16481
+SLP=3*663126
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|da1138c0375c3d52856393ab9bbaaebdf39a60ec347440d65fa03b3877b477e018eadde9838019cdb2c4e8df21eabec1475bc41f38b4f6a5e3d443bb93aee9ad
+
+[ama_multiplier_function]
+A/ama_multiplier_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17243|1*1452647
+BinI32/ama_multiplier_function=3*636472
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17243
+SLP=3*639029
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|bb244189caa0655fa3f8a9f10eded9f0742427aaa680782b4ca95b9e22da148f26527262ddaa47cb266f3a3c4d9b973a4a6a69b9f02020636bd72597e6c3eb09
+
+[ama_preadder_function]
+A/ama_preadder_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17398|1*1434040
+BinI32/ama_preadder_function=3*620854
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17398
+SLP=3*634149
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|2b3f76bdfff0e7df3b164830ec05eb4779d2df417d1fb45ccc68221bc1fc4038f056e7443753bac161eadd9ba04557d9
+
+[ama_register_function]
+A/ama_register_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16542|1*1397237
+BinI32/ama_register_function=3*600413
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16542
+SLP=3*604782
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|a5ad2d8475f06a72de49448f187701b0916a1a91427c6b37332eefb4913a523dc28e4d0ae8f0088b997b93ac621a0d6e
+
+[ama_register_with_ext_function]
+A/ama_register_with_ext_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16652|1*1500744
+BinI32/ama_register_with_ext_function=3*663567
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16652
+SLP=3*665032
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|a5ad2d8475f06a72de49448f187701b099ce37ae7e64d7cd9e7d382a6d2b4d4aca0a02623b842720eb3b6de9ff30215f36a23dcc5881973d510e552dc64f5869
+
+[ama_scanchain]
+A/ama_scanchain=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17897|1*1424433
+BinI32/ama_scanchain=3*617029
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17897
+SLP=3*620279
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|872e9eb4b30221d7cc2e61f23a623619b2b68694cc97e64f84ad4aa9d0aeed4bbc7dd5136dcaaee0d82b956c9bae31e5
+
+[ama_signed_extension_function]
+A/ama_signed_extension_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16423|1*1495008
+BinI32/ama_signed_extension_function=3*659268
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|16423
+SLP=3*660990
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|e30a6d494f1c6e56726fede60327cc2679a6436cb92b3f345f6b431a1cfca48c20281684e2226d5ae16c323acb6659e41b087ab037f1d2c73bb86a765f2998b2
+
+[ama_systolic_adder_function]
+A/ama_systolic_adder_function=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17736|1*1476720
+BinI32/ama_systolic_adder_function=3*645992
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|17736
+SLP=3*653632
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|27441dd0aa3eba62642a15e02026a2132d44cdeb350570de08c6e697f6c6c8ebee90077535907a6fa36b58aa04c523cf61d3754fa3a1933fb83cdb3d7053f2cd
+
+[common_28nm_mlab_cell_core]
+A/common_28nm_mlab_cell_core=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13873|1*1200797
+BinI32/common_28nm_mlab_cell_core=3*541936
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13873
+SLP=3*549175
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|64c2c07aefd617c773db099458fedcde424a880fcf24d655248c442fc05ebe67507b6daa3c3c4fa8a804bca282c99c41fc60e97dfd0a44f2413e118d74a7d06d
+
+[common_28nm_mlab_cell_pulse_generator]
+A/common_28nm_mlab_cell_pulse_generator=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13790|1*1197166
+BinI32/common_28nm_mlab_cell_pulse_generator=3*539364
+D/common_28nm_mlab_cell_pulse_generator=4*1577
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13790
+SLP=3*540102
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|64c2c07aefd617c773db099458fedcdeffb1d2288f53d679ba95f46e42f8b876e8ba03f5dfca78077357d27faee65d74609732fd7e5ee76cf55c410dfc7ebce0
+
+[common_28nm_mlab_latch]
+A/common_28nm_mlab_latch=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13833|1*1199154
+BinI32/common_28nm_mlab_latch=3*540548
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13833
+SLP=3*541579
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|64c2c07aefd617c773db099458fedcde2fa60f688b8037f9f9a6298a04465790235399a1793db12f17d9383d1d92e495
+
+[common_28nm_ram_block]
+A/common_28nm_ram_block=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|12210|1*1104535
+BinI32/common_28nm_ram_block=3*484239
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|12210
+SLP=3*524128
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|d92a7f832ab91d19a045b89ab16b9e088531e1a19de8c100fe9a3ab43b12a59b8b088c669ef122e3cce9b328798b935d
+
+[common_28nm_ram_pulse_generator]
+A/common_28nm_ram_pulse_generator=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|12091|1*1097332
+BinI32/common_28nm_ram_pulse_generator=3*479367
+D/common_28nm_ram_pulse_generator=4*0
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|12091
+SLP=3*480543
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|d92a7f832ab91d19a045b89ab16b9e08cd31f02f74820961c8854d69ef4f9153b54af98d6322dfb93b91d8c94e15a6902b1f090829681e5d0690121eaecb9ffd
+
+[common_28nm_ram_register]
+A/common_28nm_ram_register=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|12136|1*1099652
+BinI32/common_28nm_ram_register=3*480988
+D/common_28nm_ram_register=4*312
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|12136
+SLP=3*483532
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|d92a7f832ab91d19a045b89ab16b9e0807c72b751d0d58ffd3a0d389abec8c1799dc98bb303ff2c03923f45e7b96058e
+
+[common_porta_latches]
+A/common_porta_latches=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14031|1*1210107
+BinI32/common_porta_latches=3*551535
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14031
+SLP=3*552286
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|6b11f8031160be4c20d0f31d1caf3910a106f11d0ee28c72a86fdc5bf02b0f02284a0903e2d49835ea4f8e5dbd9dcd20
+
+[common_porta_registers]
+A/common_porta_registers=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14270|1*1222171
+BinI32/common_porta_registers=3*555280
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14270
+SLP=3*555797
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|6b11f8031160be4c20d0f31d1caf3910469fa2ab4b6684a7a3dfe0de85891193e43cb21b69f6bf3499574d749a8404ee
+
+[dprio_init]
+A/dprio_init=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|3845|1*273943
+BinI32/dprio_init=3*199866
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|3845
+SLP=3*202309
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|722755c1a66c60efcd829edf15cfe722d819e4bd3372bc85d489aba2a9cc32921802dee37eae1b0f4f9420003a2d879e
+
+[dps_extra_kick]
+A/dps_extra_kick=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|3766|1*271068
+BinI32/dps_extra_kick=3*196508
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|3766
+SLP=3*198925
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|c20b4e1c8aabc20e078858bbd42b80cec1047563a9612a2cd008be6fdf2c62c7980011781a3a988c4138562483a17d5a
+
+[generic_28nm_hp_mlab_cell_impl]
+A/generic_28nm_hp_mlab_cell_impl=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14106|1*1213668
+BinI32/generic_28nm_hp_mlab_cell_impl=3*552627
+D/generic_28nm_hp_mlab_cell_impl=4*1901
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14106
+SLP=3*554598
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|702e305c916e3158e6646fc05400c35466069cd730bdc5ab16b7379113774338ef6bbafecc91f66a2c89f3b4e63e3a36b9f4c7cc1943df099681148553c3e63c
+
+[generic_28nm_lc_mlab_cell_impl]
+A/generic_28nm_lc_mlab_cell_impl=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14356|1*1226030
+BinI32/generic_28nm_lc_mlab_cell_impl=3*556049
+D/generic_28nm_lc_mlab_cell_impl=4*2107
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14356
+SLP=3*558020
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|702e305c916e3158e6646fc05400c3544eeeadd94627974712dfac50249c3f8cafc11e4136c3080cb891f4735b69a7953d3f7d1874dc326ccd89917e9b131029
+
+[generic_cdr]
+A/generic_cdr=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|11718|1*1078790
+BinI32/generic_cdr=3*462983
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|11718
+SLP=3*476227
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|35a29372f7da8af3701f8467fe49a29b6efad686b41b9efc536ff6ebd5f870e8e06c563970b03bfdda4da2c7faca0cf5
+
+[generic_device_pll]
+A/generic_device_pll=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14525|1*1235661
+BinI32/generic_device_pll=3*559278
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14525
+SLP=3*568814
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|200d349f5933710ec7419960833cb258eaa7848bdec4831fd0755f3bb5f5a30923283e174e947e7172e410418df040d1
+
+[generic_m10k]
+A/generic_m10k=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13563|1*1179400
+BinI32/generic_m10k=3*537760
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13563
+SLP=3*538876
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|8670028024a233579bedb09a860ebf25262e7a029138bf2d4e47d58412db99afe258ffd5a6c4660c9c49dc040177ffa8
+
+[generic_m20k]
+A/generic_m20k=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13332|1*1160620
+BinI32/generic_m20k=3*536056
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|13332
+SLP=3*537252
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|4450a0b0a36e476a34cc9e4058b5b39810882923f8dc415d873d7c553aafba402e986f3522aa3e0ed8bf23d5e6801407
+
+[generic_mux]
+A/generic_mux=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14513|1*1234533
+BinI32/generic_mux=3*558698
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|14513
+SLP=3*559072
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|35844692dc68d1db79f630dc80f13bdb9382e2f0c4f8e87e7d1d2f0f3e5bd6b7dcd90ae2db16f91e2e1004aebd8fa6ac
+
+[generic_pll]
+A/generic_pll=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|11017|1*228474
+BinI32/generic_pll=3*155184
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|11017
+SLP=3*184928
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|82a108f7f6d62739af8f54cd3ea3c04eb50ea2fcdce9f3ce1568f0902d4752b05155e5efeab70fbbbc40d35cd90c4ae7
+
+[pll_dps_lcell_comb]
+A/pll_dps_lcell_comb=22|c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|3924|1*277842
+BinI32/pll_dps_lcell_comb=3*203583
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/altera_lnsim.sv|3924
+SLP=3*204253
+Version=11.1.262.7351 (Windows)|0000000b789cd32d2e33ca3655d04d494a070014040363|f0325d04aaa685b7ae040a340c80bbb28703ed76ee6432a1ab2472d0bd724145396bca7bd4a490c1e50fbbe5d8f32501
+
+[~U]
+$root=12|0*0|
+altera_arriav_pll=12|0*17033|
+altera_arriavgz_pll=12|0*24748|
+altera_cyclonev_pll=12|0*32469|
+altera_generic_pll_functions=12|0*37889||0x40000000
+altera_lnsim_components=3|0*203439|0*203591
+altera_lnsim_functions=12|0*502||0x40000000
+altera_mult_add=12|0*47116||0x10
+altera_mult_add_rtl=12|0*49766|
+altera_pll=12|0*5697||0x10
+altera_pll_reconfig_tasks=12|0*58906||0x10
+altera_stratixv_pll=12|0*9313|
+ama_accumulator_function=12|0*57293|
+ama_adder_function=12|0*56107|
+ama_coef_reg_ext_function=12|0*53455|
+ama_data_split_reg_ext_function=12|0*52841|
+ama_dynamic_signed_function=12|0*58077|
+ama_multiplier_function=12|0*55471|
+ama_preadder_function=12|0*54675|
+ama_register_function=12|0*52491|
+ama_register_with_ext_function=12|0*58433|
+ama_scanchain=12|0*54130|
+ama_signed_extension_function=12|0*57733|
+ama_systolic_adder_function=12|0*56687|
+common_28nm_mlab_cell_core=12|0*43613|
+common_28nm_mlab_cell_pulse_generator=12|0*43073|
+common_28nm_mlab_latch=12|0*43340|
+common_28nm_ram_block=12|0*39595|
+common_28nm_ram_pulse_generator=12|0*38967|
+common_28nm_ram_register=12|0*39274|
+common_porta_latches=12|0*44177||0x10
+common_porta_registers=12|0*45199|
+dprio_init=12|0*8691|
+dps_extra_kick=12|0*8358|
+generic_28nm_hp_mlab_cell_impl=12|0*44543||0x10
+generic_28nm_lc_mlab_cell_impl=12|0*45591||0x10
+generic_cdr=12|0*38441||0x10
+generic_device_pll=12|0*46463||0x10
+generic_m10k=12|0*42075||0x10
+generic_m20k=12|0*41056||0x10
+generic_mux=12|0*46247||0x10
+generic_pll=12|0*7558|
+pll_dps_lcell_comb=12|0*9006|

@@ -4,3 +4,11 @@ Version=11.1
 rtc_test=rtc_test.adf
 [Settings]
 Active=rtc_test
+[Expand]
+rtc_test=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

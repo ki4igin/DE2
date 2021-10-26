@@ -1,1 +1,5 @@
-i<>.\src\rtc_test.vho
+i<>.\src\tools.vhd
+i<>.\src\seg7.vhd
+i<>.\src\rtc_test.vhd
+i<>.\src\rtc.vhd
+i<>.\src\rtc_tb.vhd

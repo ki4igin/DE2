@@ -1,85 +1,114 @@
-waveformmode ASDB
-alib  vhdl_libs/cycloneii_vhdl
-# Library Manager: Library "cycloneii_vhdl" attached.
-amap cycloneii vhdl_libs/cycloneii_vhdl
-# Library Manager: Library "cycloneii" attached.
-acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
-# File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
-# Compile Package "cycloneii_atom_pack"
-# Compile Package Body "cycloneii_atom_pack"
-# Compile Package "cycloneii_pllpack"
-# Compile Package Body "cycloneii_pllpack"
-# Compile Entity "cycloneii_dffe"
-# Compile Architecture "behave" of Entity "cycloneii_dffe"
-# Compile Entity "cycloneii_mux21"
-# Compile Architecture "AltVITAL" of Entity "cycloneii_mux21"
-# Compile Entity "cycloneii_mux41"
-# Compile Architecture "AltVITAL" of Entity "cycloneii_mux41"
-# Compile Entity "cycloneii_and1"
-# Compile Architecture "AltVITAL" of Entity "cycloneii_and1"
-# Compile Entity "cycloneii_ram_register"
-# Compile Architecture "reg_arch" of Entity "cycloneii_ram_register"
-# Compile Entity "cycloneii_ram_pulse_generator"
-# Compile Architecture "pgen_arch" of Entity "cycloneii_ram_pulse_generator"
-# Compile Entity "cycloneii_ram_block"
-# Compile Architecture "block_arch" of Entity "cycloneii_ram_block"
-# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2544, 0): Non resolved signal "mem_invalidate" may have multiple sources.
-# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2546, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
-# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2552, 0): Non resolved signal "mem_invalidate_loc" may have multiple sources.
-# Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2553, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
-# Compile Entity "cycloneii_jtag"
-# Compile Architecture "architecture_jtag" of Entity "cycloneii_jtag"
-# Compile Entity "cycloneii_crcblock"
-# Compile Architecture "architecture_crcblock" of Entity "cycloneii_crcblock"
-# Compile Entity "cycloneii_asmiblock"
-# Compile Architecture "architecture_asmiblock" of Entity "cycloneii_asmiblock"
-# Warning: DAGGEN_0002: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2701, 0): Process has no effect - no sequential statements.
-# Compile Entity "cycloneii_m_cntr"
-# Compile Architecture "behave" of Entity "cycloneii_m_cntr"
-# Compile Entity "cycloneii_n_cntr"
-# Compile Architecture "behave" of Entity "cycloneii_n_cntr"
-# Compile Entity "cycloneii_scale_cntr"
-# Compile Architecture "behave" of Entity "cycloneii_scale_cntr"
-# Compile Entity "cycloneii_pll_reg"
-# Compile Architecture "behave" of Entity "cycloneii_pll_reg"
-# Compile Entity "cycloneii_pll"
-# Compile Architecture "vital_pll" of Entity "cycloneii_pll"
-# Compile Entity "cycloneii_routing_wire"
-# Compile Architecture "behave" of Entity "cycloneii_routing_wire"
-# Compile Entity "cycloneii_lcell_ff"
-# Compile Architecture "vital_lcell_ff" of Entity "cycloneii_lcell_ff"
-# Compile Entity "cycloneii_lcell_comb"
-# Compile Architecture "vital_lcell_comb" of Entity "cycloneii_lcell_comb"
-# Compile Entity "cycloneii_asynch_io"
-# Compile Architecture "behave" of Entity "cycloneii_asynch_io"
-# Compile Entity "cycloneii_io"
-# Compile Architecture "structure" of Entity "cycloneii_io"
-# Compile Entity "cycloneii_clk_delay_ctrl"
-# Compile Architecture "vital_clk_delay_ctrl" of Entity "cycloneii_clk_delay_ctrl"
-# Compile Entity "cycloneii_clk_delay_cal_ctrl"
-# Compile Architecture "vital_clk_delay_cal_ctrl" of Entity "cycloneii_clk_delay_cal_ctrl"
-# Compile Entity "cycloneii_mac_data_reg"
-# Compile Architecture "vital_cycloneii_mac_data_reg" of Entity "cycloneii_mac_data_reg"
-# Compile Entity "cycloneii_mac_sign_reg"
-# Compile Architecture "cycloneii_mac_sign_reg" of Entity "cycloneii_mac_sign_reg"
-# Compile Entity "cycloneii_mac_mult_internal"
-# Compile Architecture "vital_cycloneii_mac_mult_internal" of Entity "cycloneii_mac_mult_internal"
-# Compile Entity "cycloneii_mac_mult"
-# Compile Architecture "vital_cycloneii_mac_mult" of Entity "cycloneii_mac_mult"
-# Compile Entity "cycloneii_mac_out"
-# Compile Architecture "vital_cycloneii_mac_out" of Entity "cycloneii_mac_out"
-# Compile Entity "cycloneii_ena_reg"
-# Compile Architecture "behave" of Entity "cycloneii_ena_reg"
-# Compile Entity "cycloneii_clkctrl"
-# Compile Architecture "vital_clkctrl" of Entity "cycloneii_clkctrl"
-# Compile success 0 Errors 5 Warnings  Analysis time :  1.0 [s]
-acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
-# File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
-# Compile Package "cycloneii_components"
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work rtc_test -2008  $dsn/src/seg7.vhd $dsn/src/tools.vhd $dsn/src/rtc.vhd $dsn/src/rtc_tb.vhd $dsn/src/rtc_test.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/rtc.vhd
+# Compile Entity "rtc"
+# Compile Architecture "rtl" of Entity "rtc"
+# File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/rtc_tb.vhd
+# Compile Entity "rtc_tb"
+# Compile Architecture "rtl" of Entity "rtc_tb"
+# File: D:/DE2/RTC/simulation/activehdl/rtc_test/src/rtc_test.vhd
+# Compile Entity "rtc_test"
+# Compile Architecture "rtl" of Entity "rtc_test"
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-
-addfile -c -auto D:/DE2/RTC/simulation/activehdl/rtc_test.vho
-# Adding file D:\DE2\RTC\simulation\activehdl\rtc_test.vho ... Done
-
-addfile -c -auto D:/DE2/RTC/simulation/activehdl/rtc_test_vhd.sdo
-# Adding file D:\DE2\RTC\simulation\activehdl\rtc_test_vhd.sdo ... Done
+asim -advdataflow  -O5 +access +r +m+rtc_tb rtc_tb rtl
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  TOP instance.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  TOP instance.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  TOP instance.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7096 kB (elbread=1280 elab2=5678 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\RTC\simulation\activehdl\rtc_test\src\wave.asdb
+#  21:55, 17 ������� 2021 �.
+#  Simulation has been initialized
+# add wave -noreg {/rtc_tb/tb_clk}
+# add wave -noreg {/rtc_tb/tb_rst}
+# add wave -noreg {/rtc_tb/tb_seconds}
+# add wave -noreg {/rtc_tb/tb_minutes}
+# add wave -noreg {/rtc_tb/tb_hours}
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/DE2/RTC/simulation/activehdl/rtc_test/src/wave.asdb'.
+# add wave -noreg {/rtc_tb/rtc1/seconds_l}
+# add wave -noreg {/rtc_tb/rtc1/seconds_h}
+# add wave -noreg {/rtc_tb/rtc1/minutes_l}
+# add wave -noreg {/rtc_tb/rtc1/minutes_h}
+# 4 signal(s) traced.
+run
+# EXECUTION:: ERROR  : RTC Time = 124000 ms; REF Time = 100000 ms
+# EXECUTION:: Time: 100002 ms,  Iteration: 0,  Instance: /rtc_tb,  Process: sim.
+# RUNTIME: Info: RUNTIME_0142 rtc_tb.vhd (52): finish called.
+# KERNEL: Time: 100002 ms,  Iteration: 0,  Instance: /rtc_tb,  Process: sim.
+# KERNEL: stopped at time: 100002 ms
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# 1 signal(s) traced.
+endsim
+# ASDB: Info: Writing data to disk. Please wait...
+# VSIM: Simulation has finished.
+asim -advdataflow  -O5 +access +r +m+rtc_tb rtc_tb rtl
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  TOP instance.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  TOP instance.
+# KERNEL: WARNING: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+# KERNEL: Time: 0 ps,  Iteration: 0,  TOP instance.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7096 kB (elbread=1280 elab2=5678 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\RTC\simulation\activehdl\rtc_test\src\wave.asdb
+#  22:00, 17 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/RTC/simulation/activehdl/rtc_test/src/wave.asdb'.
+run
+# EXECUTION:: ERROR  : RTC Time = 124000 ms; REF Time = 100000 ms
+# EXECUTION:: Time: 100002 ms,  Iteration: 0,  Instance: /rtc_tb,  Process: sim.
+# RUNTIME: Info: RUNTIME_0142 rtc_tb.vhd (52): finish called.
+# KERNEL: Time: 100002 ms,  Iteration: 0,  Instance: /rtc_tb,  Process: sim.
+# KERNEL: stopped at time: 100002 ms
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# ASDB: Info: Writing data to disk. Please wait...
+# VSIM: Simulation has finished.

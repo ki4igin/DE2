@@ -1,0 +1,97 @@
+V 000062 56 250 1634843055552 common_28nm_ram_pulse_generator
+(_unit common_28nm_ram_pulse_generator
+	(_specify
+		(_specparam t_decode integer 0)
+		(_specparam t_access integer 0)
+		(_modpath parallel positive 0 12110
+			(_port clk in posedge)
+			(_port pulse out posedge)
+			(_datain state in posedge)
+		)
+	)
+)
+V 000056 56 1209 1634843055554 common_28nm_ram_register
+(_unit common_28nm_ram_register
+	(_specify
+		(_tchk setup 0 12173
+			(_port d ())
+			(_port clk (posedge) (_code  11 reset))
+			(_register (viol_notifier))
+		)
+		(_tchk setup 0 12174
+			(_port aclr ())
+			(_port clk (posedge))
+			(_register (viol_notifier))
+		)
+		(_tchk setup 0 12175
+			(_port ena ())
+			(_port clk (posedge) (_code  12 reset))
+			(_register (viol_notifier))
+		)
+		(_tchk setup 0 12176
+			(_port stall ())
+			(_port clk (posedge) (_code  13 reset))
+			(_register (viol_notifier))
+		)
+		(_tchk hold 0 12177
+			(_port clk (posedge) (_code  14 reset))
+			(_port d ())
+			(_register (viol_notifier))
+		)
+		(_tchk hold 0 12178
+			(_port clk (posedge))
+			(_port aclr ())
+			(_register (viol_notifier))
+		)
+		(_tchk hold 0 12179
+			(_port clk (posedge) (_code  15 reset))
+			(_port ena ())
+			(_register (viol_notifier))
+		)
+		(_tchk hold 0 12180
+			(_port clk (posedge) (_code  16 reset))
+			(_port stall ())
+			(_register (viol_notifier))
+		)
+		(_modpath parallel positive 0 12181
+			(_port clk in posedge)
+			(_port q out posedge)
+			(_datain q_reg in posedge)
+		)
+		(_modpath parallel positive 0 12182
+			(_port aclr in posedge)
+			(_port q out posedge)
+			(_datain q_reg in posedge)
+		)
+	)
+)
+V 000068 56 256 1634843055562 common_28nm_mlab_cell_pulse_generator
+(_unit common_28nm_mlab_cell_pulse_generator
+	(_specify
+		(_specparam t_decode integer 0)
+		(_specparam t_access integer 0)
+		(_modpath parallel positive 0 13807
+			(_port clk in posedge)
+			(_port pulse out posedge)
+			(_datain state in posedge)
+		)
+	)
+)
+V 000061 56 145 1634843055570 generic_28nm_hp_mlab_cell_impl
+(_unit generic_28nm_hp_mlab_cell_impl
+	(_specify
+		(_modpath full unknown 0 14236
+			(_port portbaddr in )
+			(_port portbdataout out )
+		)
+	)
+)
+V 000061 56 145 1634843055574 generic_28nm_lc_mlab_cell_impl
+(_unit generic_28nm_lc_mlab_cell_impl
+	(_specify
+		(_modpath full unknown 0 14486
+			(_port portbaddr in )
+			(_port portbdataout out )
+		)
+	)
+)

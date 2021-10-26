@@ -1,0 +1,464 @@
+timestamp=1634843047004
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=262|0lpm_vhdl.mgf|258695|0
+1=37|1lpm_vhdl.mgf|196679|0
+3=37|3lpm_vhdl.mgf|180182|0
+
+[lpm_abs]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3096|1*96719
+BinI32/lpm_syn=3*62508
+I=0*116303
+I/lpm_syn=I/LPM_SYN 0*117363
+M=11|0|ve4|1634843046192|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*115705*0x7745b4457fae1e32f80f2bc996adac73218cb806|0*116192*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046196|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*116622*0x44f9bd8d519fdfa47fe6b0555a6235e60696481b|0*117241*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3080
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|862f02744464522406ccdcef7614057926527262ddaa47cb266f3a3c4d9b973a1824d045b6f8812f48814ecd77bd22c0
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a1824d045b6f8812f48814ecd77bd22c0
+
+[lpm_add_sub]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1908|1*62728
+BinI32/lpm_syn=3*42853
+I=0*84833
+I/lpm_syn=I/LPM_SYN 0*87480
+M=11|0|ve4|1634843046041|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*83872*0xb31e0ffda9a431e403f39f26bb55edd8302c16b1|0*84718*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046056|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*85079*0x527a6c352252b77c1caaee54abbb539090ec39d4|0*87354*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1882
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|5e9b11c763a3d649fb2ed1113453378a0769ec6406ea58ef26676ba352877f2614153490f0e5374713c3dba387196f80
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a9bd461682c37cb9715b6fd54c426a18d
+
+[lpm_add_sub_signed]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1602|1*55481
+BinI32/lpm_syn=3*36278
+I=0*75502
+I/lpm_syn=I/LPM_SYN 0*78846
+M=11|0|ve4|1634843045999|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*74595*0x411c8dfb4929155f6114a9832c8d0f5fe2725f39|0*75380*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046008|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*75832*0x777810f290edc9bc57427adad5413c519da2a72e|0*78713*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1576
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c1075bf28c25ff24ec62a24200262d735ab9652ee214845be933d8fa34d3a6077351e531c6b53971e9b6870fc1ca1200
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973af340ec552d93e859c1f92ae0ec860ab9
+
+[lpm_add_sub_unsigned]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1764|1*59100
+BinI32/lpm_syn=3*39799
+I=0*80475
+I/lpm_syn=I/LPM_SYN 0*83163
+M=11|0|ve4|1634843046018|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*79552*0x3074942fd8b1dd6414e2014f2780e8610302038e|0*80351*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046028|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*80808*0x106059c75fd2fa29ef69eb3844f081f93361dcf5|0*83028*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1739
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c1075bf28c25ff24ec62a24200262d73fed91a274ccedc4c05d8289211b8220a49731942a3f299a9d970c3ea0b1496cc
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a203de80a416010c60ec21c6ba775634b
+
+[lpm_and]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|732|1*34378
+BinI32/lpm_syn=3*22737
+I=0*52863
+I/lpm_syn=I/LPM_SYN 0*54040
+M=11|0|ve4|1634843045806|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*52288*0xdffea38cf7d2f3564970ca61013afb82341d8399|0*52752*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843045820|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*53105*0x69346a96e6e92d075ae417ebbee804d713d953ba|0*53918*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|713
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f4f6311990774440d85b6ee3e1ddbc9726527262ddaa47cb266f3a3c4d9b973abc9d4e7a8bfc1b65a79829c5e84b04e0
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973abc9d4e7a8bfc1b65a79829c5e84b04e0
+
+[lpm_bipad]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|8610|1*196679
+BinI32/lpm_syn=3*180182
+I=0*257812
+I/lpm_syn=I/LPM_SYN 0*258695
+M=11|0|ve4|1634843046665|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*257192*0x85fb162860152dd7989d28a839f24c0d0703283a|0*257699*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046667|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*258056*0x8614a1c0c209937bdf27f648d672a6a160d12f38|0*258571*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|8594
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a8063d73c8df7e925f60b0288791408cfa691fb2a845c7d0017de5fa3ce5db6c573c072cf5c32b4278c96673a2ff4377
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a192e0810549aefb8a8f4db53a3179d8e
+
+[lpm_bustri]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1026|1*43511
+BinI32/lpm_syn=3*26669
+I=0*59861
+I/lpm_syn=I/LPM_SYN 0*60915
+M=11|0|ve4|1634843045910|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*59163*0x4d84acaff7f580f0cb689cadf7848665f39e44a1|0*59747*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843045920|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*60184*0x5cd3faade81328ecbd96778ce8b757c871780f17|0*60790*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1001
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|8a8d5780afa77d132c54839d95372e3037f542fb71f16afee2ac2c50177051c70ee6773a11ad9baeb3e4278461349672
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ac462177bc73a48a08e95548081241149
+
+[lpm_clshift]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1363|1*51102
+BinI32/lpm_syn=3*31414
+I=0*68884
+I/lpm_syn=I/LPM_SYN 0*73892
+M=11|0|ve4|1634843045961|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*67949*0x100e936112a479a934a214f2e121ae38907c2e89|0*68769*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843045976|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*69211*0xa33391c1ea87b5a020f8a33ee31d0f02a5c4c42c|0*73766*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1323
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|008ab639f05ccd3ac7435de697b6eddc47bc031eee87ac37fa0063871aaf49071617eab47e47bbc91c485b708756b880
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ad5201d660b4ca2f70b74c5bf8e10f080
+
+[lpm_common_conversion]
+BinI32/lpm_common_conversion=3*0
+E=1*4203
+I=0*16649
+I/lpm_common_conversion=I/LPM_COMMON_CONVERSION 0*21801
+M=3|0|ve4|1634843045666|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*15885*0x623efb1eb09968d394cbc27081146487a1d0597d|0*16524*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_common_conversion=M/LPM_COMMON_CONVERSION 4|0|ve4|1634843045682|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*16863*0x8d2fcf7b9c6a52bead2180e449fbdcd3587362bf|0*21652*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|45
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e665e770805b5362d7ff93080b3819473cc92ac3cd72057893dd3aebb6b256d6360d89a9afc1c14096612435e18c899e
+Version/lpm_common_conversion=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e665e770805b5362d7ff93080b3819473cc92ac3cd72057893dd3aebb6b256d6360d89a9afc1c14096612435e18c899e
+
+[lpm_compare]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2393|1*76137
+BinI32/lpm_syn=3*48573
+I=0*97554
+I/lpm_syn=I/LPM_SYN 0*100005
+M=11|0|ve4|1634843046114|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*96650*0xf328b92a49b980284ba17b62ed9b1f1b37d73a38|0*97439*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046124|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*97800*0xf725a295c0f99a8a4404a1fb35735239f9308202|0*99879*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2353
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|1d4bda96913cd9903b95ba751a816b111e5f1d453b4eeb6e73c557322e2d86703991cb4f72ca78ef30eb266ef0d28104
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ae56a5a8cf8e07d9647306af0026c9341
+
+[lpm_compare_signed]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2086|1*69851
+BinI32/lpm_syn=3*43700
+I=0*89030
+I/lpm_syn=I/LPM_SYN 0*91700
+M=11|0|ve4|1634843046063|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*88144*0xb7f419ee7c7d5136ab1e0e601dc584307a2b05ab|0*88908*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046074|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*89362*0xbbca0de8a092197e428d0dd97c9212b21ca3fcdd|0*91567*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2048
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|cd2b5d538ce391c5f6d5b4283be6b26b21bdeab3fd8fd9b5505b9606ecdf5f59ca646fa6bad61d655a477b42163b2d3e
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a94d2510b779681e24abb821d09b21332
+
+[lpm_compare_unsigned]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2235|1*72990
+BinI32/lpm_syn=3*46136
+I=0*93273
+I/lpm_syn=I/LPM_SYN 0*95963
+M=11|0|ve4|1634843046090|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*92379*0x5850b47964bd2b83ef25929b5ff5b458efed54f3|0*93149*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046099|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*93609*0x7086eaa2651c3bfcfeb5832f2f55266d0ac2e644|0*95828*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2197
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|cd2b5d538ce391c5f6d5b4283be6b26b8a0ef1eb2f053dc7faa94c2c4c2fc7c462db61ee14c605b2656bbb5a8800d275
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ab480e94aff835e06821ba6e01cc5c589
+
+[lpm_components]
+E=1*0
+I=0*15224
+M=3|0|ve4|1634843045534|c:/altera/13.0sp1/quartus/eda/sim_lib/220pack.vhd|0*887*0xf34ff8f715fc27fe1af825b037605cece1c1b4d6|0*15107*0xaeff33d0d327e4f66feab22160c8fa0a
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220pack.vhd|15
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|69062e3443d1117cbb06ab3a4b0cdd7dc855009201dd2c2c04f06a457a43fb73015d45c3fa1c07085ce71bc11f4a5f79
+
+[lpm_constant]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|619|1*31182
+BinI32/lpm_syn=3*21482
+I=0*48887
+I/lpm_syn=I/LPM_SYN 0*49725
+M=11|0|ve4|1634843045768|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*48246*0x587e2995e7f303898395d56394363c311fe27363|0*48771*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843045770|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*49215*0x1d77cacdc50835d36beb4992dfbb899dde85d2e0|0*49598*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|597
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|83331ae57d06825f8aa424ec0e7da2994c6c9f8ce91fffc9e3200698a0ccd7365cf55370ce45ea7f648ad0c7a30f6a90
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a9d0cb80c7c670d5a61ee698ef0b2bfbf
+
+[lpm_counter]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3192|1*98353
+BinI32/lpm_syn=3*63587
+I=0*119327
+I/lpm_syn=I/LPM_SYN 0*124396
+M=11|0|ve4|1634843046210|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*118097*0xbc05a3354abce80538295220e0be8caac4fd63ae|0*119212*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046226|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*119693*0x7ba9f94de49d0b6d89a66f613a4cd8f4f75759eb|0*124270*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3158
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|cb1b98d51588e0cc50d394686194bc0ddde9a151c609aea970adbb80f4762bfefe9194b9bb9e1dce2a7a10f206a48d54
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ae14160188fca8eb4f0743d6e75ec662c
+
+[lpm_decode]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1230|1*48389
+BinI32/lpm_syn=3*29573
+I=0*65535
+I/lpm_syn=I/LPM_SYN 0*67260
+M=11|0|ve4|1634843045939|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*64790*0xb3ea5a718c23d885e36c633b313da3716cbbd235|0*65421*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843045948|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*65858*0x586f484f0706c77bcf432b484a5dee5a3c2b3448|0*67135*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1200
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|3834fd0f9a08e96efb72990644279e7be7ff1d7fe49263970c1b9fa0cf8830356960ec7a72e7e50ce943dcaa1790f270
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a9e91cf6301537bf83ea8b732071368c9
+
+[lpm_device_families]
+BinI32/lpm_device_families=3*8520
+E=1*6700
+I=0*26678
+I/lpm_device_families=I/LPM_DEVICE_FAMILIES 0*47739
+M=3|0|ve4|1634843045713|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*25714*0xccfeee9f19361411cc19a6672fac6d12be7d77f5|0*26555*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_device_families=M/LPM_DEVICE_FAMILIES 4|0|ve4|1634843045740|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*26890*0x40d4be497a091b33b05d98eab72ddbb1d8406719|0*47594*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|411
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e5d27d4d9f69b3dbecf3b6eb75b1b477b218e03c858b157abc212326bd1198dfe3ba1e7f9ebebb9c3dcf1faf63507d46
+Version/lpm_device_families=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e5d27d4d9f69b3dbecf3b6eb75b1b477b218e03c858b157abc212326bd1198dfe3ba1e7f9ebebb9c3dcf1faf63507d46
+
+[lpm_divide]
+A/behave=21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2772|1*88820
+BinI32/behave=3*54709
+I=0*108187
+I/behave=0*115057
+M=11|0|ve4|1634843046159|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*107185*0x1315d4d6fe4b614a709ddd18253c4e011b231259|0*108073*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behave=21|0|ve4|1634843046180|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*108554*0x9fabbcbe92b9eea3c509c13340845013111378ae|0*114933*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2748
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|9d9d550dc8bee3e84c9667990a3a77177e65b75a7546de4df6baad365a600609bf746a367a01e81d658e25a40285acfc
+Version/behave=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|cdddabdfa22fcdb18d26f4ecd906536d01921fb6342ba9770fce60536b565bc8
+
+[lpm_ff]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3631|1*107743
+BinI32/lpm_syn=3*73425
+I=0*129632
+I/lpm_syn=I/LPM_SYN 0*132477
+M=11|0|ve4|1634843046259|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*128689*0x25dcda10174b28b06813cad296fbf91d65bf9934|0*129522*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046270|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*129950*0x167a36694c0796450b82565fe0d0f8bd27680216|0*132356*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3600
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a7ec407aaf99c48b81f1a11413945d39f75ef3764e1796589781ca0dab4e0ec
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a06b045833210c2478d1cf07591e1dc54
+
+[lpm_fifo]
+A/behavior=21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|7227|1*157894
+BinI32/behavior=3*161344
+I=0*222383
+I/behavior=0*229287
+M=11|0|ve4|1634843046470|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*221441*0x7a59fd317269b186189418f6e8399290d73caf22|0*222271*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|0|ve4|1634843046502|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*222754*0x917a44d41b3b9563ef2692b88e3dc16b16b5ad10|0*229163*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|7198
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|67791e110b398abe901a8b6c20b5635c0bafa52c4e5082916fa00306e52ea5ed57127eb1f9784acacd2092ecc9139dcc
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f57127eb1f9784acacd2092ecc9139dcc
+
+[lpm_fifo_dc]
+A/behavior=21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|8337|1*184633
+BinI32/behavior=3*176878
+I=0*249097
+I/behavior=0*252959
+M=11|0|ve4|1634843046610|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*247939*0x01159d5ebfc4fbbfb69aae324333d0b152a2eb97|0*248982*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|0|ve4|1634843046620|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*249465*0x9e21f472d27441e162d710822aa65955b3293488|0*252832*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|8303
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|25d3010124fc691453afa13e426e7e34b626a09cea40d09b1c4471453c57bdd4037f8683ad61da28b31c590ccc8e085e
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fe95dbe67e461462f30830995cee29277
+
+[lpm_fifo_dc_async]
+A/behavior=21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|7879|1*169558
+BinI32/behavior=3*171398
+I=0*238251
+I/behavior=0*247104
+M=11|0|ve4|1634843046563|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*236898*0xb76de600e414aa6fb1d7949edb1c24a86fb6675d|0*238130*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|0|ve4|1634843046593|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*238625*0x8323dc80db4c2b3efa8618835b986ce702fe586e|0*246971*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|7842
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|469b8715054846f3961f455425cf12847c50d44d920896effd7998f7002219569401365a913219521c183b1098b3a188
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f2ff1dcc42fae7ea684468df422f5a689
+
+[lpm_fifo_dc_dffpipe]
+A/behavior=21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|7578|1*164432
+BinI32/behavior=3*167255
+I=0*230589
+I/behavior=0*231943
+M=11|0|ve4|1634843046515|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*229942*0x179663f42fabc58aed210bd7b86d084a31b4d1cb|0*230466*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|0|ve4|1634843046526|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*230924*0x2677395911d2e9a0f270d649d154c5f6caa89fe1|0*231808*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|7558
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|469b8715054846f3961f455425cf1284fb23409f2204f5416311a81524578c9913c8f46910e9b61b3f4338b1120f66cd
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5fc99074becafde2c26254d4f4ec4ad776
+
+[lpm_fifo_dc_fefifo]
+A/behavior=21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|7672|1*166253
+BinI32/behavior=3*168908
+I=0*233432
+I/behavior=0*236120
+M=11|0|ve4|1634843046535|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*232630*0xc970365bca471b9bf06b92afc3792dae2b455b01|0*233310*0xaeff33d0d327e4f66feab22160c8fa0a
+M/behavior=21|0|ve4|1634843046553|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*233766*0xb227b50f42c1d6b9c7731c5b2eabd5a7d541da9e|0*235986*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|7648
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|469b8715054846f3961f455425cf128462fcfc743f16db4a86d8fc4a11914e987c4e51fc5dabfbc15874e9918fd42112
+Version/behavior=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f9bccf16e2dce5a640f0ad5e8eaa0283e08d679eaf1bc9de9439630905b37e5f497b1874c8ea36d15c42dc5d986676da
+
+[lpm_hint_evaluation]
+BinI32/lpm_hint_evaluation=3*6467
+E=1*5914
+I=0*22831
+I/lpm_hint_evaluation=I/LPM_HINT_EVALUATION 0*25044
+M=3|0|ve4|1634843045694|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*22384*0x577fa091cef7341f388bb1180eb7d3464644755c|0*22708*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_hint_evaluation=M/LPM_HINT_EVALUATION 4|0|ve4|1634843045703|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*23043*0xca8340147477f91692bd8a01de56e5dbc1669bcd|0*24899*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|331
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e007a700b9acc8c3a3b7e9c19fdaae0bcfc4c71038ba3413f475e3b69b615bf3ea1a7dcfc5a69ab8c86298b7ed6a422d
+Version/lpm_hint_evaluation=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|e007a700b9acc8c3a3b7e9c19fdaae0bcfc4c71038ba3413f475e3b69b615bf3ea1a7dcfc5a69ab8c86298b7ed6a422d
+
+[lpm_inpad]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|8502|1*193567
+BinI32/lpm_syn=3*179115
+I=0*254191
+I/lpm_syn=I/LPM_SYN 0*254892
+M=11|0|ve4|1634843046635|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*253643*0xeabfa019dcadbb048905024a635f02c30cc2f494|0*254078*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046639|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*254435*0xe5f08b99b39831872595bf5e1792dcd4d6487084|0*254768*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|8488
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|04020d62a2df781f417ff221574aee37d11a51508dfe70bf9efaf19ddf0be0fdb287c0327e4ca602d67a6f2f6fe1c612
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a4cd5f11e0af84e05b486843fe1db77cc
+
+[lpm_inv]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|675|1*32812
+BinI32/lpm_syn=3*22097
+I=0*50893
+I/lpm_syn=I/LPM_SYN 0*51666
+M=11|0|ve4|1634843045783|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*50321*0x5547b8c5b3117ba93503f203fd388d6b67482210|0*50782*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843045790|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*51213*0x14f89acb639eee8b0b7abc0bd7f6c90449d755e0|0*51544*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|657
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|6b696c076f97ab3282e662948a07fbbd26527262ddaa47cb266f3a3c4d9b973affd88c6be28e77689884619e28152a8a
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973affd88c6be28e77689884619e28152a8a
+
+[lpm_latch]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3479|1*104417
+BinI32/lpm_syn=3*70338
+I=0*125870
+I/lpm_syn=I/LPM_SYN 0*128021
+M=11|0|ve4|1634843046236|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*125084*0x1b63abd99e6e2d8923e452a32d28f80794d84b51|0*125757*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046250|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*126191*0x8854a62339d7d1d199984de55161c5fbbed02ebb|0*127897*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3455
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|5ae781f74ab0ae8180ad40769f29a431d11a51508dfe70bf9efaf19ddf0be0fdef9d3bf6a68cb39117eeeb877fa0a852
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a6b0ff274f1a952067c018bc14758d076
+
+[lpm_mult]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2561|1*82482
+BinI32/lpm_syn=3*49355
+I=0*101644
+I/lpm_syn=I/LPM_SYN 0*106489
+M=11|0|ve4|1634843046137|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*100695*0x8fb73c4d7b65aeb6fccfec3b38d8036659dee97c|0*101532*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046149|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*101965*0x71a9d0953ba4e5f6144fdeee9bbda5b3438dc368|0*106366*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|2526
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|73d86a45483143d9ab78d93eddd0a229c1e12c4ef11dd369003335419fecd7b983f46160dcb7de3e474e7956c95b6ee1
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a8a198ea5259bf45efd1bf2141286d15e
+
+[lpm_mux]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1112|1*45425
+BinI32/lpm_syn=3*27700
+I=0*62412
+I/lpm_syn=I/LPM_SYN 0*64137
+M=11|0|ve4|1634843045930|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*61594*0xb5723bf0e7aaa070dbee5bfa74d3c4ef3c54ef39|0*62301*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843045932|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*62735*0x7fce562343c403554de2b4de689671989f72e886|0*64015*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|1080
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0b484d6b232205a9a7140a06725686eb26527262ddaa47cb266f3a3c4d9b973a58a4dab465d663e0dcf9b7f315b0bb8a
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a58a4dab465d663e0dcf9b7f315b0bb8a
+
+[lpm_or]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|811|1*37423
+BinI32/lpm_syn=3*24047
+I=0*55150
+I/lpm_syn=I/LPM_SYN 0*56326
+M=11|0|ve4|1634843045830|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*54582*0x4822204844ca3228d7e87a8370b858a4fc9c2b39|0*55040*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843045854|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*55391*0x472c1b905ceb0d0a70b191338a6b7918492380ed|0*56205*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|793
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|48a0595209f5447dc01fb92e02ee430dfa1a3dc9ff215bfaee65dadf571e6f2a
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a5e77aee28de9423abfdb820abd3354d9
+
+[lpm_outpad]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|8555|1*195124
+BinI32/lpm_syn=3*179648
+I=0*255956
+I/lpm_syn=I/LPM_SYN 0*256659
+M=11|0|ve4|1634843046647|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*255407*0xa650d64b8b8ba08f303b29855d25df1429b00131|0*255842*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046657|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*256201*0xeb03aa141dec796fcecc3151c9944e0a7ace2329|0*256534*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|8541
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a4913fc90334bfeea2fd1a967d4c1df41d364effc8524d0b48071ac2ad7c9dd1c3981f8e3e12fcaf93b216515386ec47
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a53c7383c260024ef02d5331232da8373
+
+[lpm_ram_dp]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|4819|1*126514
+BinI32/lpm_syn=3*101624
+I=0*159740
+I/lpm_syn=I/LPM_SYN 0*179198
+M=11|0|ve4|1634843046347|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*158393*0xe7e57cf9497bd79156547f7baa4ecefa8af95769|0*159626*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046364|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*160149*0x21582a1aeed8987c8f47e7205e508c4e9bd5b2d1|0*179073*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|4766
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|a0cada9317b812be497cf2ded345ca1ad9e716938987b63141f5ca7722bf73a8d47c638d5435c0a72aadeac22efb0e5b
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a857cdd10178b03fdc69d1f5653b8ac8f
+
+[lpm_ram_dq]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|4014|1*116655
+BinI32/lpm_syn=3*82280
+I=0*138993
+I/lpm_syn=I/LPM_SYN 0*157514
+M=11|0|ve4|1634843046305|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*137874*0x33a4cb73c35f69ab2d2ac3f4274cfa5db87c5145|0*138879*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046322|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*139402*0xbc846eb66dc7e7e0ad67e2f65c466eb96a9ee7d6|0*157389*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3974
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|b20bccf3aa224dd97e6eef8ede46a53dcb187d6b8642614ab1b3d2c3201604418f85625940dcbf397cb09017341c5a78
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ad3131c95726d4505399287f3aceeeeb9
+
+[lpm_ram_io]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|5619|1*137955
+BinI32/lpm_syn=3*121691
+I=0*181131
+I/lpm_syn=I/LPM_SYN 0*200262
+M=11|0|ve4|1634843046383|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*180037*0x565eb12197fe2746263a3603428b74c1a648264c|0*181017*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046400|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*181496*0xef20113232e4618804d74115484604631cdb8059|0*200137*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|5597
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f93c5860bd8b662d669a76ee9d0c85680292815f1af100bd5c32aeaa2ea5c396e58cee32a5ff53a559ed2dee63092662
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a84f3ef26efe7dc1c6ece8698c61df733
+
+[lpm_rom]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|6426|1*148198
+BinI32/lpm_syn=3*141857
+I=0*202035
+I/lpm_syn=I/LPM_SYN 0*220648
+M=11|0|ve4|1634843046424|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*201043*0x6dda5c5588f706ae9b2b959c8c37ee05ef4a0d71|0*201924*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046445|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*202441*0x444627a23ad8574cd4eb0045843a54c606921441|0*220526*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|6391
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|da26fc2f0c9881852f9754aa8923f25626527262ddaa47cb266f3a3c4d9b973a3b36d609650dc1295face06160fd9bba
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a3b36d609650dc1295face06160fd9bba
+
+[lpm_shiftreg]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3819|1*111950
+BinI32/lpm_syn=3*77671
+I=0*134167
+I/lpm_syn=I/LPM_SYN 0*137146
+M=11|0|ve4|1634843046279|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*133167*0x040f7f5ef67667ab03d82b1a81f93b320fd5cb9d|0*134051*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843046290|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*134491*0xfe87c194300c4fadad53611b9500e7fc709674b0|0*137019*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|3778
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|3f4f4f6eaa8d90878a4f705481c50d1e746f67f88c3541db39f0bfb4ed5953f118b866a9b9a600a3728d66295a5ab6ed
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973ad3c47d83f73099904fe7bd70ee5e47a3
+
+[lpm_xor]
+A/lpm_syn=A/LPM_SYN 21|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|892|1*40466
+BinI32/lpm_syn=3*25358
+I=0*57441
+I/lpm_syn=I/LPM_SYN 0*58621
+M=11|0|ve4|1634843045867|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*56868*0x1be63da88575c6ca199a64d566c63290309fed6f|0*57330*0xaeff33d0d327e4f66feab22160c8fa0a
+M/lpm_syn=M/LPM_SYN 21|0|ve4|1634843045895|c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|0*57683*0x41b5a041b8737790dbaa048fb287e0e24cdbfbd1|0*58499*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/220model.vhd|874
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|51ddde5178f17df18e1f63622e3915c926527262ddaa47cb266f3a3c4d9b973a227411557e2526f8449f016f1b781333
+Version/lpm_syn=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|f976db59bbc88fa15a310e7b95b7b55326527262ddaa47cb266f3a3c4d9b973a227411557e2526f8449f016f1b781333
+
+[~U]
+lpm_abs=11|0*115431|
+lpm_add_sub=LPM_ADD_SUB 11|0*83504|
+lpm_add_sub_signed=LPM_ADD_SUB_SIGNED 11|0*74227|
+lpm_add_sub_unsigned=LPM_ADD_SUB_UNSIGNED 11|0*79184|
+lpm_and=11|0*51994|
+lpm_bipad=LPM_BIpad 11|0*256912|
+lpm_bustri=LPM_BUSTRI 11|0*58871|
+lpm_clshift=LPM_CLSHIFT 11|0*67591|
+lpm_common_conversion=LPM_COMMON_CONVERSION 3|0*15431|0*15578
+lpm_compare=LPM_COMPARE 11|0*96307|
+lpm_compare_signed=LPM_COMPARE_SIGNED 11|0*87808|
+lpm_compare_unsigned=LPM_COMPARE_UNSIGNED 11|0*92040|
+lpm_components=LPM_COMPONENTS 3|0*0|0*198
+lpm_constant=LPM_CONSTANT 11|0*47971|
+lpm_counter=LPM_COUNTER 11|0*117690|
+lpm_decode=LPM_DECODE 11|0*64468|
+lpm_device_families=LPM_DEVICE_FAMILIES 3|0*25276|0*25420
+lpm_divide=LPM_DIVIDE 11|0*106818|
+lpm_ff=LPM_FF 11|0*128350|
+lpm_fifo=LPM_FIFO 11|0*221109|
+lpm_fifo_dc=LPM_FIFO_DC 11|0*247562|
+lpm_fifo_dc_async=LPM_FIFO_DC_ASYNC 11|0*236463|
+lpm_fifo_dc_dffpipe=LPM_FIFO_DC_DFFPIPE 11|0*229667|
+lpm_fifo_dc_fefifo=LPM_FIFO_DC_FEFIFO 11|0*232287|
+lpm_hint_evaluation=LPM_HINT_EVALUATION 3|0*22037|0*22181
+lpm_inpad=LPM_INpad 11|0*253380|
+lpm_inv=LPM_INV 11|0*50061|
+lpm_latch=LPM_LATCH 11|0*124770|
+lpm_mult=LPM_MULT 11|0*100331|
+lpm_mux=LPM_MUX 11|0*61246|
+lpm_or=LPM_OR 11|0*54290|
+lpm_outpad=LPM_OUTpad 11|0*255144|
+lpm_ram_dp=LPM_RAM_DP 11|0*157978|
+lpm_ram_dq=LPM_RAM_DQ 11|0*137478|
+lpm_ram_io=LPM_RAM_IO 11|0*179662|
+lpm_rom=LPM_ROM 11|0*200685|
+lpm_shiftreg=LPM_SHIFTREG 11|0*132803|
+lpm_xor=LPM_XOR 11|0*56575|

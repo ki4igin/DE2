@@ -1,0 +1,264 @@
+timestamp=1634843048726
+
+[~A]
+ModifyID=2
+Version=74
+
+[~MFT]
+0=140|0sgate_vhdl.mgf|51951|0
+1=20|1sgate_vhdl.mgf|51696|0
+3=20|3sgate_vhdl.mgf|23131|0
+
+[io_buf_opdrn]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|272|1*10004
+BinI32/sim_arch=3*5605
+I=0*16093
+I/sim_arch=0*16644
+M=11|0|ve4|1634843048044|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*15712*0x2bb6805576a488d65a5f4177790723c7ac922a70|0*15980*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048048|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*16298*0xc75728c2c53973b583f15859519b4eacfbee86d3|0*16519*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|264
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|352d0d24d39edeb0abfb5e9e4764bc734280b2653aaa26fa75a24d0509412b87467e1f7ec69d3d5f87c47955eb422c62
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59331364a876ae1011c0994b54a8096aff3b
+
+[io_buf_tri]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|249|1*9287
+BinI32/sim_arch=3*5283
+I=0*14765
+I/sim_arch=0*15308
+M=11|0|ve4|1634843048024|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*14376*0x7ce8bffdb80201cd0be0e9c2322dd919856c6c1d|0*14654*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048028|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*14968*0xb061c401071244bdf1f062a50ad5275131a9c8f6|0*15185*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|240
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|bfdef75fc817d01b461539d0ed1d149476b0027d4c69ea6af6ffd28b0945d95bdb9f621999b0c70c41f8d579a85ed01c
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59332e4972b8ec1860067850ef7467cdf9de
+
+[mux21]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|224|1*8520
+BinI32/sim_arch=3*4959
+I=0*13440
+I/sim_arch=0*13977
+M=11|0|ve4|1634843048004|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*13039*0xdb052d70b5756ec6b0ca5bbb8aa8bca549739099|0*13334*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048013|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*13638*0x2eccae5f6a06d07dd781eda57e8e586fbef39b93|0*13859*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|214
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|959acea00ed13aea6f5c6237bd5f200ad600d3ed0055b4fba646eae0e6510297
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59338f5da10b90022ec03f017ede8e4cbbb8
+
+[oper_add]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|40|1*771
+BinI32/sim_arch=3*721
+I=0*7258
+I/sim_arch=0*9375
+M=11|0|ve4|1634843047926|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*6591*0x8246571ba66f49912b5b78efe0e664dcf42d5ccc|0*7149*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843047951|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*7537*0x71bfb81d7e54787525a072ad1baa0ac7ee6c9320|0*9254*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|22
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|5e62a9100ba189e5cc6b80d28da3fca62818afb70cf1f2f39ae611a8b8430690434e3a6aac5181baf9e04ad91d4a32e4
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933434e3a6aac5181baf9e04ad91d4a32e4
+
+[oper_addsub]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|136|1*4895
+BinI32/sim_arch=3*2974
+I=0*10601
+I/sim_arch=0*12554
+M=11|0|ve4|1634843047969|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*9940*0xea282b1e78d92f9628e60903a2afe0657ec60a60|0*10489*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843047992|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*10883*0xe1ce6c541f6eca660228b55c71675ba164fc4b3c|0*12430*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|119
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0366580054b31b9e65234391f2cbc5281e5292cf0faecda30ecbfa6c57a45f42251a22c9437fc200aa18e275ad21cc74
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59335e06a8cb147fbdfa91d9f32d1143efcc
+
+[oper_bus_mux]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1203|1*49766
+BinI32/sim_arch=3*22216
+I=0*49344
+I/sim_arch=0*50336
+M=11|0|ve4|1634843048505|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*48780*0x7d7c07baf043a7359c8e8721e43c551565f2892c|0*49231*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048524|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*49549*0xa01238583dffb0a37d0207f3b65391847b540abf|0*50211*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1186
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ebb61cf53a419da92441aafa28d8c648f47ae9bb63ee924dd0b769661077e31d42db83fa7a5d8bc5a285ea63af2b04a2
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933516ec6fcc436c687f43f2f0d99c1a7c6
+
+[oper_decoder]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1148|1*47929
+BinI32/sim_arch=3*21078
+I=0*47252
+I/sim_arch=0*48273
+M=11|0|ve4|1634843048481|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*46747*0x5690ec99cfa53b7b2a55cc682eaa2ea241d8f63b|0*47139*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048496|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*47491*0xb460b2e7be26d114953e483dfd0a8cc438e56a4d|0*48148*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1135
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|4136e173de9efd91a63050e71909df75f93d16a0d5e00bec5bc4259eea27da55ff6de2eccabf9693455937e9ef1fcb12
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f593332d06de528e9370425816cab8b2bfed2
+
+[oper_div]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|435|1*15710
+BinI32/sim_arch=3*8494
+I=0*22371
+I/sim_arch=0*24003
+M=11|0|ve4|1634843048123|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*21739*0x95a338ab6d6877e791f24847a3ac43e6a726a8b3|0*22262*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048148|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*22651*0x6331101cb57b0a3a9341e0702a3a1680ca492c1b|0*23882*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|419
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|330fae5dbb5c03c988f5bb041e22a2ea23b0775eaf50bfb15e1a083253ac86efb3874fca9bdfe66b2ca1c176905811bb
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933b3874fca9bdfe66b2ca1c176905811bb
+
+[oper_latch]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1256|1*51696
+BinI32/sim_arch=3*23131
+I=0*51241
+I/sim_arch=0*51951
+M=11|0|ve4|1634843048535|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*50764*0xa5c611e1d18c5ae4d27cd4bcc918606f232a5ae8|0*51130*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048541|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*51478*0xe29ab11dd3b972db710708a49d22278587ebeaaa|0*51828*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1245
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|eb3d1123ee7c1687dd58d460280bb935a13f858aa93b90b388a49a62f7159ced1ba7fc820b884460e97b644a207ccfa9
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933e42667fb99357d22281108ec2feabb88
+
+[oper_left_shift]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|607|1*25651
+BinI32/sim_arch=3*11541
+I=0*28038
+I/sim_arch=0*29661
+M=11|0|ve4|1634843048205|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*27346*0xf126ddd7b7bd2d1e98e0fb66c69c4fd39c6c0bfe|0*27922*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048228|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*28327*0x57461405f0093462ea5f58269d13b6bdcd1c333a|0*29533*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|590
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|71c422a85696a1fcbf24867237898d3341a739c5e8b02c8ca27ed3a0ab8d2f5a0738c79186426ddc0b65ad32fca34065
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59336d2e5d58bbd4051f315463ffadfc99e8
+
+[oper_less_than]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|931|1*40702
+BinI32/sim_arch=3*17562
+I=0*39155
+I/sim_arch=0*40618
+M=11|0|ve4|1634843048358|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*38564*0xccadb232d98a55c7ec0c4c872149f15119cf05e5|0*39040*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048381|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*39396*0x6e89810492000efebd254521c3688e6e62ae84a5|0*40491*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|915
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|fff179fc4174dd7834e3fa08c59d06991eef974df35ec00b7e7bfa3c56882a0f5b55e0987718c14613562d9aba72a3a0
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933e2c817e572fef3f5e5505188fa8c575a
+
+[oper_mod]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|522|1*20718
+BinI32/sim_arch=3*10019
+I=0*25176
+I/sim_arch=0*26768
+M=11|0|ve4|1634843048165|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*24584*0x26e302d9d70cdb39c3190a8d0c399715429376cf|0*25067*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048188|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*25422*0xb459621b51ebe54a96a5f5fecaf56c035596228e|0*26647*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|506
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|8d06492ec5a84430b1104196c414f923bf54c37a5929d0b0bef44c4f98f3ba18b77ccd9f88163ed173a4300569f4d97d
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933b77ccd9f88163ed173a4300569f4d97d
+
+[oper_mult]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|354|1*12429
+BinI32/sim_arch=3*6733
+I=0*19577
+I/sim_arch=0*21187
+M=11|0|ve4|1634843048086|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*18947*0x91d0c08466e9add0d87610d848727d897084942d|0*19467*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048102|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*19857*0xe1a4353fe097165cb30ad37206fc5b0da2cd18ab|0*21065*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|338
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0072e9382ea4cdea8b1b737fbb4f9e4e39f08beca6824c6950d73c955418dcb7df0d3aa5d03f0814fb79b7028c6bece8
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933a5875d6dc50af2d06cb384d143f8a26d
+
+[oper_mux]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1015|1*43322
+BinI32/sim_arch=3*18868
+I=0*41647
+I/sim_arch=0*42470
+M=11|0|ve4|1634843048400|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*41117*0x730c6caa6171ad5cd439226f5d2bbce9b103ca97|0*41538*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048414|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*41884*0x3d4a9102abe3c099d83bf30b1ea394e498480a0c|0*42349*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1000
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|c89ab02314426ee986b16abab2f788513de928612a4f300a0130f3a4cd5eb21f9603b6692debfa88d09438e9f526d30b
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933cf72b7d488bd9cc52528bf75a0d5d3ab
+
+[oper_prio_selector]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1118|1*46498
+BinI32/sim_arch=3*20530
+I=0*45510
+I/sim_arch=0*46205
+M=11|0|ve4|1634843048459|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*44901*0xb92e0af4f4dac863396d1f075c19e6856c356061|0*45391*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048469|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*45799*0x19dac451dbd0150d0eea26b72d6c7944e9aa6f8c|0*46074*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1103
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|2781b3c8d437e03ea473fef4d37a8c27ddf64839d78f6abc090fc768519ed4f9fd3c5d69d92f148c8cf056ecd61d4aaf
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59337192a913c317e9f3ade9096eaa9e4522
+
+[oper_right_shift]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|687|1*28382
+BinI32/sim_arch=3*13147
+I=0*30945
+I/sim_arch=0*32646
+M=11|0|ve4|1634843048246|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*30249*0xbe12404efccd3fdc11cfce6d7544274815cc1102|0*30828*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048269|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*31235*0xa8bbb8578e7222ce51cb1fecdaaef0d2fbbcb099|0*32517*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|670
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7c58ce914210dc94ea6d6a8e195da710d912761c59fa0921be3d3a3f08b1184810edaae410cf94c347d0dc2587d1a29a
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933c0bfa68c4943f9d7913364a30d0162d9
+
+[oper_rotate_left]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|775|1*31317
+BinI32/sim_arch=3*15055
+I=0*33865
+I/sim_arch=0*35309
+M=11|0|ve4|1634843048286|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*33223*0xadc8501bea85f52c3bcf71267d6e82a69f88696d|0*33748*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048309|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*34119*0xd65eb51cf6d4ea4dc61693095945993e3f2c3e7f|0*35180*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|759
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|39f7e0dc58f1ce088e7b8ce2ab3d650a856b62e7a27383d37cf6b11b55425eac68531f9db73b1791d301641d2c9c7a16
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933c1d652cf1f15d90a9338dde704f16b68
+
+[oper_rotate_right]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|854|1*35991
+BinI32/sim_arch=3*16306
+I=0*36543
+I/sim_arch=0*37991
+M=11|0|ve4|1634843048322|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*35890*0xee88b1f3df473df9c38136ffe6ba93514630484c|0*36425*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048342|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*36798*0xab2a3483d1edf0ed2a7f8610de14d6aa6483f413|0*37861*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|838
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|2e6d667c82c4dab82fb516a0502e04f0a7538104e3de42fa700a9c03df52c58b3d2c8f46ad97221c66415548cbd97bde
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59336a9447a0268e6677ec401948987450a6
+
+[oper_selector]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1061|1*44946
+BinI32/sim_arch=3*19560
+I=0*43484
+I/sim_arch=0*44422
+M=11|0|ve4|1634843048431|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*42971*0x938f8accd3f2162c2688540aee02fb4648b73f75|0*43370*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048441|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*43690*0x20ff2ccad1832cf5faffc75b5eebf1ec7097b2d6|0*44296*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|1047
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|0c150b6f9d8008307637009ff09db995b044b831af9bff36320050d0c566303e17a48b6e0ab2e15c5aed21d403e25309
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f59339b03eebd33716dad8245b754d7877f95
+
+[sgate_pack]
+BinI32/sgate_pack=3*0
+E=1*0
+I=0*5381
+I/sgate_pack=0*6103
+M=3|0|ve4|1634843047729|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|0*535*0x7598264056c1c8624d54fabf83bb52d258f4149b|0*5265*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sgate_pack=4|0|ve4|1634843047767|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|0*5584*0x3835e5c1d6ac98c34828c596d7ce067747de21c1|0*5974*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate_pack.vhd|19
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ad9de53c5d5047a8f58fddea6b7d78f051460b91dd61eb202bdeff2e401e29a58a71c74d78195d81ce6a1e34659f556a
+Version/sgate_pack=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|ad9de53c5d5047a8f58fddea6b7d78f051460b91dd61eb202bdeff2e401e29a58a71c74d78195d81ce6a1e34659f556a
+
+[tri_bus]
+A/sim_arch=21|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|304|1*10680
+BinI32/sim_arch=3*5915
+I=0*17587
+I/sim_arch=0*18471
+M=11|0|ve4|1634843048058|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*17099*0x0ab22262d477c3e9944e837fd38f4066303f929b|0*17479*0xaeff33d0d327e4f66feab22160c8fa0a
+M/sim_arch=21|0|ve4|1634843048075|c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|0*17787*0xdef79a9b8007a48b40998493f2b3c5befa080ad4|0*18351*0xdc2f6eaac86fc4b0df387c90b1d984e9
+R=c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.vhd|290
+Version=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|506baf7110e51efd0a1be004a69b6cdd26527262ddaa47cb266f3a3c4d9b973ad9a3139f61813f21b8c57f225b266ef7
+Version/sim_arch=11.1.262.7351 (Windows)|00000012789cd32d2e29ca4c2eb13456d04d494a57d0b534060038b20566|7a5b0e8cb3ed4342fac4eefbec8e764e729e6221e4efaa6a8714f045f53f5933be607d0fb1b21b2c838cdc2e1e4c335b
+
+[~U]
+io_buf_opdrn=11|0*15520|
+io_buf_tri=11|0*14184|
+mux21=11|0*12845|
+oper_add=11|0*6317|
+oper_addsub=11|0*9663|
+oper_bus_mux=11|0*48521|
+oper_decoder=11|0*46503|
+oper_div=11|0*21476|
+oper_latch=11|0*50550|
+oper_left_shift=11|0*27059|
+oper_less_than=11|0*38290|
+oper_mod=11|0*24327|
+oper_mult=11|0*18680|
+oper_mux=11|0*40868|
+oper_prio_selector=11|0*44637|
+oper_right_shift=11|0*29959|
+oper_rotate_left=11|0*32945|
+oper_rotate_right=11|0*35607|
+oper_selector=11|0*42716|
+sgate_pack=3|0*0|0*126
+tri_bus=11|0*16858|
