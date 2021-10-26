@@ -1,0 +1,35 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=sum_top
+[Library]
+sum_top=.\sum_top\sum_top.lib
+cycloneii_vhdl=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+cycloneii=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+[$LibMap$]
+sum_top=.
+cycloneii_vhdl=.
+cycloneii=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[Files]
+/sum_top.vho=-1
+/sum_top_vhd.sdo=-1
+/sum_top_tb.vhd=-1
+[Files.Data]
+.\src\sum_top.vho=VHDL Source Code
+.\src\sum_top_vhd.sdo=SDF File
+.\src\sum_top_tb.vhd=VHDL Source Code
+[sdf.ea.sum_top_tb-tb]
+0=src\sum_top_vhd.sdo| /sum_top_tb/sum1, Average, No
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=sum_top_tb|tb|0 
+ShowHide=ShowTopLevel
+Selected=

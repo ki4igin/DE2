@@ -1,0 +1,198 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  active-hdl
+Simulation Language   :  vhdl
+Version               :  93
+Simulation Mode       :  GUI
+Sim Output File       :  sum.vho
+Sim SDF File       :  sum_vhd.sdo
+Sim dir               :  simulation\activehdl
+
+=======================================================
+
+Info: Starting NativeLink simulation with Active-HDL software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/active-hdl.tcl
+Probing asim_log
+Active-HDL Info: createdesign sum D:/DE2/lr/lr1/simulation/activehdl
+Active-HDL Info: # Design sum created
+Active-HDL Info: opendesign -a sum.adf
+Active-HDL Info: # Design: Creating new workspace file: "D:\DE2\lr\lr1\simulation\activehdl\sum\sum.aws"
+Active-HDL Info: # Design: 20:40, 13 ������� 2021 �.
+Active-HDL Info: # Design: Opening design "D:\DE2\lr\lr1\simulation\activehdl\sum\sum.adf"
+Active-HDL Info: # Design Explorer: Shortcut to "D:\DE2\lr\lr1\simulation\activehdl\sum\sum.aws" workspace added.
+Active-HDL Info: waveformmode ASDB
+Active-HDL Info: alib  vhdl_libs/cycloneii_vhdl
+Active-HDL Info: # Library Manager: Library "cycloneii_vhdl" attached.
+Active-HDL Info: amap cycloneii vhdl_libs/cycloneii_vhdl
+Active-HDL Info: # Library Manager: Library "cycloneii" attached.
+Active-HDL Info: acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd
+Active-HDL Info: # Compile Package "cycloneii_atom_pack"
+Active-HDL Info: # Compile Package Body "cycloneii_atom_pack"
+Active-HDL Info: # Compile Package "cycloneii_pllpack"
+Active-HDL Info: # Compile Package Body "cycloneii_pllpack"
+Active-HDL Info: # Compile Entity "cycloneii_dffe"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_dffe"
+Active-HDL Info: # Compile Entity "cycloneii_mux21"
+Active-HDL Info: # Compile Architecture "AltVITAL" of Entity "cycloneii_mux21"
+Active-HDL Info: # Compile Entity "cycloneii_mux41"
+Active-HDL Info: # Compile Architecture "AltVITAL" of Entity "cycloneii_mux41"
+Active-HDL Info: # Compile Entity "cycloneii_and1"
+Active-HDL Info: # Compile Architecture "AltVITAL" of Entity "cycloneii_and1"
+Active-HDL Info: # Compile Entity "cycloneii_ram_register"
+Active-HDL Info: # Compile Architecture "reg_arch" of Entity "cycloneii_ram_register"
+Active-HDL Info: # Compile Entity "cycloneii_ram_pulse_generator"
+Active-HDL Info: # Compile Architecture "pgen_arch" of Entity "cycloneii_ram_pulse_generator"
+Active-HDL Info: # Compile Entity "cycloneii_ram_block"
+Active-HDL Info: # Compile Architecture "block_arch" of Entity "cycloneii_ram_block"
+Active-HDL Warning: # Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2544, 0): Non resolved signal "mem_invalidate" may have multiple sources.
+Active-HDL Warning: # Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2546, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+Active-HDL Warning: # Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2552, 0): Non resolved signal "mem_invalidate_loc" may have multiple sources.
+Active-HDL Warning: # Warning: ELBWRITE_0030: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2553, 0): Non resolved signal "read_latch_invalidate" may have multiple sources.
+Active-HDL Info: # Compile Entity "cycloneii_jtag"
+Active-HDL Info: # Compile Architecture "architecture_jtag" of Entity "cycloneii_jtag"
+Active-HDL Info: # Compile Entity "cycloneii_crcblock"
+Active-HDL Info: # Compile Architecture "architecture_crcblock" of Entity "cycloneii_crcblock"
+Active-HDL Info: # Compile Entity "cycloneii_asmiblock"
+Active-HDL Info: # Compile Architecture "architecture_asmiblock" of Entity "cycloneii_asmiblock"
+Active-HDL Warning: # Warning: DAGGEN_0002: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_atoms.vhd : (2701, 0): Process has no effect - no sequential statements.
+Active-HDL Info: # Compile Entity "cycloneii_m_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_m_cntr"
+Active-HDL Info: # Compile Entity "cycloneii_n_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_n_cntr"
+Active-HDL Info: # Compile Entity "cycloneii_scale_cntr"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_scale_cntr"
+Active-HDL Info: # Compile Entity "cycloneii_pll_reg"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_pll_reg"
+Active-HDL Info: # Compile Entity "cycloneii_pll"
+Active-HDL Info: # Compile Architecture "vital_pll" of Entity "cycloneii_pll"
+Active-HDL Info: # Compile Entity "cycloneii_routing_wire"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_routing_wire"
+Active-HDL Info: # Compile Entity "cycloneii_lcell_ff"
+Active-HDL Info: # Compile Architecture "vital_lcell_ff" of Entity "cycloneii_lcell_ff"
+Active-HDL Info: # Compile Entity "cycloneii_lcell_comb"
+Active-HDL Info: # Compile Architecture "vital_lcell_comb" of Entity "cycloneii_lcell_comb"
+Active-HDL Info: # Compile Entity "cycloneii_asynch_io"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_asynch_io"
+Active-HDL Info: # Compile Entity "cycloneii_io"
+Active-HDL Info: # Compile Architecture "structure" of Entity "cycloneii_io"
+Active-HDL Info: # Compile Entity "cycloneii_clk_delay_ctrl"
+Active-HDL Info: # Compile Architecture "vital_clk_delay_ctrl" of Entity "cycloneii_clk_delay_ctrl"
+Active-HDL Info: # Compile Entity "cycloneii_clk_delay_cal_ctrl"
+Active-HDL Info: # Compile Architecture "vital_clk_delay_cal_ctrl" of Entity "cycloneii_clk_delay_cal_ctrl"
+Active-HDL Info: # Compile Entity "cycloneii_mac_data_reg"
+Active-HDL Info: # Compile Architecture "vital_cycloneii_mac_data_reg" of Entity "cycloneii_mac_data_reg"
+Active-HDL Info: # Compile Entity "cycloneii_mac_sign_reg"
+Active-HDL Info: # Compile Architecture "cycloneii_mac_sign_reg" of Entity "cycloneii_mac_sign_reg"
+Active-HDL Info: # Compile Entity "cycloneii_mac_mult_internal"
+Active-HDL Info: # Compile Architecture "vital_cycloneii_mac_mult_internal" of Entity "cycloneii_mac_mult_internal"
+Active-HDL Info: # Compile Entity "cycloneii_mac_mult"
+Active-HDL Info: # Compile Architecture "vital_cycloneii_mac_mult" of Entity "cycloneii_mac_mult"
+Active-HDL Info: # Compile Entity "cycloneii_mac_out"
+Active-HDL Info: # Compile Architecture "vital_cycloneii_mac_out" of Entity "cycloneii_mac_out"
+Active-HDL Info: # Compile Entity "cycloneii_ena_reg"
+Active-HDL Info: # Compile Architecture "behave" of Entity "cycloneii_ena_reg"
+Active-HDL Info: # Compile Entity "cycloneii_clkctrl"
+Active-HDL Info: # Compile Architecture "vital_clkctrl" of Entity "cycloneii_clkctrl"
+Active-HDL Info: # Compile success 0 Errors 5 Warnings  Analysis time :  1.0 [s]
+Active-HDL Info: acom -strict93 -dbg -work cycloneii c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+Active-HDL Info: # File: c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneii_components.vhd
+Active-HDL Info: # Compile Package "cycloneii_components"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+Active-HDL Info: addfile -c -auto D:/DE2/lr/lr1/simulation/activehdl/sum.vho
+Active-HDL Info: # Adding file D:\DE2\lr\lr1\simulation\activehdl\sum.vho ... Done
+Active-HDL Info: addfile -c -auto D:/DE2/lr/lr1/simulation/activehdl/sum_vhd.sdo
+Active-HDL Info: # Adding file D:\DE2\lr\lr1\simulation\activehdl\sum_vhd.sdo ... Done
+Active-HDL Info: comp -reorder
+Active-HDL Warning: # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+Active-HDL Info: # File: D:/DE2/lr/lr1/simulation/activehdl/sum/src/sum.vho
+Active-HDL Info: # Compile Entity "sum_top"
+Active-HDL Info: # Compile Architecture "structure" of Entity "sum_top"
+Active-HDL Info: # Top-level unit(s) detected:
+Active-HDL Info: # Entity => sum_top
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+Active-HDL Info: # ELBREAD: Elaboration process.
+Active-HDL Info: # ELBREAD: Elaboration time 0.0 [s].
+Active-HDL Info: asim +access +r -t 1ps +transport_int_delays +transport_path_delays -sdftyp /NA=sum_vhd.sdo -L sum -L work -L cycloneii  calc_tb
+Active-HDL Error: # Error: VSIM: Unknown library unit `calc_tb' specified.
+Active-HDL Error: # Error: VSIM: cannot select specified top-level
+Active-HDL Error: # Error: DO_001 in file sum_sim_gate_vhdl.do line 15
+Active-HDL Info: acom -O3 -e 100 -work sum -2008  $dsn/src/sum.vho
+Active-HDL Warning: # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+Active-HDL Info: # File: D:/DE2/lr/lr1/simulation/activehdl/sum/src/sum.vho
+Active-HDL Info: # Compile Entity "sum_top"
+Active-HDL Info: # Compile Architecture "structure" of Entity "sum_top"
+Active-HDL Info: # Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+Active-HDL Info: asim -sdftyp /sum_top=$dsn/src/sum_vhd.sdo -O5 +access +r +m+sum_top sum_top structure
+Active-HDL Info: # ELBREAD: Elaboration process.
+Active-HDL Info: # ELBREAD: Elaboration time 0.0 [s].
+Active-HDL Info: # VSIM: Stack memory: 32MB
+Active-HDL Info: # VSIM: Retval memory: 32MB
+Active-HDL Info: # KERNEL: Main thread initiated.
+Active-HDL Info: # KERNEL: Kernel process initialization phase.
+Active-HDL Info: # ELAB2: Elaboration final pass...
+Active-HDL Info: # ELAB2: Create instances ...
+Active-HDL Info: # KERNEL: Time resolution set to 1ps.
+Active-HDL Info: # ELAB2: Create instances complete.
+Active-HDL Info: # SLP: Started
+Active-HDL Info: # SLP: Elaboration phase ...
+Active-HDL Info: # SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+Active-HDL Info: # SLP: Finished : 0.0 [s]
+Active-HDL Info: # ELAB2: Elaboration final pass complete - time: 0.0 [s].
+Active-HDL Warning: # KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+Active-HDL Warning: # KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+Active-HDL Info: # SDF: 19 generic(s) read from D:\DE2\lr\lr1\simulation\activehdl\sum/src/sum_vhd.sdo
+Active-HDL Info: # SDF: SDF load & update time: 0.0 [s].
+Active-HDL Info: # SDF: 19 SDF entries loaded while 19 entries read
+Active-HDL Info: # KERNEL: Kernel process initialization done.
+Active-HDL Info: # Allocation: Simulator allocated 7641 kB (elbread=1281 elab2=5898 kernel=161 sdf=300)
+Active-HDL Info: # KERNEL: ASDB file was created in location D:\DE2\lr\lr1\simulation\activehdl\sum\src\wave.asdb
+Active-HDL Info: #  20:41, 13 ������� 2021 �.
+Active-HDL Info: #  Simulation has been initialized
+Active-HDL Info: # add wave -noreg {/sum_top/gnd}
+Active-HDL Info: # add wave -noreg {/sum_top/vcc}
+Active-HDL Info: # add wave -noreg {/sum_top/unknown}
+Active-HDL Info: # add wave -noreg {/sum_top/devoe}
+Active-HDL Info: # add wave -noreg {/sum_top/devclrn}
+Active-HDL Info: # add wave -noreg {/sum_top/devpor}
+Active-HDL Info: # add wave -noreg {/sum_top/ww_devoe}
+Active-HDL Info: # add wave -noreg {/sum_top/ww_devclrn}
+Active-HDL Info: # add wave -noreg {/sum_top/ww_devpor}
+Active-HDL Info: # add wave -noreg {/sum_top/ww_SW}
+Active-HDL Info: # add wave -noreg {/sum_top/ww_LEDG}
+Active-HDL Info: # add wave -noreg {/sum_top/\sum1|s~0_combout\}
+Active-HDL Info: # add wave -noreg {/sum_top/\sum1|cout~0_combout\}
+Active-HDL Info: # add wave -noreg {/sum_top/\SW~combout\}
+Active-HDL Info: # add wave -noreg {/sum_top/SW}
+Active-HDL Info: # add wave -noreg {/sum_top/LEDG}
+Active-HDL Info: # 16 signal(s) traced.
+Active-HDL Info: # Waveform file 'untitled.awc' connected to 'D:/DE2/lr/lr1/simulation/activehdl/sum/src/wave.asdb'.
+Active-HDL Info: run 1000 ns
+Active-HDL Info: # KERNEL: stopped at time: 1 us
+Active-HDL Info: # Design: 11:16, 14 ������� 2021 �.
+Active-HDL Info: # Design: Opening design "D:\DE2\sen_counter\activehdl\seg7_comb.adf"
+Active-HDL Info: # ELBREAD: Elaboration process.
+Active-HDL Info: # ELBREAD: Elaboration time 0.1 [s].
+Active-HDL Info: acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+Active-HDL Warning: # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+Active-HDL Info: # File: D:/DE2/sen_counter/src/seg7.vhd
+Active-HDL Info: # Compile Entity "seg7"
+Active-HDL Info: # Compile Architecture "rtl" of Entity "seg7"
+Active-HDL Info: # File: D:/DE2/sen_counter/src/converters.vhd
+Active-HDL Info: # Compile Package "converters"
+Active-HDL Info: # Compile Package Body "converters"
+Active-HDL Info: # File: D:/DE2/sen_counter/src/seg7_comb.vhd
+Active-HDL Info: # Compile Entity "seg7_comb"
+Active-HDL Info: # Compile Architecture "rtl" of Entity "seg7_comb"
+Active-HDL Error: # Error: COMP96_0669: ../../src/seg7_comb.vhd : (23, 33): Type for "x1" is not fully constrained. (IEEE 1076-2008, 5.3.2.2)
+Active-HDL Error: # Error: COMP96_0669: ../../src/seg7_comb.vhd : (24, 33): Type for "x1n" is not fully constrained. (IEEE 1076-2008, 5.3.2.2)
+Active-HDL Error: # Error: COMP96_0104: ../../src/seg7_comb.vhd : (29, 29): Undefined type of expression.
+Active-HDL Error: # Error: COMP96_0312: ../../src/seg7_comb.vhd : (29, 29): Type must be determinable from the context.
+Active-HDL Error: # Error: COMP96_0234: Fatal error : INTERNAL COMPILER ERROR (compiled file "D:/DE2/sen_counter/src/seg7_comb.vhd" - semantic process).
+Active-HDL Info: # Compile failure 5 Errors 0 Warnings  Analysis time :  94.0 [ms]

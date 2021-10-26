@@ -5,12 +5,22 @@ use IEEE.numeric_std.all;
 package converters is
     function to_integer(value : std_logic_vector) return integer;
     function to_integer(value : std_logic) return integer;
-	function to_sl(value : boolean) return std_logic;
+    function to_integer(value : boolean) return integer;
+    function to_sl(value      : boolean) return std_logic;
     function to_slv(value : integer; length : integer) return std_logic_vector;
     function to_slv(char      : character) return std_logic_vector;
 end package converters;
 
 package body converters is
+
+    function to_integer(value : boolean) return integer is
+    begin
+        if value then
+            return 1;
+        else
+            return 0;
+        end if;
+    end to_integer;
 
     function to_integer(value : std_logic_vector) return integer is
     begin
@@ -26,15 +36,15 @@ package body converters is
         end if;
     end to_integer;
 
-	function to_sl(value : boolean) return std_logic is
+    function to_sl(value : boolean) return std_logic is
     begin
-		if (value) then
+        if (value) then
             return '1';
         else
             return '0';
         end if;
     end to_sl;
-	
+
     function to_slv(value : integer; length : integer) return std_logic_vector is
     begin
         return std_logic_vector(to_unsigned(value, length));

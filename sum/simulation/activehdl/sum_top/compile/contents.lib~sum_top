@@ -1,0 +1,5 @@
+1
+~E 1 "../src/sum_top.vho" 34 sum_top
+~A 1 "../src/sum_top.vho" 53 structure
+~E 1 "../src/sum_top_tb.vhd" 6 sum_top_tb
+~A 1 "../src/sum_top_tb.vhd" 9 tb

@@ -1,0 +1,7 @@
+70
+~E 1 "../../src/seg7.vhd" 5 seg7
+~A 1 "../../src/seg7.vhd" 12 rtl
+~E 1 "../../src/seg7_comb.vhd" 5 seg7_comb
+~A 1 "../../src/seg7_comb.vhd" 14 rtl
+~E 1 "../../src/seg7_comb_tb.vhd" 7 sem7_comb_tb
+~A 1 "../../src/seg7_comb_tb.vhd" 10 tb

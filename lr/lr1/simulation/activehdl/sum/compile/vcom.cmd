@@ -1,0 +1,1 @@
+-w -erf D:/DE2/lr/lr1/simulation/activehdl/sum/compile/sum.erf -d D:/DE2/lr/lr1/simulation/activehdl/sum/compile -s D:/DE2/lr/lr1/simulation/activehdl/sum/library.cfg -j D:/DE2/lr/lr1/simulation/activehdl/sum/projlib.cfg -work sum -O3 -e 100 -work sum -2008 D:/DE2/lr/lr1/simulation/activehdl/sum/src/sum.vho 

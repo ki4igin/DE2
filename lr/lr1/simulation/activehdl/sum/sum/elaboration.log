@@ -1,0 +1,44 @@
+Active-HDL 11.1.262.7351 2021-10-13 20:41:30
+
+Elaboration top modules:
+Architecture                  structure(sum_top)
+
+
+-----------------------------------------------------------------------------------------------------------
+Entity               | Architecture     | Library   | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+sum_top              | structure        | sum       |      | 11.1.262.7351 (Windows) | -O3 -2008
+cycloneii_io         | structure        | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_lcell_comb | vital_lcell_comb | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_mux21      | AltVITAL         | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_dffe       | behave           | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+cycloneii_asynch_io  | behave           | cycloneii |      | 11.1.262.7351 (Windows) | -strict93 -dbg -93
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+VHDL Package                            | Library   | Info | Compiler Version        | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+standard                                | std       |      |                         | <unavailable>
+TEXTIO                                  | std       |      |                         | <unavailable>
+std_logic_1164                          | ieee      |      |                         | <unavailable>
+VITAL_Timing                            | ieee      |      |                         | <unavailable>
+VITAL_Primitives                        | ieee      |      |                         | <unavailable>
+cycloneii_atom_pack                     | cycloneii |      |                         | <unavailable>
+cycloneii_components                    | cycloneii |      |                         | <unavailable>
+std_logic_arith                         | ieee      |      |                         | <unavailable>
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Library                                 | Comment
+-----------------------------------------------------------------------------------------------------------
+cycloneii                               | None
+ieee                                    | Standard IEEE packages library
+std                                     | Standard VHDL library
+sum                                     | None
+-----------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -sdftyp /sum_top=D:\DE2\lr\lr1\simulation\activehdl\sum/src/sum_vhd.sdo -O5 +access +r +m+sum_top sum_top structure
+
+
+The performance of simulation is reduced. Version Student Edition

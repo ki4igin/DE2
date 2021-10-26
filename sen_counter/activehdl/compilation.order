@@ -1,0 +1,5 @@
+.\..\src\seg7.vhd
+.\..\src\converters.vhd
+.\..\src\seg7_comb.vhd
+.\..\src\seg7_comb_tb.vhd
+.\..\src\tools.vhd

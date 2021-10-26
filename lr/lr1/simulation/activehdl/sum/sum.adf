@@ -1,0 +1,68 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=sum
+[Library]
+sum=.\sum\sum.lib
+cycloneii_vhdl=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+cycloneii=.\src\vhdl_libs\cycloneii_vhdl\cycloneii_vhdl.lib
+[$LibMap$]
+sum=.
+cycloneii_vhdl=.
+cycloneii=.
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+NoTimingChecks=0
+NoTchkMsg=0
+EnableXtrace=0
+ENABLE_ADV_DATAFLOW=0
+SplitNetVectors=0
+RetvalMemorySize=32
+StackMemorySize=32
+resolution=Auto
+VsimAdditionalOptions=
+NoWarningsSDF=0
+ChangeSDFErrorToWarning=0
+EnableSDFErrorLimit=0
+SDFErrorLimit=0
+DisableIEEEWarnings=0
+DisableVitalMsg=0
+VitalAccel=1
+UnboundError=0
+VitalGlitches=0
+[Files]
+/sum.vho=-1
+/sum_vhd.sdo=-1
+[Files.Data]
+.\src\sum.vho=VHDL Source Code
+.\src\sum_vhd.sdo=SDF File
+[sdf.ea.sum_top-structure]
+0=src\sum_vhd.sdo| /sum_top, Average, Yes
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2018Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=0
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+[LoadVHPI]
+Count=0
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=sum_top|structure|0 
+ShowHide=ShowTopLevel
+Selected=

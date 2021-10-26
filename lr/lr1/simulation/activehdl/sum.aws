@@ -1,0 +1,6 @@
+[Version]
+Version=11.1
+[Designs]
+sum=sum.adf
+[Settings]
+Active=sum

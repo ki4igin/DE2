@@ -1,0 +1,41 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/DE2/sum/simulation/activehdl/sum_top/src/sum_top.vho" 
+BEGINPROGRESS D:/DE2/sum/simulation/activehdl/sum_top/src/sum_top.vho
+UPDATEPROGRESS 1
+MESSAGE "Compile Entity "sum_top"" 
+UPDATEPROGRESS 3
+UPDATEPROGRESS 7
+MESSAGE "Compile Architecture "structure" of Entity "sum_top"" 
+UPDATEPROGRESS 8
+UPDATEPROGRESS 9
+UPDATEPROGRESS 10
+UPDATEPROGRESS 11
+UPDATEPROGRESS 12
+UPDATEPROGRESS 13
+UPDATEPROGRESS 14
+UPDATEPROGRESS 15
+UPDATEPROGRESS 16
+UPDATEPROGRESS 17
+UPDATEPROGRESS 18
+UPDATEPROGRESS 19
+UPDATEPROGRESS 20
+UPDATEPROGRESS 28
+UPDATEPROGRESS 36
+UPDATEPROGRESS 41
+UPDATEPROGRESS 49
+UPDATEPROGRESS 57
+UPDATEPROGRESS 63
+UPDATEPROGRESS 71
+UPDATEPROGRESS 74
+UPDATEPROGRESS 79
+UPDATEPROGRESS 82
+UPDATEPROGRESS 91
+UPDATEPROGRESS 99
+UPDATEPROGRESS 100
+ENDPROGRESS D:/DE2/sum/simulation/activehdl/sum_top/src/sum_top.vho
+MESSAGE "File: D:/DE2/sum/simulation/activehdl/sum_top/src/sum_top_tb.vhd" 
+MESSAGE "Compile Entity "sum_top_tb"" 
+MESSAGE "Compile Architecture "tb" of Entity "sum_top_tb"" 
+MESSAGE "Top-level unit(s) detected:" 
+MESSAGE "Entity => sum_top_tb" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

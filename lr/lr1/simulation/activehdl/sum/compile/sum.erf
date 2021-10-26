@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/DE2/lr/lr1/simulation/activehdl/sum/src/sum.vho" 
+MESSAGE "Compile Entity "sum_top"" 
+MESSAGE "Compile Architecture "structure" of Entity "sum_top"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]" 

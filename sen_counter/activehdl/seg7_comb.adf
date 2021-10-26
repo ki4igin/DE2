@@ -1,0 +1,43 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=seg7_comb
+
+[Library]
+seg7_comb=.\seg7_comb\seg7_comb.lib
+
+[$LibMap$]
+seg7_comb=.
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=D:\DE2\sen_counter\src
+
+[Files]
+/..\..\src\seg7.vhd=-1
+/..\..\src\converters.vhd=-1
+/..\..\src\seg7_comb.vhd=-1
+/..\..\src\seg7_comb_tb.vhd=-1
+/..\..\src\tools.vhd=-1
+
+[Files.Data]
+.\..\src\seg7.vhd=VHDL Source Code
+.\..\src\converters.vhd=VHDL Source Code
+.\..\src\seg7_comb.vhd=VHDL Source Code
+.\..\src\seg7_comb_tb.vhd=VHDL Source Code
+.\..\src\tools.vhd=VHDL Source Code
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=sem7_comb_tb|tb|0  
+ShowHide=ShowTopLevel
+Selected=

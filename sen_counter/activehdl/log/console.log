@@ -1,0 +1,2018 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# Error: COMP96_0669: ../../src/seg7_comb.vhd : (23, 33): Type for "x1" is not fully constrained. (IEEE 1076-2008, 5.3.2.2)
+# Error: COMP96_0669: ../../src/seg7_comb.vhd : (24, 33): Type for "x1n" is not fully constrained. (IEEE 1076-2008, 5.3.2.2)
+# Error: COMP96_0104: ../../src/seg7_comb.vhd : (29, 29): Undefined type of expression.
+# Error: COMP96_0312: ../../src/seg7_comb.vhd : (29, 29): Type must be determinable from the context.
+# Error: COMP96_0234: Fatal error : INTERNAL COMPILER ERROR (compiled file "D:/DE2/sen_counter/src/seg7_comb.vhd" - semantic process).
+# Compile failure 5 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7_comb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# Error: COMP96_0104: ../../src/seg7_comb.vhd : (29, 29): Undefined type of expression.
+# Error: COMP96_0312: ../../src/seg7_comb.vhd : (29, 29): Type must be determinable from the context.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7_comb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# Error: COMP96_0104: ../../src/seg7_comb.vhd : (29, 29): Undefined type of expression.
+# Error: COMP96_0312: ../../src/seg7_comb.vhd : (29, 29): Type must be determinable from the context.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+sem7_comb_tb sem7_comb_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7107 kB (elbread=1280 elab2=5688 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  11:18, 14 ������� 2021 �.
+#  Simulation has been initialized
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 9
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 8
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/sem7_comb_tb/sel_tb}
+# add wave -noreg {/sem7_comb_tb/dig_tb}
+# add wave -noreg {/sem7_comb_tb/seg_tb}
+# add wave -noreg {/sem7_comb_tb/seg_ref_tb}
+# add wave -noreg {/sem7_comb_tb/seg_ref_tb_n}
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7107 kB (elbread=1280 elab2=5688 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  11:21, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 9
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 8
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7107 kB (elbread=1280 elab2=5688 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  11:36, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7107 kB (elbread=1280 elab2=5688 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  11:36, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 9
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 8
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+sem7_comb_tb sem7_comb_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7106 kB (elbread=1280 elab2=5687 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  11:36, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 9
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 8
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+sem7_comb_tb sem7_comb_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7106 kB (elbread=1280 elab2=5687 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  11:37, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 11
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 6
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 5
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 4
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5686 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  11:39, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5686 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  13:26, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# Error: COMP96_0015: ../../src/seg7_comb.vhd : (58, 88): ')' expected.
+# Error: COMP96_0019: ../../src/seg7_comb.vhd : (58, 91): Keyword 'when' expected.
+# Error: COMP96_0015: ../../src/seg7_comb.vhd : (58, 91): ';' expected.
+# Error: COMP96_0019: ../../src/seg7_comb.vhd : (58, 91): Keyword 'end' expected.
+# Error: COMP96_0016: ../../src/seg7_comb.vhd : (58, 93): Design unit declaration expected.
+# Error: COMP96_0019: ../../src/seg7_comb.vhd : (116, 21): Keyword 'of' expected.
+# Error: COMP96_0018: ../../src/seg7_comb.vhd : (116, 21): Identifier expected.
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+sem7_comb_tb sem7_comb_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7107 kB (elbread=1280 elab2=5688 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  13:40, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 1
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 3
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+sem7_comb_tb sem7_comb_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7107 kB (elbread=1280 elab2=5688 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  13:42, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 3
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 6
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 11
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 11
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 11
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# Error: COMP96_0077: ../../src/seg7_comb.vhd : (71, 13): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7_comb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+sem7_comb_tb sem7_comb_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7107 kB (elbread=1280 elab2=5688 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  13:46, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 00001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 3
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 00100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 11
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 01000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 11
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 10000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 11
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 8600 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (54, 12): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (54, 18): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (54, 24): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (54, 30): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (54, 36): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (54, 42): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (54, 48): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (98, 7): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (99, 7): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (100, 7): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (101, 7): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (102, 7): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (103, 7): Index value in the reference to the array object is out of the array type range.
+# Error: COMP96_0259: ../../src/seg7_comb.vhd : (104, 7): Index value in the reference to the array object is out of the array type range.
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile failure 14 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+sem7_comb_tb sem7_comb_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7116 kB (elbread=1280 elab2=5697 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  14:38, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 000001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 000010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 3
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 000100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 10
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 11
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 12
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 001000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 010000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 3
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 1
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 100000
+# EXECUTION:: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 8
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 9
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 13
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 10300 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 10300 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+sem7_comb_tb sem7_comb_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7116 kB (elbread=1280 elab2=5697 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  14:39, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 000001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 000010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 3
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 000100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 001000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 010000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 3
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 1
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 10
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 100000
+# EXECUTION:: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 8
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 9
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 13
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 10300 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 10300 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+sem7_comb_tb sem7_comb_tb tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7114 kB (elbread=1280 elab2=5696 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  14:42, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 000001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 000010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 3
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 000100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 001000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 010000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 3
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 1
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 100000
+# EXECUTION:: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 8
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 16
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 10300 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 10300 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work seg7_comb -2008  $dsn/../src/seg7.vhd $dsn/../src/converters.vhd $dsn/../src/seg7_comb.vhd $dsn/../src/seg7_comb_tb.vhd $dsn/../src/tools.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/DE2/sen_counter/src/seg7.vhd
+# Compile Entity "seg7"
+# Compile Architecture "rtl" of Entity "seg7"
+# File: D:/DE2/sen_counter/src/converters.vhd
+# Compile Package "converters"
+# Compile Package Body "converters"
+# File: D:/DE2/sen_counter/src/seg7_comb.vhd
+# Compile Entity "seg7_comb"
+# Compile Architecture "rtl" of Entity "seg7_comb"
+# File: D:/DE2/sen_counter/src/seg7_comb_tb.vhd
+# Compile Entity "sem7_comb_tb"
+# Compile Architecture "tb" of Entity "sem7_comb_tb"
+# File: D:/DE2/sen_counter/src/tools.vhd
+# Compile Package "tools"
+# Compile Package Body "tools"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'C:\Aldec\Active-HDL-Student-Edition\bin\systf.dll'
+# VHPI: Loading library 'systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7114 kB (elbread=1280 elab2=5696 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location D:\DE2\sen_counter\activehdl\src\wave.asdb
+#  14:48, 14 ������� 2021 �.
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/DE2/sen_counter/activehdl/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: select 000001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 5
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 1700 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 000010
+# EXECUTION:: Time: 1800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 3
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 3400 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 000100
+# EXECUTION:: Time: 3500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 5100 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 001000
+# EXECUTION:: Time: 5200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 6800 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 010000
+# EXECUTION:: Time: 6900 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 1
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 16
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 0
+# EXECUTION:: Time: 8500 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: WARNING: select 100000
+# EXECUTION:: Time: 8600 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : a = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : b = 16
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : c = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : d = 8
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : e = 16
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : f = 0
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# EXECUTION:: ERROR  : g = 16
+# EXECUTION:: Time: 10200 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# RUNTIME: Info: RUNTIME_0142 seg7_comb_tb.vhd (67): finish called.
+# KERNEL: Time: 10300 ns,  Iteration: 0,  Instance: /sem7_comb_tb,  Process: test_pros.
+# KERNEL: stopped at time: 10300 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.

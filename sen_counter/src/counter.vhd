@@ -6,7 +6,7 @@ use work.tools.all;
 entity counter is
     port (
         CLOCK_50 : in std_logic;
-        SW      : in std_logic_vector(5 downto 0);
+        SW       : in std_logic_vector(4 downto 0);
 
         HEX0 : out std_logic_vector(6 downto 0)
 
@@ -14,7 +14,7 @@ entity counter is
 end entity counter;
 
 architecture rtl of counter is
-    constant clk_freq : integer := 50e3;
+    constant clk_freq : integer := 50e6;
 
     signal ticks   : integer   := 0;
     signal cnt     : integer   := 0;
@@ -22,6 +22,8 @@ architecture rtl of counter is
 
     component seg7
         port (
+            sel : in std_logic_vector(4 downto 0);
+
             dig : in unsigned(3 downto 0);
             seg : out std_logic_vector(6 downto 0)
         );
@@ -34,8 +36,13 @@ begin
     begin
         if rising_edge(CLOCK_50) then
             Inc(ticks, clk_freq, true, wrap);
-            clk_1_s <= '1' when wrap else
-                '0';
+            if wrap then
+                clk_1_s <= '1';
+            else
+                clk_1_s <= '0';
+            end if;
+            -- clk_1_s <= '1' when wrap else
+            --     '0';
         end if;
     end process clock_div;
 
