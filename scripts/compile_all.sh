@@ -8,7 +8,7 @@ if [[ -z $files ]]; then
 fi
 
 vlib work
-vcom -2008 $files |
+vcom -O3 -e 20 -2008 -o $files |
 #  Цветной вывод ошибок и предупреждений
      awk -v "red=$(tput setaf 1)" -v "green=$(tput setaf 2)" \
         -v "yellow=$(tput  setaf 3)"    \
@@ -21,4 +21,3 @@ vcom -2008 $files |
             if (i == NF) printf "%s", ORS
             else printf "%s", OFS
        }}'
-

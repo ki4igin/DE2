@@ -6,7 +6,7 @@ if [[ ${current_file##*.} != "vhd" ]]; then
 fi
 
 vlib work
-vcom -2008 $current_file |
+vcom -O3 -e 20 -2008 $current_file |
 #  Цветной вывод ошибок и предупреждений
      awk -v "red=$(tput setaf 1)" -v "green=$(tput setaf 2)" \
         -v "yellow=$(tput  setaf 3)"    \
